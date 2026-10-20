@@ -1,0 +1,893 @@
+{
+  "commit": "3f0ae0c7c0ee3e32abc9e44f2d8f8716a47e1563",
+  "inputs": [
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792470948468218017,
+      "mtime_utc": "2026-10-20T04:35:48.468218+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/als-128/diagnostic-whole/rows.json",
+      "sha256": "e9f2b5c16f2032161c5252b91fc8cf8f8f2ec90b12491f1dd88fe67e2ea6124d",
+      "size_bytes": 48177
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792470942786895320,
+      "mtime_utc": "2026-10-20T04:35:42.786895+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/als-128/heldout/rows.json",
+      "sha256": "bb59b518c16792682e23cb38a2ccb0d224c6bfc9b27f9fda8e9e5f74d19f425b",
+      "size_bytes": 45732
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792482076837795808,
+      "mtime_utc": "2026-10-20T07:41:16.837796+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/cnm-scan39/diagnostic-whole/rows.json",
+      "sha256": "e128e3bebd024520ea665b71cd1d371822697bcda9b5d4a1440df52bd9cb5d37",
+      "size_bytes": 43887
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792475033306546297,
+      "mtime_utc": "2026-10-20T05:43:53.306546+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/cnm-scan39/heldout/rows.json",
+      "sha256": "016887535dd6ca4e4029fa7eac397c438859c419f91d9898b10816ffe21840e8",
+      "size_bytes": 43624
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792473404412174480,
+      "mtime_utc": "2026-10-20T05:16:44.412174+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/fly001-128-law4/diagnostic-whole/rows.json",
+      "sha256": "c5b4d3a50ca8ff8cbd18c40cf851d4b8f33f3ad1f71abcec1f6b3f6326117be9",
+      "size_bytes": 49278
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792474148249978257,
+      "mtime_utc": "2026-10-20T05:29:08.249978+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/fly001-128-law4/heldout/rows.json",
+      "sha256": "cb813bda9742456c1f6d08dd8aaed70c6f95733e1e4e42ac468af5202df554e8",
+      "size_bytes": 81875
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792472984179052254,
+      "mtime_utc": "2026-10-20T05:09:44.179052+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/diagnostic-whole/rows.json",
+      "sha256": "ab6451f1a89093cb14434842a1cebc1f87087e32ec27dd41fb7c0b41c815f570",
+      "size_bytes": 92719
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792472970419471461,
+      "mtime_utc": "2026-10-20T05:09:30.419472+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/heldout/rows.json",
+      "sha256": "6b32d87ec4558251c4c246753656275c5de0c981abd9800cc1cf876b932d4920",
+      "size_bytes": 136022
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792470989687316093,
+      "mtime_utc": "2026-10-20T04:36:29.687316+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/microlfp-double-128/diagnostic-whole/rows.json",
+      "sha256": "226337db1c454f98e109ad181dcbe3758809350a6f4b9eed49ee2dbbe628b268",
+      "size_bytes": 92291
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792470976950390015,
+      "mtime_utc": "2026-10-20T04:36:16.950390+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/microlfp-double-128/heldout/rows.json",
+      "sha256": "dd78cca710c192b873b33380b2518b6665a64aa64e348465acd20e6c3f61d1a3",
+      "size_bytes": 88013
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792470968310635725,
+      "mtime_utc": "2026-10-20T04:36:08.310636+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/microlfp-single-128/diagnostic-whole/rows.json",
+      "sha256": "e16396f3a43a20ffb30432ad64745e8121aed1b2d1e7b359558ab0e7ce4334e4",
+      "size_bytes": 92224
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792470956625721596,
+      "mtime_utc": "2026-10-20T04:35:56.625722+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/microlfp-single-128/heldout/rows.json",
+      "sha256": "ea114625f83ae40da0271d08733469abbd9191d7ed3b0cb88a807bdf56061d14",
+      "size_bytes": 87881
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792473255662045855,
+      "mtime_utc": "2026-10-20T05:14:15.662046+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/diagnostic-whole/rows.json",
+      "sha256": "9bcebe241d66a932448c893316257addb511741d42789dfb403d71c52338e7e7",
+      "size_bytes": 93780
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792474134740526196,
+      "mtime_utc": "2026-10-20T05:28:54.740526+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/rows.json",
+      "sha256": "cf23a031750b88a8f1523692a506d0b90639d849238cbdbe89e9b026a09ef6e0",
+      "size_bytes": 120899
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792473273949194366,
+      "mtime_utc": "2026-10-20T05:14:33.949194+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/diagnostic-whole/rows.json",
+      "sha256": "6c43129075d46b9560431d850416a4d5f3f1a8fcd690c22e7c2fcb0edfa7dc70",
+      "size_bytes": 92656
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792478255330345623,
+      "mtime_utc": "2026-10-20T06:37:35.330346+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/heldout/rows.json",
+      "sha256": "ec63d933862204bc1a9da99dfc9fe4cb2afc200f7971749be6049cbe4b0905c4",
+      "size_bytes": 119651
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792473352592971535,
+      "mtime_utc": "2026-10-20T05:15:52.592972+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/diagnostic-whole/rows.json",
+      "sha256": "1e3ade7a8711f3261182bee889f64c7bd7cf8179eda6725792bd7e09f55a1dfd",
+      "size_bytes": 93159
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792481464372783855,
+      "mtime_utc": "2026-10-20T07:31:04.372784+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/heldout/rows.json",
+      "sha256": "4dc356d1905a7cff9f53478f974fad5f16d92ace15e083365565432dc97fb663",
+      "size_bytes": 120154
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792473387262288396,
+      "mtime_utc": "2026-10-20T05:16:27.262288+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ncm_1/diagnostic-whole/rows.json",
+      "sha256": "3e5c8695ed24b2b975ceca9e701fb4d2f509d11f1b47dcc308d2a854ef8b3f79",
+      "size_bytes": 93273
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792484067776925048,
+      "mtime_utc": "2026-10-20T08:14:27.776925+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ncm_1/heldout/rows.json",
+      "sha256": "1152abddf876495ed17547390bd8fae27f54afe2e62827023c077d89cd6095da",
+      "size_bytes": 120237
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792481586240506627,
+      "mtime_utc": "2026-10-20T07:33:06.240507+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/s200-128/diagnostic-whole/rows.json",
+      "sha256": "7a49d634b8dd6ca1953ce46d6398903fe3f0a894f9e0fd7dc060ffc2aa943194",
+      "size_bytes": 44258
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792476134317547652,
+      "mtime_utc": "2026-10-20T06:02:14.317548+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/s200-128/heldout/rows.json",
+      "sha256": "fcc25c415258473c54c56e0209d089b9ed8665c1510115477dc962d7e163e4ac",
+      "size_bytes": 43936
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792470948524228233,
+      "mtime_utc": "2026-10-20T04:35:48.524228+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/als-128/diagnostic-whole/manifest.json",
+      "sha256": "9db14925a3167009304e894a6fa54146cca59d3c93f6bd7c47a200b3d501266c",
+      "size_bytes": 1997
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792470942817427379,
+      "mtime_utc": "2026-10-20T04:35:42.817427+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/als-128/heldout/manifest.json",
+      "sha256": "4b0d4d7297ce2a7a5661653414ca6d3703d8422cdfaeff834462849a3a096112",
+      "size_bytes": 1941
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792482077824021451,
+      "mtime_utc": "2026-10-20T07:41:17.824021+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/cnm-scan39/diagnostic-whole/manifest.json",
+      "sha256": "284a2eeaf35071a7a3acb56b66ccd8e17117aeb43aaf2702a15050e3481baac0",
+      "size_bytes": 1550
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792475033795684128,
+      "mtime_utc": "2026-10-20T05:43:53.795684+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/cnm-scan39/heldout/manifest.json",
+      "sha256": "25211d6879d4cdd404e0ce1d7bfac408bbcd657d6328106d905885c34e4aa45e",
+      "size_bytes": 1516
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792473404502005375,
+      "mtime_utc": "2026-10-20T05:16:44.502005+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/fly001-128-law4/diagnostic-whole/manifest.json",
+      "sha256": "a3e0097168addc6fa924b29a2e0fedd2d0345b66acd066ee725b3b879898f204",
+      "size_bytes": 2049
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792474148297272876,
+      "mtime_utc": "2026-10-20T05:29:08.297273+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/fly001-128-law4/heldout/manifest.json",
+      "sha256": "f8d9266c38b9ba3d9d4c91ce1799c2a8295efcaff13a070f658440dcc810129c",
+      "size_bytes": 2458
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792472984220112234,
+      "mtime_utc": "2026-10-20T05:09:44.220112+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/diagnostic-whole/manifest.json",
+      "sha256": "c23e81ada62fea02f2e3d1c8680fa32044b0daabbe9707bc08195aa107d89655",
+      "size_bytes": 3539
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792472970453712622,
+      "mtime_utc": "2026-10-20T05:09:30.453713+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/heldout/manifest.json",
+      "sha256": "4ff2addd79acef5018d1094663da9eaae2d5064689549b877a14f157e9d60f33",
+      "size_bytes": 4893
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792470989798946765,
+      "mtime_utc": "2026-10-20T04:36:29.798947+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/microlfp-double-128/diagnostic-whole/manifest.json",
+      "sha256": "cd4fcc8ca358f32050db0abc46f06075a8a68c5d5eb8ab3ee5f3a068389b0790",
+      "size_bytes": 3646
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792470977010733761,
+      "mtime_utc": "2026-10-20T04:36:17.010734+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/microlfp-double-128/heldout/manifest.json",
+      "sha256": "bae2406531307d040ba501027cd6b4cff4afb3b7faf30459c6bab4b43a7d7495",
+      "size_bytes": 3558
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792470968447655252,
+      "mtime_utc": "2026-10-20T04:36:08.447655+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/microlfp-single-128/diagnostic-whole/manifest.json",
+      "sha256": "24279f621f96957b16bdf3898b876e475f7124afe6167cf9b6e7d86a6e6825b0",
+      "size_bytes": 3648
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792470956699128191,
+      "mtime_utc": "2026-10-20T04:35:56.699128+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/microlfp-single-128/heldout/manifest.json",
+      "sha256": "090831a9aa5a6453e4049fa88c2b8ee382c5a5955a4f5c3b743d0431a985c50e",
+      "size_bytes": 3558
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792473256053685853,
+      "mtime_utc": "2026-10-20T05:14:16.053686+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/diagnostic-whole/manifest.json",
+      "sha256": "6dd401ab2caedebf72f67af352e848e439724959582e7896d62774fb5d7fb708",
+      "size_bytes": 3598
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792474134905588048,
+      "mtime_utc": "2026-10-20T05:28:54.905588+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/manifest.json",
+      "sha256": "140e3f7e4bcc0be09741ecab0c40d38d478a3fac584964ecfe7b014c4b29579d",
+      "size_bytes": 3466
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792473273989148600,
+      "mtime_utc": "2026-10-20T05:14:33.989149+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/diagnostic-whole/manifest.json",
+      "sha256": "e5d311e4d3711c6192bfc458caba3f6beb9ae099262bc77da09caaa8d6142e25",
+      "size_bytes": 3499
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792478255360145606,
+      "mtime_utc": "2026-10-20T06:37:35.360146+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/heldout/manifest.json",
+      "sha256": "a6a2fcc685dc38498b3972360a6cd464b5f0863b9cd1c7fc107f9192af92825e",
+      "size_bytes": 3397
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792473352852774301,
+      "mtime_utc": "2026-10-20T05:15:52.852774+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/diagnostic-whole/manifest.json",
+      "sha256": "aeee25fafb25fe9d32f5d4f91d0ca2d3b083d8b9263684626e7db531acfac9f0",
+      "size_bytes": 3515
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792481464491238414,
+      "mtime_utc": "2026-10-20T07:31:04.491238+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/heldout/manifest.json",
+      "sha256": "dba0c282938e7f0428d96416991d62f04bd8b358df0aa7205265ed52085580e5",
+      "size_bytes": 3408
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792473387344334630,
+      "mtime_utc": "2026-10-20T05:16:27.344335+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ncm_1/diagnostic-whole/manifest.json",
+      "sha256": "df4e21eb95129e573ee8efebf5d7fa10f947c1162c7aea914a38150dbe604c48",
+      "size_bytes": 3518
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792484067817921963,
+      "mtime_utc": "2026-10-20T08:14:27.817922+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ncm_1/heldout/manifest.json",
+      "sha256": "4d9c10d92db6e6186a9f189b37861811b1e68609c1a7da2178f5d287f03f7922",
+      "size_bytes": 3417
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792481586416068921,
+      "mtime_utc": "2026-10-20T07:33:06.416069+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/s200-128/diagnostic-whole/manifest.json",
+      "sha256": "9a4a4beb2dce31300f9388b0e4387563de04726e971b2fb394199fd954446991",
+      "size_bytes": 1515
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792476134452302473,
+      "mtime_utc": "2026-10-20T06:02:14.452302+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/s200-128/heldout/manifest.json",
+      "sha256": "8e8c325f7e9a75f5f175808269b5c83aa8de9506e96eca8353b9abcc3df5bbfd",
+      "size_bytes": 1481
+    },
+    {
+      "filename": "timing.csv",
+      "mtime_ns": 1792520398326808697,
+      "mtime_utc": "2026-10-20T18:19:58.326809+00:00",
+      "path": "/home/ollie/Documents/ptychopinn-paper-package/metrics/timing.csv",
+      "sha256": "1b878cb966d6c5012897193d10572b95b750a553f1ddc7a0de79ea1e38f773a7",
+      "size_bytes": 56753
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792523602928611150,
+      "mtime_utc": "2026-10-20T19:13:22.928611+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/gold-tp1/heldout/rows.json",
+      "sha256": "9f9eb3f25427fa0ae608da10037de9cb58a8bb5f7203f288f0a1d40d2bd842f7",
+      "size_bytes": 25001
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792523602928069910,
+      "mtime_utc": "2026-10-20T19:13:22.928070+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/gold-tp1/heldout/manifest.json",
+      "sha256": "0e1dd8bfabf0acf28eebcdaf428d3f515478011400d0968dd422d207a45c7546",
+      "size_bytes": 17966
+    },
+    {
+      "filename": "nxs-gold-tp1-128-scan_trained-cnn-heldout.npz",
+      "mtime_ns": 1792523602902732266,
+      "mtime_utc": "2026-10-20T19:13:22.902732+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/gold-tp1/heldout/mapped/reconstructions/measured/cnn/scan_trained/nxs-gold-tp1-128-scan_trained-cnn-heldout.npz",
+      "sha256": "6e7471f0c3178ce7c08f58ebf429478ea5f68295889af16ebbdebed79c7f9dee",
+      "size_bytes": 2077529
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792523601260190402,
+      "mtime_utc": "2026-10-20T19:13:21.260190+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/gold-tp1/diagnostic-whole/rows.json",
+      "sha256": "d251fa6d1938d5382b198dbf498d618179a76399d8dfdbfef4c95decfa9d1ac4",
+      "size_bytes": 28034
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792523601259580000,
+      "mtime_utc": "2026-10-20T19:13:21.259580+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/gold-tp1/diagnostic-whole/manifest.json",
+      "sha256": "da6e94238e646b8a279108e3eaaa55255e007df0a3106374ba86d9d8b663fc2c",
+      "size_bytes": 25534
+    },
+    {
+      "filename": "nxs-gold-tp1-128-scan_trained-cnn-diagnostic-whole.npz",
+      "mtime_ns": 1792523601210699926,
+      "mtime_utc": "2026-10-20T19:13:21.210700+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/gold-tp1/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/nxs-gold-tp1-128-scan_trained-cnn-diagnostic-whole.npz",
+      "sha256": "2ca99b414dfc62c9ebeba4ed52f15a06ef2732b3a0708711cbefb058e65fff1d",
+      "size_bytes": 2649831
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792525084425111270,
+      "mtime_utc": "2026-10-20T19:38:04.425111+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-gold_tp_2/heldout/rows.json",
+      "sha256": "9453ac202ca3880737f232e039f41e109e13cdeb342c64d3a2269a1559dd7a8b",
+      "size_bytes": 115784
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792525084423238977,
+      "mtime_utc": "2026-10-20T19:38:04.423239+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-gold_tp_2/heldout/manifest.json",
+      "sha256": "cf9f21cb7137240b5402b9b928c0d7cdae96c452ac0ce8cd9b528a3776a2789c",
+      "size_bytes": 60848
+    },
+    {
+      "filename": "nxs-gold_tp_2-128-scan_trained-cnn-heldout.npz",
+      "mtime_ns": 1792525084267636455,
+      "mtime_utc": "2026-10-20T19:38:04.267637+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-gold_tp_2/heldout/mapped/reconstructions/measured/cnn/scan_trained/nxs-gold_tp_2-128-scan_trained-cnn-heldout.npz",
+      "sha256": "d4f1528076725b1b22611bf97efec7364fcdaa7573b03afcfb50384f77440ed3",
+      "size_bytes": 13318029
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792525074729799122,
+      "mtime_utc": "2026-10-20T19:37:54.729799+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-gold_tp_2/diagnostic-whole/rows.json",
+      "sha256": "1ca04b5ceb682c8450334fbb83bfcd4f3e20a6734b6c96edce1c7f55160fa294",
+      "size_bytes": 115750
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792525074727968699,
+      "mtime_utc": "2026-10-20T19:37:54.727969+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-gold_tp_2/diagnostic-whole/manifest.json",
+      "sha256": "8330528bc96c6b02684ab0a325f5178efe413f8693d07092d116c93b19a9c653",
+      "size_bytes": 98689
+    },
+    {
+      "filename": "nxs-gold_tp_2-128-scan_trained-cnn-diagnostic-whole.npz",
+      "mtime_ns": 1792525074428513225,
+      "mtime_utc": "2026-10-20T19:37:54.428513+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-gold_tp_2/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/nxs-gold_tp_2-128-scan_trained-cnn-diagnostic-whole.npz",
+      "sha256": "35e896e7abe246297208b38c3f2afd0294cf48544630618beeb0c580c62251c2",
+      "size_bytes": 22254427
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792523821511677457,
+      "mtime_utc": "2026-10-20T19:17:01.511678+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ic_1/heldout/rows.json",
+      "sha256": "2b0a1814638c2cabc9312070941cd3bb8a4114640bc767a3f5175fd7fb23b624",
+      "size_bytes": 24972
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792523821511088106,
+      "mtime_utc": "2026-10-20T19:17:01.511088+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ic_1/heldout/manifest.json",
+      "sha256": "f8557f9adbbbed86eb3a0404ff001b545d93fddc6cb14d1c295f972562cf359c",
+      "size_bytes": 17872
+    },
+    {
+      "filename": "nxs-ic_1-128-scan_trained-cnn-heldout.npz",
+      "mtime_ns": 1792523821486802664,
+      "mtime_utc": "2026-10-20T19:17:01.486803+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ic_1/heldout/mapped/reconstructions/measured/cnn/scan_trained/nxs-ic_1-128-scan_trained-cnn-heldout.npz",
+      "sha256": "d8de879f77ea0d8acca573c107fdb52e8e3f3703f051c8db4b021203381b86ae",
+      "size_bytes": 1369727
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792523819807672201,
+      "mtime_utc": "2026-10-20T19:16:59.807672+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ic_1/diagnostic-whole/rows.json",
+      "sha256": "e715f44ea76498c9bd48a560ccb15e1c00b44b65195354bfb9bc6681af3ca11f",
+      "size_bytes": 28163
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792523819807101380,
+      "mtime_utc": "2026-10-20T19:16:59.807101+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ic_1/diagnostic-whole/manifest.json",
+      "sha256": "95fafce4381119d13db1e3576f0a4bedd3082b95c0a574cbf567a2f7d6a376cb",
+      "size_bytes": 25636
+    },
+    {
+      "filename": "nxs-ic_1-128-scan_trained-cnn-diagnostic-whole.npz",
+      "mtime_ns": 1792523819761771265,
+      "mtime_utc": "2026-10-20T19:16:59.761771+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ic_1/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/nxs-ic_1-128-scan_trained-cnn-diagnostic-whole.npz",
+      "sha256": "0c1e0ed54e976dc91d2cbeae53b431cc5f85068618c71900d5d3497fdd773253",
+      "size_bytes": 2604757
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792525629003177117,
+      "mtime_utc": "2026-10-20T19:47:09.003177+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ic_2/heldout/rows.json",
+      "sha256": "80d938e886bdf220a616092ad9215e7d8eedf62034a8571ed85eeaf177534e1d",
+      "size_bytes": 136550
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792525629001029677,
+      "mtime_utc": "2026-10-20T19:47:09.001030+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ic_2/heldout/manifest.json",
+      "sha256": "5e5d5e76882efbcfbbb33d56faeff74aaf0877b803a3bec4636ee58039281a84",
+      "size_bytes": 69653
+    },
+    {
+      "filename": "nxs-ic_2-128-scan_trained-cnn-heldout.npz",
+      "mtime_ns": 1792525628814937979,
+      "mtime_utc": "2026-10-20T19:47:08.814938+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ic_2/heldout/mapped/reconstructions/measured/cnn/scan_trained/nxs-ic_2-128-scan_trained-cnn-heldout.npz",
+      "sha256": "6bdb6d518fb30403363d5f19a7dfd24dc7a866282397913d5d95a91b79283753",
+      "size_bytes": 7832108
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792525619765220219,
+      "mtime_utc": "2026-10-20T19:46:59.765220+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ic_2/diagnostic-whole/rows.json",
+      "sha256": "f9df196c038c26a738ec7b2235b8086a043c6c17b41edd8c8925d1708eb97c7c",
+      "size_bytes": 136555
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792525619763069429,
+      "mtime_utc": "2026-10-20T19:46:59.763069+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ic_2/diagnostic-whole/manifest.json",
+      "sha256": "a4f8d6ee632473b9776168abc670dfb73596645cd73accd55ae51b2cfb64aa94",
+      "size_bytes": 116011
+    },
+    {
+      "filename": "nxs-ic_2-128-scan_trained-cnn-diagnostic-whole.npz",
+      "mtime_ns": 1792525619326805071,
+      "mtime_utc": "2026-10-20T19:46:59.326805+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ic_2/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/nxs-ic_2-128-scan_trained-cnn-diagnostic-whole.npz",
+      "sha256": "f9e2ae135964d688d57f23983e5bda8131f76a78db4b920ecd73a3c4000b2aae",
+      "size_bytes": 13381597
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792524091700541586,
+      "mtime_utc": "2026-10-20T19:21:31.700541+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ncm_1/heldout/rows.json",
+      "sha256": "4bac5aa9b5907f4a998ac420b568c1699949658eb7eccc27fda6e320956cd14b",
+      "size_bytes": 44610
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792524091699722021,
+      "mtime_utc": "2026-10-20T19:21:31.699722+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ncm_1/heldout/manifest.json",
+      "sha256": "973c02f59c4b97ae238091d552edc537709d6e1a1a9645c68f8474fd0a230605",
+      "size_bytes": 28397
+    },
+    {
+      "filename": "nxs-ncm_1-128-scan_trained-cnn-heldout.npz",
+      "mtime_ns": 1792524091648616607,
+      "mtime_utc": "2026-10-20T19:21:31.648617+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ncm_1/heldout/mapped/reconstructions/measured/cnn/scan_trained/nxs-ncm_1-128-scan_trained-cnn-heldout.npz",
+      "sha256": "a2a35b9e8191fff68218999065c6b8ad3fb38f985a53dbf4ab93642a8d484b13",
+      "size_bytes": 3166324
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792524088694346800,
+      "mtime_utc": "2026-10-20T19:21:28.694347+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ncm_1/diagnostic-whole/rows.json",
+      "sha256": "51d21e382969452aca9ac2222ee415e849c3dd282db64404c2fa218347ca9e2d",
+      "size_bytes": 52650
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792524088693403794,
+      "mtime_utc": "2026-10-20T19:21:28.693404+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ncm_1/diagnostic-whole/manifest.json",
+      "sha256": "b2600bff015ef5c4730f585cfed11d7a1e243eed505ea8179c5b57031f499979",
+      "size_bytes": 46052
+    },
+    {
+      "filename": "nxs-ncm_1-128-scan_trained-cnn-diagnostic-whole.npz",
+      "mtime_ns": 1792524088597563206,
+      "mtime_utc": "2026-10-20T19:21:28.597563+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-ncm_1/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/nxs-ncm_1-128-scan_trained-cnn-diagnostic-whole.npz",
+      "sha256": "a34ed37610794811f088b12124dfcaebf011f4cf4da9eed13da578511b5a664c",
+      "size_bytes": 4401728
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792527044162277852,
+      "mtime_utc": "2026-10-20T20:10:44.162278+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/cnm-scan39/heldout/rows.json",
+      "sha256": "4bf69340ae66cc75f92f7820689019fc9e463781a04f900a9a105cf937a7687a",
+      "size_bytes": 351463
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792527044156938827,
+      "mtime_utc": "2026-10-20T20:10:44.156939+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/cnm-scan39/heldout/manifest.json",
+      "sha256": "fd0e4f3fbe79c1aafe1a7c4cf1771c3d5e73b570d1d90d5fa57d40fcda6df1d4",
+      "size_bytes": 165570
+    },
+    {
+      "filename": "cnm-scan39-128-scan_trained-cnn-heldout.npz",
+      "mtime_ns": 1792527043315395657,
+      "mtime_utc": "2026-10-20T20:10:43.315396+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/cnm-scan39/heldout/mapped/reconstructions/measured/cnn/scan_trained/cnm-scan39-128-scan_trained-cnn-heldout.npz",
+      "sha256": "5674ff50cf3b71cc14ec999206b9323311101126634155bf2c7b19b20fda8750",
+      "size_bytes": 1655432
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792527027101748623,
+      "mtime_utc": "2026-10-20T20:10:27.101749+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/cnm-scan39/diagnostic-whole/rows.json",
+      "sha256": "a90e233e16ce453da72e3fb31475185585dd8d6f7528cda90a7efd54c26342cc",
+      "size_bytes": 351010
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792527027096185972,
+      "mtime_utc": "2026-10-20T20:10:27.096186+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/cnm-scan39/diagnostic-whole/manifest.json",
+      "sha256": "b3804a25b06e16963bce1688641ca2b38cb15340450c96d499299e0dc30f7c55",
+      "size_bytes": 297503
+    },
+    {
+      "filename": "cnm-scan39-128-scan_trained-cnn-diagnostic-whole.npz",
+      "mtime_ns": 1792527025427942517,
+      "mtime_utc": "2026-10-20T20:10:25.427943+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/cnm-scan39/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/cnm-scan39-128-scan_trained-cnn-diagnostic-whole.npz",
+      "sha256": "fb328b84ab6a14c5005c409d881281b2e93a48fc4686ea01e83aa3edd9034b5e",
+      "size_bytes": 2494496
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792523440318337424,
+      "mtime_utc": "2026-10-20T19:10:40.318337+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/fly001-128-law4/heldout/rows.json",
+      "sha256": "55e4f626fb105659398ba0e9c09c3a84d2d99567590cb05654325824579cb914",
+      "size_bytes": 147253
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792523440316038378,
+      "mtime_utc": "2026-10-20T19:10:40.316038+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/fly001-128-law4/heldout/manifest.json",
+      "sha256": "1cd1e8f3c486607f931897d2ecfc050e7df3b28aefc1e64baca7c4bb1949cae1",
+      "size_bytes": 72887
+    },
+    {
+      "filename": "fly001-128-scan_trained-cnn-heldout.npz",
+      "mtime_ns": 1792523440105545880,
+      "mtime_utc": "2026-10-20T19:10:40.105546+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/fly001-128-law4/heldout/mapped/reconstructions/measured/cnn/scan_trained/fly001-128-scan_trained-cnn-heldout.npz",
+      "sha256": "03b38cb4344e95708fc7a052fbfe612819f18f9584a64a3936749e35fdbe3ec8",
+      "size_bytes": 1635625
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792523431944441099,
+      "mtime_utc": "2026-10-20T19:10:31.944441+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/fly001-128-law4/diagnostic-whole/rows.json",
+      "sha256": "8f6a2119bd5c548231f97db93593dfb3e96a73f9d3688a6b4cc928580e624be5",
+      "size_bytes": 147245
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792523431942234675,
+      "mtime_utc": "2026-10-20T19:10:31.942235+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/fly001-128-law4/diagnostic-whole/manifest.json",
+      "sha256": "7ad1ed06d92b38585b998fcd270bb552bccb5bb35b5441ba33ee7c51c85174ad",
+      "size_bytes": 125024
+    },
+    {
+      "filename": "fly001-128-scan_trained-cnn-diagnostic-whole.npz",
+      "mtime_ns": 1792523431565374061,
+      "mtime_utc": "2026-10-20T19:10:31.565374+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/fly001-128-law4/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/fly001-128-scan_trained-cnn-diagnostic-whole.npz",
+      "sha256": "f25b1e42eeb894d4e5e8acbdd6ae032dac7cd941a0be73df9dcd8493097fc6c7",
+      "size_bytes": 2468110
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792523930886039253,
+      "mtime_utc": "2026-10-20T19:18:50.886039+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/als-128/heldout/rows.json",
+      "sha256": "d2264605891bb6b87e23e268dd66f9f2bf668d8adb351daaa2816d2cde737aa7",
+      "size_bytes": 27870
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792523930885433572,
+      "mtime_utc": "2026-10-20T19:18:50.885434+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/als-128/heldout/manifest.json",
+      "sha256": "5c7e64811dd82b66820e9f814f25270f0c269f9df7d15decbed8a0752a7983a0",
+      "size_bytes": 19028
+    },
+    {
+      "filename": "als-128-scan_trained-cnn-heldout.npz",
+      "mtime_ns": 1792523930837774190,
+      "mtime_utc": "2026-10-20T19:18:50.837774+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/als-128/heldout/mapped/reconstructions/measured/cnn/scan_trained/als-128-scan_trained-cnn-heldout.npz",
+      "sha256": "f5a3d145f89d1009fe058167eac57accbe1296f5271ddc096256156234d70d1b",
+      "size_bytes": 796308
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792523929057510321,
+      "mtime_utc": "2026-10-20T19:18:49.057510+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/als-128/diagnostic-whole/rows.json",
+      "sha256": "3a7afc807fca989f076c5a21f9b40f3c4eeefc4c4a03062b486c14a08c6e1baa",
+      "size_bytes": 28533
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792523929056742357,
+      "mtime_utc": "2026-10-20T19:18:49.056742+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/als-128/diagnostic-whole/manifest.json",
+      "sha256": "5872473beba9ace3115b78ef97c83b0f9a1f0d5a8858560209bcc8ff41505b91",
+      "size_bytes": 25999
+    },
+    {
+      "filename": "als-128-scan_trained-cnn-diagnostic-whole.npz",
+      "mtime_ns": 1792523928967740766,
+      "mtime_utc": "2026-10-20T19:18:48.967741+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/als-128/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/als-128-scan_trained-cnn-diagnostic-whole.npz",
+      "sha256": "09073b9ac47eb3e12320edfae81057f3a9f27bb770fb524112173afee64c6be1",
+      "size_bytes": 1047927
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792524636450316466,
+      "mtime_utc": "2026-10-20T19:30:36.450316+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/microlfp-single-128/heldout/rows.json",
+      "sha256": "9a0fc0c8a27ebf1df7a3d808901bb591f9b30c92315968cf6735f1799e62cc90",
+      "size_bytes": 77808
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792524636449031334,
+      "mtime_utc": "2026-10-20T19:30:36.449031+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/microlfp-single-128/heldout/manifest.json",
+      "sha256": "d64e9900f9fe29f5be0a9de40fceb83723c5bf8f1ad2b579af15244d93d4dd3c",
+      "size_bytes": 38620
+    },
+    {
+      "filename": "microlfp-single-128-scan_trained-cnn-heldout.npz",
+      "mtime_ns": 1792524636331618550,
+      "mtime_utc": "2026-10-20T19:30:36.331619+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/microlfp-single-128/heldout/mapped/reconstructions/measured/cnn/scan_trained/microlfp-single-128-scan_trained-cnn-heldout.npz",
+      "sha256": "ec10fcc32d9d410d0ba89fc617a40ca21a4df9cc9fb141fd5523ddfaeab7e466",
+      "size_bytes": 1292137
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792524631836307664,
+      "mtime_utc": "2026-10-20T19:30:31.836308+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/microlfp-single-128/diagnostic-whole/rows.json",
+      "sha256": "55881f31318b723517d06ffe78a73deaec994c01ce176f0cfcdbf9091c19423e",
+      "size_bytes": 88203
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792524631834794139,
+      "mtime_utc": "2026-10-20T19:30:31.834794+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/microlfp-single-128/diagnostic-whole/manifest.json",
+      "sha256": "8c3a5af7b4baca87d01dc2191c85a8b19f48f3be233e03d0dd1368686aaa4769",
+      "size_bytes": 75800
+    },
+    {
+      "filename": "microlfp-single-128-scan_trained-cnn-diagnostic-whole.npz",
+      "mtime_ns": 1792524631598574150,
+      "mtime_utc": "2026-10-20T19:30:31.598574+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/microlfp-single-128/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/microlfp-single-128-scan_trained-cnn-diagnostic-whole.npz",
+      "sha256": "e2833d84f90d71648cf562db95899f535e79f3a6e9b82df431aa10351d999553",
+      "size_bytes": 2418007
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792524316614281135,
+      "mtime_utc": "2026-10-20T19:25:16.614281+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/microlfp-double-128/heldout/rows.json",
+      "sha256": "e72cbb6b699b264deea26d8699faa434a89e75fe60a9822cdeecc0a6d2bb42fa",
+      "size_bytes": 55634
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792524316613878643,
+      "mtime_utc": "2026-10-20T19:25:16.613879+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/microlfp-double-128/heldout/manifest.json",
+      "sha256": "0f4af27adb473502586e52bcecaa4d3b35491045215bf3a2023443b0e64593ff",
+      "size_bytes": 29638
+    },
+    {
+      "filename": "microlfp-double-128-scan_trained-cnn-heldout.npz",
+      "mtime_ns": 1792524316533280752,
+      "mtime_utc": "2026-10-20T19:25:16.533281+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/microlfp-double-128/heldout/mapped/reconstructions/measured/cnn/scan_trained/microlfp-double-128-scan_trained-cnn-heldout.npz",
+      "sha256": "a25b4684835ae2ffa20a76e2ec0f125c6e68eaad5855e212d356d42c54ae0354",
+      "size_bytes": 1115620
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792524313335235804,
+      "mtime_utc": "2026-10-20T19:25:13.335236+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/microlfp-double-128/diagnostic-whole/rows.json",
+      "sha256": "8e4feb9815cd67c32dbe32e2456ed6936eac4d3fd7b53a8d51b77493442f9a3a",
+      "size_bytes": 57991
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792524313334205139,
+      "mtime_utc": "2026-10-20T19:25:13.334205+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/microlfp-double-128/diagnostic-whole/manifest.json",
+      "sha256": "fa691552f540b0df2e8d67d5b795b6d270a2af324409887031e6381422b2a03a",
+      "size_bytes": 50641
+    },
+    {
+      "filename": "microlfp-double-128-scan_trained-cnn-diagnostic-whole.npz",
+      "mtime_ns": 1792524313173264967,
+      "mtime_utc": "2026-10-20T19:25:13.173265+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/microlfp-double-128/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/microlfp-double-128-scan_trained-cnn-diagnostic-whole.npz",
+      "sha256": "72ccd303d915ac649050780ac00121458bf8254eaa7b56a1827c5c5adc433734",
+      "size_bytes": 1931378
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792523507638892280,
+      "mtime_utc": "2026-10-20T19:11:47.638892+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/s200-128/heldout/rows.json",
+      "sha256": "f5f470303adeee6da70f3b1ccc7f4f9cc1e9512fce6ad1a034eeaf86a4eb0916",
+      "size_bytes": 230373
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792523507635525744,
+      "mtime_utc": "2026-10-20T19:11:47.635526+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/s200-128/heldout/manifest.json",
+      "sha256": "95aa4cb1f51240ae6a4bab2172070df1756939116adb6814be98c6712ad6875c",
+      "size_bytes": 113630
+    },
+    {
+      "filename": "s200-128-scan_trained-cnn-heldout.npz",
+      "mtime_ns": 1792523507323881002,
+      "mtime_utc": "2026-10-20T19:11:47.323881+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/s200-128/heldout/mapped/reconstructions/measured/cnn/scan_trained/s200-128-scan_trained-cnn-heldout.npz",
+      "sha256": "db70a7771c93a9535224772c9339993d1fe4a1f70df2921921611ad900e7b8b2",
+      "size_bytes": 18162558
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792523488534397863,
+      "mtime_utc": "2026-10-20T19:11:28.534398+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/s200-128/diagnostic-whole/rows.json",
+      "sha256": "155b5c05e93a89408743011ccca7a06084390ed6553a2d108b7a17252c8a58df",
+      "size_bytes": 229826
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792523488531063547,
+      "mtime_utc": "2026-10-20T19:11:28.531064+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/s200-128/diagnostic-whole/manifest.json",
+      "sha256": "c01c5fb5fb120cb9dd48e4b337ec79d5a1f4cd7b13f5b1af9061d79c0fd4495a",
+      "size_bytes": 194954
+    },
+    {
+      "filename": "s200-128-scan_trained-cnn-diagnostic-whole.npz",
+      "mtime_ns": 1792523487930498827,
+      "mtime_utc": "2026-10-20T19:11:27.930499+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/s200-128/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/s200-128-scan_trained-cnn-diagnostic-whole.npz",
+      "sha256": "90c7095bb5d26a2a7c2798a17126922084d9f3943dbb94fe4ed1aeb715203465",
+      "size_bytes": 30890199
+    }
+  ]
+}

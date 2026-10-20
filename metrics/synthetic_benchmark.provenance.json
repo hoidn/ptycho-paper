@@ -1,0 +1,645 @@
+{
+  "commit": "2d6ffa95bfc45f96156d02a41e981f781d5bc453",
+  "inputs": [
+    {
+      "filename": "test-0000-v4.json",
+      "mtime_ns": 1792470313209463555,
+      "mtime_utc": "2026-10-20T04:25:13.209464+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-3/hybrid_resnet/scores/synthetic/test-0000-v4.json",
+      "sha256": "48db346b97d958c2ccd69abe98250a74df9a8ef8fbb46c926fdf0adf12a77ea2",
+      "size_bytes": 20112
+    },
+    {
+      "filename": "test-0000-v4.json",
+      "mtime_ns": 1792472583010754658,
+      "mtime_utc": "2026-10-20T05:03:03.010755+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-17/hybrid_resnet/scores/synthetic/test-0000-v4.json",
+      "sha256": "4ddf8d807116ddd905cc1947277f6e61894900c5322c1e21aff98cd580495417",
+      "size_bytes": 351491
+    },
+    {
+      "filename": "test-0000-v4.json",
+      "mtime_ns": 1792477201355161835,
+      "mtime_utc": "2026-10-20T06:20:01.355162+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-42/hybrid_resnet/scores/synthetic/test-0000-v4.json",
+      "sha256": "0f8b99e190bd76635f1106999a54908ad8ab9e102089bea4fa939664a8d1d16b",
+      "size_bytes": 351489
+    },
+    {
+      "filename": "sweep-010.json",
+      "mtime_ns": 1792478531171658485,
+      "mtime_utc": "2026-10-20T06:42:11.171659+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0000/sweep-010.json",
+      "sha256": "0a13cd8b1345844e94d746682f7d8f8f6757f5f9ae0a60e3181089cc7a7fa932",
+      "size_bytes": 17360
+    },
+    {
+      "filename": "sweep-020.json",
+      "mtime_ns": 1792478531657986294,
+      "mtime_utc": "2026-10-20T06:42:11.657986+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0000/sweep-020.json",
+      "sha256": "192f3b21eff22c108c98d92d33d4ba7cd333b0739d7b6ded29389f40bf229ce6",
+      "size_bytes": 17368
+    },
+    {
+      "filename": "sweep-050.json",
+      "mtime_ns": 1792478532141764523,
+      "mtime_utc": "2026-10-20T06:42:12.141765+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0000/sweep-050.json",
+      "sha256": "40a8a002626c2c9454186a8e434812d22200846eb1768ac1ff11169270337296",
+      "size_bytes": 17354
+    },
+    {
+      "filename": "sweep-100.json",
+      "mtime_ns": 1792478532645259654,
+      "mtime_utc": "2026-10-20T06:42:12.645260+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0000/sweep-100.json",
+      "sha256": "638f4b0fd99ef63b078d096e2290038204a55cc163e05044c224fab1713b5a41",
+      "size_bytes": 17361
+    },
+    {
+      "filename": "sweep-200.json",
+      "mtime_ns": 1792478533132967929,
+      "mtime_utc": "2026-10-20T06:42:13.132968+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0000/sweep-200.json",
+      "sha256": "0da0a61754a08ca1cfda69128e7a06081738d5c40f41194a024ffd0df2c9fa14",
+      "size_bytes": 17369
+    },
+    {
+      "filename": "test-0001-v4.json",
+      "mtime_ns": 1792470313849140782,
+      "mtime_utc": "2026-10-20T04:25:13.849141+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-3/hybrid_resnet/scores/synthetic/test-0001-v4.json",
+      "sha256": "5c9bda33e5ce596dcbb4486d6a79b393ea7cdb01c38a157fa2f519110fb2d102",
+      "size_bytes": 20161
+    },
+    {
+      "filename": "test-0001-v4.json",
+      "mtime_ns": 1792472583604154356,
+      "mtime_utc": "2026-10-20T05:03:03.604154+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-17/hybrid_resnet/scores/synthetic/test-0001-v4.json",
+      "sha256": "738d92ae5a12dea1049e28b0437089f1f0268e39ce5d574ccdbd9b95a0b756be",
+      "size_bytes": 351541
+    },
+    {
+      "filename": "test-0001-v4.json",
+      "mtime_ns": 1792477201955547480,
+      "mtime_utc": "2026-10-20T06:20:01.955548+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-42/hybrid_resnet/scores/synthetic/test-0001-v4.json",
+      "sha256": "c239e6236ee54f3dd4ac0e180fd103b4e24a405fee5560ca9596ed3b901051a5",
+      "size_bytes": 351653
+    },
+    {
+      "filename": "sweep-010.json",
+      "mtime_ns": 1792479981159648127,
+      "mtime_utc": "2026-10-20T07:06:21.159648+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0001/sweep-010.json",
+      "sha256": "5dc530ff29697d06cd139bc7fd182e310f7014512db20edfd7ef6c3fc87788d0",
+      "size_bytes": 17329
+    },
+    {
+      "filename": "sweep-020.json",
+      "mtime_ns": 1792479981650616911,
+      "mtime_utc": "2026-10-20T07:06:21.650617+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0001/sweep-020.json",
+      "sha256": "38a8917a6700ebafcfeec4e2ec59f6f6f709a13d0555ce44ed1371870d9c2c4f",
+      "size_bytes": 17329
+    },
+    {
+      "filename": "sweep-050.json",
+      "mtime_ns": 1792479982139212634,
+      "mtime_utc": "2026-10-20T07:06:22.139213+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0001/sweep-050.json",
+      "sha256": "acd78a90075d6a086f4a68529fe5f9ad45d4ce8c695eabf4a34c6d7f262fcb8f",
+      "size_bytes": 17345
+    },
+    {
+      "filename": "sweep-100.json",
+      "mtime_ns": 1792479982628687516,
+      "mtime_utc": "2026-10-20T07:06:22.628688+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0001/sweep-100.json",
+      "sha256": "1bdbd7c31229805b7aa1fdd0b27af00b258c5340b7a79fed970421481a354501",
+      "size_bytes": 17333
+    },
+    {
+      "filename": "sweep-200.json",
+      "mtime_ns": 1792479983123907936,
+      "mtime_utc": "2026-10-20T07:06:23.123908+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0001/sweep-200.json",
+      "sha256": "b1e71b839c272579a11b20a7716953f7a5686e943b60591cdf248f8610197b05",
+      "size_bytes": 17331
+    },
+    {
+      "filename": "test-0002-v4.json",
+      "mtime_ns": 1792470314499693962,
+      "mtime_utc": "2026-10-20T04:25:14.499694+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-3/hybrid_resnet/scores/synthetic/test-0002-v4.json",
+      "sha256": "a01bb002b37d8a655f00e923d1660e5e17cb5e85eadd96a036d79681d3151133",
+      "size_bytes": 20192
+    },
+    {
+      "filename": "test-0002-v4.json",
+      "mtime_ns": 1792472584220283188,
+      "mtime_utc": "2026-10-20T05:03:04.220283+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-17/hybrid_resnet/scores/synthetic/test-0002-v4.json",
+      "sha256": "5643fb66dbc5765fb01ed350969543d7e79b92e5594b797a4f2b8781054cfe97",
+      "size_bytes": 351628
+    },
+    {
+      "filename": "test-0002-v4.json",
+      "mtime_ns": 1792477202583287050,
+      "mtime_utc": "2026-10-20T06:20:02.583287+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-42/hybrid_resnet/scores/synthetic/test-0002-v4.json",
+      "sha256": "e5fc22055c152f0745c4639e5b7c25640bef0a2deb2f4e749ce48e8401ff40bc",
+      "size_bytes": 351586
+    },
+    {
+      "filename": "sweep-010.json",
+      "mtime_ns": 1792481309893707627,
+      "mtime_utc": "2026-10-20T07:28:29.893708+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0002/sweep-010.json",
+      "sha256": "4f41b5d716a45265b066c406c51562d3edf924be998d9f4e224d0233f561ee6d",
+      "size_bytes": 17378
+    },
+    {
+      "filename": "sweep-020.json",
+      "mtime_ns": 1792481310369367467,
+      "mtime_utc": "2026-10-20T07:28:30.369367+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0002/sweep-020.json",
+      "sha256": "394bdd7cd49b3ab339e51f727d133e38d71c7cdd9f4a2a14ceec5a30e571130b",
+      "size_bytes": 17378
+    },
+    {
+      "filename": "sweep-050.json",
+      "mtime_ns": 1792481310837814253,
+      "mtime_utc": "2026-10-20T07:28:30.837814+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0002/sweep-050.json",
+      "sha256": "2d8123ed4dfd6bf423fa827e457672d347286598bb0051ec0443715571133209",
+      "size_bytes": 17384
+    },
+    {
+      "filename": "sweep-100.json",
+      "mtime_ns": 1792481311309223518,
+      "mtime_utc": "2026-10-20T07:28:31.309223+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0002/sweep-100.json",
+      "sha256": "b193c0e8ead2e34a020b8b069dc6c1a6c4a6d83430f93b31b1d9fb4f992d3a3e",
+      "size_bytes": 17388
+    },
+    {
+      "filename": "sweep-200.json",
+      "mtime_ns": 1792481311778097563,
+      "mtime_utc": "2026-10-20T07:28:31.778098+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0002/sweep-200.json",
+      "sha256": "c3ae742511f3dff27b6b38c845749bd46225e913449d8d4935b3e65b05de6b87",
+      "size_bytes": 17394
+    },
+    {
+      "filename": "test-0003-v4.json",
+      "mtime_ns": 1792470315048392851,
+      "mtime_utc": "2026-10-20T04:25:15.048393+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-3/hybrid_resnet/scores/synthetic/test-0003-v4.json",
+      "sha256": "332f6d7df76db30c083b2cf54fcdaad5227f3e266fc9e61a5ed239e515615d3f",
+      "size_bytes": 20241
+    },
+    {
+      "filename": "test-0003-v4.json",
+      "mtime_ns": 1792472584798993468,
+      "mtime_utc": "2026-10-20T05:03:04.798993+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-17/hybrid_resnet/scores/synthetic/test-0003-v4.json",
+      "sha256": "f526f43e0ae889d51c0f1a878049c395548f368884063675c64db6d1f9fef7f6",
+      "size_bytes": 351660
+    },
+    {
+      "filename": "test-0003-v4.json",
+      "mtime_ns": 1792477203174267809,
+      "mtime_utc": "2026-10-20T06:20:03.174268+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-42/hybrid_resnet/scores/synthetic/test-0003-v4.json",
+      "sha256": "df83b9025ce1f49b45e9ce1ef81fa5ea9381de613ff903aecefe26e242d31d53",
+      "size_bytes": 351684
+    },
+    {
+      "filename": "sweep-010.json",
+      "mtime_ns": 1792481762741524625,
+      "mtime_utc": "2026-10-20T07:36:02.741525+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0003/sweep-010.json",
+      "sha256": "654902065a9d2efe1021830eeca7adb74d8a176d50de895ef07318590f719045",
+      "size_bytes": 17355
+    },
+    {
+      "filename": "sweep-020.json",
+      "mtime_ns": 1792481763442765128,
+      "mtime_utc": "2026-10-20T07:36:03.442765+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0003/sweep-020.json",
+      "sha256": "62197891928016c3dceb9e1ea99bc56e8559fdc618b7187354c5702d3ba5300c",
+      "size_bytes": 17337
+    },
+    {
+      "filename": "sweep-050.json",
+      "mtime_ns": 1792481764126744252,
+      "mtime_utc": "2026-10-20T07:36:04.126744+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0003/sweep-050.json",
+      "sha256": "7d6c07e468ba7a7448bc997e9eaf24e8369bef64ab0ff8da316b0c8b8dd01b40",
+      "size_bytes": 17330
+    },
+    {
+      "filename": "sweep-100.json",
+      "mtime_ns": 1792481764839542825,
+      "mtime_utc": "2026-10-20T07:36:04.839543+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0003/sweep-100.json",
+      "sha256": "1ae12b7388c5946fd33b6c9fc982ff4338b0588db4413efe268256e51e952c14",
+      "size_bytes": 17332
+    },
+    {
+      "filename": "sweep-200.json",
+      "mtime_ns": 1792481765770168866,
+      "mtime_utc": "2026-10-20T07:36:05.770169+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0003/sweep-200.json",
+      "sha256": "4d4c352a7f447adb850c56320827b6ddd4f6370bc6aeef9e3930a9aac8d7d895",
+      "size_bytes": 17347
+    },
+    {
+      "filename": "test-0004-v4.json",
+      "mtime_ns": 1792470315690204201,
+      "mtime_utc": "2026-10-20T04:25:15.690204+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-3/hybrid_resnet/scores/synthetic/test-0004-v4.json",
+      "sha256": "7f2014e2f8e7dd7f0f0468ffbc8482d72f59113ef5d6e9ed1a8c32ffe0ceb36e",
+      "size_bytes": 20086
+    },
+    {
+      "filename": "test-0004-v4.json",
+      "mtime_ns": 1792472585377926502,
+      "mtime_utc": "2026-10-20T05:03:05.377927+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-17/hybrid_resnet/scores/synthetic/test-0004-v4.json",
+      "sha256": "4b0c57df0401cc9a1d95549c020fadfb4e42ac6b916e75bbf323eca7ba36d35b",
+      "size_bytes": 351634
+    },
+    {
+      "filename": "test-0004-v4.json",
+      "mtime_ns": 1792477203756259996,
+      "mtime_utc": "2026-10-20T06:20:03.756260+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-42/hybrid_resnet/scores/synthetic/test-0004-v4.json",
+      "sha256": "619598e4820b9cba3075067c2342885232cc91b91c0487251929d598c2c3aa2e",
+      "size_bytes": 351562
+    },
+    {
+      "filename": "sweep-010.json",
+      "mtime_ns": 1792482147431624831,
+      "mtime_utc": "2026-10-20T07:42:27.431625+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0004/sweep-010.json",
+      "sha256": "60cbe3877d1f1a20ac5aa77372416f12e86fb000b759f4ba4dfc1b009448d445",
+      "size_bytes": 17353
+    },
+    {
+      "filename": "sweep-020.json",
+      "mtime_ns": 1792482147930402526,
+      "mtime_utc": "2026-10-20T07:42:27.930403+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0004/sweep-020.json",
+      "sha256": "1b88e64bae370486b4f76eab330290fad017b8b4e61d7e5fe55fc09f447a91cd",
+      "size_bytes": 17341
+    },
+    {
+      "filename": "sweep-050.json",
+      "mtime_ns": 1792482148495982565,
+      "mtime_utc": "2026-10-20T07:42:28.495983+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0004/sweep-050.json",
+      "sha256": "6f1896e1b4fc8fe3526f5841f3b7a91eb38696cb724eb085d30dad33429ec454",
+      "size_bytes": 17363
+    },
+    {
+      "filename": "sweep-100.json",
+      "mtime_ns": 1792482149040541885,
+      "mtime_utc": "2026-10-20T07:42:29.040542+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0004/sweep-100.json",
+      "sha256": "c67aee268c936b0792abe0d3fa18841ada45f1fdbacb89785bfb1be54f2c952a",
+      "size_bytes": 17356
+    },
+    {
+      "filename": "sweep-200.json",
+      "mtime_ns": 1792482149633724126,
+      "mtime_utc": "2026-10-20T07:42:29.633724+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0004/sweep-200.json",
+      "sha256": "8db4bcd55db6878e18140eb705b40fafadc4bbef77b6a0a4f2b248c785a549cb",
+      "size_bytes": 17377
+    },
+    {
+      "filename": "test-0005-v4.json",
+      "mtime_ns": 1792470316476490466,
+      "mtime_utc": "2026-10-20T04:25:16.476490+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-3/hybrid_resnet/scores/synthetic/test-0005-v4.json",
+      "sha256": "f4fbe73fbbe55f77f98c35fc33ab81390b968b6e361b8019a26a472a64910309",
+      "size_bytes": 20324
+    },
+    {
+      "filename": "test-0005-v4.json",
+      "mtime_ns": 1792472586077113289,
+      "mtime_utc": "2026-10-20T05:03:06.077113+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-17/hybrid_resnet/scores/synthetic/test-0005-v4.json",
+      "sha256": "ac1fa80041a4b05a8f120fb80dba58c0d72b9089c73b825244ee529bfff42184",
+      "size_bytes": 351629
+    },
+    {
+      "filename": "test-0005-v4.json",
+      "mtime_ns": 1792477204466733520,
+      "mtime_utc": "2026-10-20T06:20:04.466733+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-42/hybrid_resnet/scores/synthetic/test-0005-v4.json",
+      "sha256": "474444aff7354e0669c653c48fbba7d75a6dfc8e2f13f2bc54ded8b4e26af280",
+      "size_bytes": 351635
+    },
+    {
+      "filename": "sweep-010.json",
+      "mtime_ns": 1792483069028783063,
+      "mtime_utc": "2026-10-20T07:57:49.028783+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0005/sweep-010.json",
+      "sha256": "f86fe3c0b9e34b22b1a700a18f61754c19fd9a643c3fd815de1e18bd7d1626fe",
+      "size_bytes": 17406
+    },
+    {
+      "filename": "sweep-020.json",
+      "mtime_ns": 1792483069511083520,
+      "mtime_utc": "2026-10-20T07:57:49.511084+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0005/sweep-020.json",
+      "sha256": "1783e5b6c7d8486bd3dcc8330b4ac2a5b02124436b765d7ff38adcebf213c802",
+      "size_bytes": 17424
+    },
+    {
+      "filename": "sweep-050.json",
+      "mtime_ns": 1792483070039808150,
+      "mtime_utc": "2026-10-20T07:57:50.039808+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0005/sweep-050.json",
+      "sha256": "f27d06c5984b24e5b432df35f5a51a2030c09ce6b9c553fe902a23f7a577d0c7",
+      "size_bytes": 17417
+    },
+    {
+      "filename": "sweep-100.json",
+      "mtime_ns": 1792483070516195209,
+      "mtime_utc": "2026-10-20T07:57:50.516195+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0005/sweep-100.json",
+      "sha256": "d9cd52b5540a3e75bd341323e1693dae32b7935c25f138cfdefa7b1ef6f1eca4",
+      "size_bytes": 17431
+    },
+    {
+      "filename": "sweep-200.json",
+      "mtime_ns": 1792483070979768223,
+      "mtime_utc": "2026-10-20T07:57:50.979768+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0005/sweep-200.json",
+      "sha256": "3837c0ad80c456830512026bf6c869ab31bc1536a76f9ec152d95c058bd6e306",
+      "size_bytes": 17413
+    },
+    {
+      "filename": "test-0006-v4.json",
+      "mtime_ns": 1792470317111826936,
+      "mtime_utc": "2026-10-20T04:25:17.111827+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-3/hybrid_resnet/scores/synthetic/test-0006-v4.json",
+      "sha256": "a4964f1ec089447065855e940f36800a1e7cf06fe5f4f864809fc38e9e15f090",
+      "size_bytes": 20311
+    },
+    {
+      "filename": "test-0006-v4.json",
+      "mtime_ns": 1792472586673023058,
+      "mtime_utc": "2026-10-20T05:03:06.673023+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-17/hybrid_resnet/scores/synthetic/test-0006-v4.json",
+      "sha256": "fe1ac917d17e90c6658848f7ccafc063e72ec84601b4a455ee5f3d6d936219b2",
+      "size_bytes": 351690
+    },
+    {
+      "filename": "test-0006-v4.json",
+      "mtime_ns": 1792477205072667211,
+      "mtime_utc": "2026-10-20T06:20:05.072667+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-42/hybrid_resnet/scores/synthetic/test-0006-v4.json",
+      "sha256": "ec433f0aa96606ac9ef8dad84a8fb18319af934ce4658022ff96c542fea06dd1",
+      "size_bytes": 351559
+    },
+    {
+      "filename": "sweep-010.json",
+      "mtime_ns": 1792483868173429637,
+      "mtime_utc": "2026-10-20T08:11:08.173430+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0006/sweep-010.json",
+      "sha256": "4f300093171759f47f148aeabe177ac5fd550b482080382984c5f6600147dc98",
+      "size_bytes": 17394
+    },
+    {
+      "filename": "sweep-020.json",
+      "mtime_ns": 1792483868655531038,
+      "mtime_utc": "2026-10-20T08:11:08.655531+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0006/sweep-020.json",
+      "sha256": "f93a7e3bd5c085f4245949d1794bcd8e12ff76fd8121d900793c8ed2e3438c63",
+      "size_bytes": 17393
+    },
+    {
+      "filename": "sweep-050.json",
+      "mtime_ns": 1792483869120506656,
+      "mtime_utc": "2026-10-20T08:11:09.120507+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0006/sweep-050.json",
+      "sha256": "f0d09db24dbb63073640b2f5b39a894dc446e94c25d442325bcf8cfbcc1bce9a",
+      "size_bytes": 17379
+    },
+    {
+      "filename": "sweep-100.json",
+      "mtime_ns": 1792483869581903198,
+      "mtime_utc": "2026-10-20T08:11:09.581903+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0006/sweep-100.json",
+      "sha256": "8058853c6a13ce0587829561835ad768a37ac3818311181232e500a5a600da7c",
+      "size_bytes": 17385
+    },
+    {
+      "filename": "sweep-200.json",
+      "mtime_ns": 1792483870051598197,
+      "mtime_utc": "2026-10-20T08:11:10.051598+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0006/sweep-200.json",
+      "sha256": "dacaad514aa524e032007799b040d22e254b98df875c7a8cfd6842f85e258092",
+      "size_bytes": 17399
+    },
+    {
+      "filename": "test-0007-v4.json",
+      "mtime_ns": 1792470317781341148,
+      "mtime_utc": "2026-10-20T04:25:17.781341+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-3/hybrid_resnet/scores/synthetic/test-0007-v4.json",
+      "sha256": "82bc4be8f8c03496d42c2a7f39ee4f946cb10c4b60b604452a8c457a24b69094",
+      "size_bytes": 20268
+    },
+    {
+      "filename": "test-0007-v4.json",
+      "mtime_ns": 1792472587253433977,
+      "mtime_utc": "2026-10-20T05:03:07.253434+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-17/hybrid_resnet/scores/synthetic/test-0007-v4.json",
+      "sha256": "0ea95f3a692ad2e249fbbeb22ee7ed7088b3d1b143f6bb200def5170e62a816c",
+      "size_bytes": 351529
+    },
+    {
+      "filename": "test-0007-v4.json",
+      "mtime_ns": 1792477205659697044,
+      "mtime_utc": "2026-10-20T06:20:05.659697+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-42/hybrid_resnet/scores/synthetic/test-0007-v4.json",
+      "sha256": "9bce5e551b4ba47b805cba7d594fa434bfa7db1b720d563fab33f0fa16ded7d3",
+      "size_bytes": 351529
+    },
+    {
+      "filename": "sweep-010.json",
+      "mtime_ns": 1792484168975973562,
+      "mtime_utc": "2026-10-20T08:16:08.975974+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0007/sweep-010.json",
+      "sha256": "d0f1315b95ba8b98e9105b0dc999142334d61085c9496103f919cb4b468d9510",
+      "size_bytes": 17356
+    },
+    {
+      "filename": "sweep-020.json",
+      "mtime_ns": 1792484169483610219,
+      "mtime_utc": "2026-10-20T08:16:09.483610+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0007/sweep-020.json",
+      "sha256": "0087d9d224e0bf87d5be30e3129e369a4dc80bd25930a80e0ada1474dfc8dcf5",
+      "size_bytes": 17353
+    },
+    {
+      "filename": "sweep-050.json",
+      "mtime_ns": 1792484169993562473,
+      "mtime_utc": "2026-10-20T08:16:09.993562+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0007/sweep-050.json",
+      "sha256": "f8570a4455b15bb94fdf107a4bb572c8bc6677e8b976cbb85e7a92102d8cd9ca",
+      "size_bytes": 17366
+    },
+    {
+      "filename": "sweep-100.json",
+      "mtime_ns": 1792484170508221759,
+      "mtime_utc": "2026-10-20T08:16:10.508222+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0007/sweep-100.json",
+      "sha256": "4c3c8bc2b1495bc75bdd66f0a26494fd853ddbdad97088c24ce6004f7a07a182",
+      "size_bytes": 17373
+    },
+    {
+      "filename": "sweep-200.json",
+      "mtime_ns": 1792484171006756236,
+      "mtime_utc": "2026-10-20T08:16:11.006756+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0007/sweep-200.json",
+      "sha256": "140d0243c922ec7b6538096b5b2295ebfa8385cf6bc2fb6c9985e03b23c5316c",
+      "size_bytes": 17367
+    },
+    {
+      "filename": "test-0008-v4.json",
+      "mtime_ns": 1792470318545308250,
+      "mtime_utc": "2026-10-20T04:25:18.545308+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-3/hybrid_resnet/scores/synthetic/test-0008-v4.json",
+      "sha256": "5c3e32e3c2fa376122c77b424cceb5ff5feb8351f03fc2e83d614bdbe59439f8",
+      "size_bytes": 20421
+    },
+    {
+      "filename": "test-0008-v4.json",
+      "mtime_ns": 1792472587932776297,
+      "mtime_utc": "2026-10-20T05:03:07.932776+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-17/hybrid_resnet/scores/synthetic/test-0008-v4.json",
+      "sha256": "9368e80cca55d0a5c94dd8acad763201963fc142c11c696349cffe385c5b5068",
+      "size_bytes": 351593
+    },
+    {
+      "filename": "test-0008-v4.json",
+      "mtime_ns": 1792477206340578475,
+      "mtime_utc": "2026-10-20T06:20:06.340579+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-42/hybrid_resnet/scores/synthetic/test-0008-v4.json",
+      "sha256": "9ea60904aebc499719114d65c09acdabbd50d0da7f52680284cd3814f4f626d4",
+      "size_bytes": 351709
+    },
+    {
+      "filename": "sweep-010.json",
+      "mtime_ns": 1792484385668905488,
+      "mtime_utc": "2026-10-20T08:19:45.668905+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0008/sweep-010.json",
+      "sha256": "996bf717d48efed78c2da1dd834e1ab11618eb0369d04ad0005365b5b2b0216f",
+      "size_bytes": 17443
+    },
+    {
+      "filename": "sweep-020.json",
+      "mtime_ns": 1792484386150474907,
+      "mtime_utc": "2026-10-20T08:19:46.150475+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0008/sweep-020.json",
+      "sha256": "9b78937bec7f6a6e7eb83831717949ecd63506d2c492899b5ed641b2240372ed",
+      "size_bytes": 17418
+    },
+    {
+      "filename": "sweep-050.json",
+      "mtime_ns": 1792484386630437643,
+      "mtime_utc": "2026-10-20T08:19:46.630438+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0008/sweep-050.json",
+      "sha256": "4bc79fd4fa05b568f31548970baf769b34f298f45208741cd8077e7d2ab9c4fa",
+      "size_bytes": 17425
+    },
+    {
+      "filename": "sweep-100.json",
+      "mtime_ns": 1792484387094183000,
+      "mtime_utc": "2026-10-20T08:19:47.094183+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0008/sweep-100.json",
+      "sha256": "9f1f6f8dd2c18002177fe7a5229f606c35da38a4598b47794f83800600347a05",
+      "size_bytes": 17407
+    },
+    {
+      "filename": "sweep-200.json",
+      "mtime_ns": 1792484387552339175,
+      "mtime_utc": "2026-10-20T08:19:47.552339+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0008/sweep-200.json",
+      "sha256": "3c09bed19a568ab6ad9982ecf4116febcc43f26a362f669b97ddcee4938f4d01",
+      "size_bytes": 17392
+    },
+    {
+      "filename": "test-0009-v4.json",
+      "mtime_ns": 1792470319327556004,
+      "mtime_utc": "2026-10-20T04:25:19.327556+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-3/hybrid_resnet/scores/synthetic/test-0009-v4.json",
+      "sha256": "ac25e7b39d7008d65bf308f28ae9561e394c496e9bdc95a8808508965b1728ee",
+      "size_bytes": 20333
+    },
+    {
+      "filename": "test-0009-v4.json",
+      "mtime_ns": 1792472588639815489,
+      "mtime_utc": "2026-10-20T05:03:08.639816+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-17/hybrid_resnet/scores/synthetic/test-0009-v4.json",
+      "sha256": "268e2bfbeda840f721ef726720c95d82588148816c3a08066a09045fa380261a",
+      "size_bytes": 351639
+    },
+    {
+      "filename": "test-0009-v4.json",
+      "mtime_ns": 1792477207033913767,
+      "mtime_utc": "2026-10-20T06:20:07.033914+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/seed-42/hybrid_resnet/scores/synthetic/test-0009-v4.json",
+      "sha256": "e00613601f389a24b98c735704d5250f6caa46ea557a73fa89ce32132d2af089",
+      "size_bytes": 351616
+    },
+    {
+      "filename": "sweep-010.json",
+      "mtime_ns": 1792484615033549000,
+      "mtime_utc": "2026-10-20T08:23:35.033549+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0009/sweep-010.json",
+      "sha256": "34f0d0ede407b143821f9905378102837ad648bc47c869a35897d27187fd794b",
+      "size_bytes": 17443
+    },
+    {
+      "filename": "sweep-020.json",
+      "mtime_ns": 1792484615618411301,
+      "mtime_utc": "2026-10-20T08:23:35.618411+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0009/sweep-020.json",
+      "sha256": "edd6fb6a8b0b9836a8c1d91ef91194995417b59126d7be786a454142faffc9a7",
+      "size_bytes": 17431
+    },
+    {
+      "filename": "sweep-050.json",
+      "mtime_ns": 1792484616085441268,
+      "mtime_utc": "2026-10-20T08:23:36.085441+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0009/sweep-050.json",
+      "sha256": "f0c19d3bb6c47248835f27a619ee5ffc60c0c3ee232aebeb18e5c597582d83de",
+      "size_bytes": 17439
+    },
+    {
+      "filename": "sweep-100.json",
+      "mtime_ns": 1792484616616616964,
+      "mtime_utc": "2026-10-20T08:23:36.616617+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0009/sweep-100.json",
+      "sha256": "1639bb8a75beed2ed755dfea41400a35f6621e1e8a27d06d912af5985bf83054",
+      "size_bytes": 17443
+    },
+    {
+      "filename": "sweep-200.json",
+      "mtime_ns": 1792484617138946851,
+      "mtime_utc": "2026-10-20T08:23:37.138947+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-synthetic-benchmark/fly001-128/lsqml/test-0009/sweep-200.json",
+      "sha256": "020e027b49ec7d98b231b8ed2b33570f07e2010ef96795aadf666899a10f2a81",
+      "size_bytes": 17444
+    }
+  ]
+}

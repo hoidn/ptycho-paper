@@ -1,0 +1,293 @@
+{
+  "commit": "68de2afbb6c9739226cefd16134aedd19faaf4d0",
+  "inputs": [
+    {
+      "filename": "fly001-128-law4-heldout.scores.json",
+      "mtime_ns": 1792474173603516692,
+      "mtime_utc": "2026-10-20T05:29:33.603517+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/fly001-128-law4-heldout.scores.json",
+      "sha256": "857cdfc7d77f912fe1b4a342690eb5c11a9186a908fcee8bd2de9902ad427c92",
+      "size_bytes": 44901
+    },
+    {
+      "filename": "nxs-gold_tp_2-heldout.scores.json",
+      "mtime_ns": 1792474192406736160,
+      "mtime_utc": "2026-10-20T05:29:52.406736+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/nxs-gold_tp_2-heldout.scores.json",
+      "sha256": "2c21eba38c6f4d71c42e395fb04a0b1feeff551938e574d2b19a1cdad2b724d6",
+      "size_bytes": 45224
+    },
+    {
+      "filename": "test-0000.scores.json",
+      "mtime_ns": 1792474155089634234,
+      "mtime_utc": "2026-10-20T05:29:15.089634+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0000.scores.json",
+      "sha256": "45cf0d03feb77c76f47233d510c509ecc62f1e8c68fd3865242807f412d74d4c",
+      "size_bytes": 9493
+    },
+    {
+      "filename": "test-0001.scores.json",
+      "mtime_ns": 1792474156662612390,
+      "mtime_utc": "2026-10-20T05:29:16.662612+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0001.scores.json",
+      "sha256": "73dbdef05a3187603f45d29655f5cf80a302eb2ff120345b7bc04423306be522",
+      "size_bytes": 9469
+    },
+    {
+      "filename": "test-0002.scores.json",
+      "mtime_ns": 1792474158266518114,
+      "mtime_utc": "2026-10-20T05:29:18.266518+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0002.scores.json",
+      "sha256": "c671c9e495bfdf585add8cc7c4ac9b64c25f88d7ccaaef703a473e702b8f2f79",
+      "size_bytes": 9527
+    },
+    {
+      "filename": "test-0003.scores.json",
+      "mtime_ns": 1792474159806266581,
+      "mtime_utc": "2026-10-20T05:29:19.806267+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0003.scores.json",
+      "sha256": "2968078e39fbab17dff1b7f766c58e7409f9d2288fa58bc002a0eb8451acc4b0",
+      "size_bytes": 9514
+    },
+    {
+      "filename": "test-0004.scores.json",
+      "mtime_ns": 1792474161293001604,
+      "mtime_utc": "2026-10-20T05:29:21.293002+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0004.scores.json",
+      "sha256": "d909fcd53e6bf8ad574ddad9ae3b3b302f3b7456e473d0cb5c1dd5d607cd7fb0",
+      "size_bytes": 9461
+    },
+    {
+      "filename": "test-0005.scores.json",
+      "mtime_ns": 1792474162955926307,
+      "mtime_utc": "2026-10-20T05:29:22.955926+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0005.scores.json",
+      "sha256": "62d5ffc37ae9b0684b6d16d2137c42280948957137f3123fb10f66718f8f383c",
+      "size_bytes": 9629
+    },
+    {
+      "filename": "test-0006.scores.json",
+      "mtime_ns": 1792474164492731095,
+      "mtime_utc": "2026-10-20T05:29:24.492731+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0006.scores.json",
+      "sha256": "765ea2ba7d2c34d15aa8f628c59aea0559658422172e19aa2356b5b408fb45d2",
+      "size_bytes": 9585
+    },
+    {
+      "filename": "test-0007.scores.json",
+      "mtime_ns": 1792474166027571613,
+      "mtime_utc": "2026-10-20T05:29:26.027572+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0007.scores.json",
+      "sha256": "29c97e16055d3e0b5d5d0003cc9ed44b7a6aceda7a30ce38554ae0116d5609c6",
+      "size_bytes": 9551
+    },
+    {
+      "filename": "test-0008.scores.json",
+      "mtime_ns": 1792474167910829956,
+      "mtime_utc": "2026-10-20T05:29:27.910830+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0008.scores.json",
+      "sha256": "a9efa3138a7d47eab0bf0f810346acf8f204bb8ee5e43f49b289a308dc94a01c",
+      "size_bytes": 9711
+    },
+    {
+      "filename": "test-0009.scores.json",
+      "mtime_ns": 1792474170210564463,
+      "mtime_utc": "2026-10-20T05:29:30.210564+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0009.scores.json",
+      "sha256": "5dd18d5d2e46bfe9bf701cf4f9fbaa0add2baed939c30561679462ead2bfa2e8",
+      "size_bytes": 9666
+    },
+    {
+      "filename": "fly001-128-law4-heldout.npz",
+      "mtime_ns": 1792474173601317797,
+      "mtime_utc": "2026-10-20T05:29:33.601318+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/fly001-128-law4-heldout.npz",
+      "sha256": "774442e7cee8b20d71d8630b72c4c93d3174d318fbc428ea21b0acbb7d3ab30c",
+      "size_bytes": 12935823
+    },
+    {
+      "filename": "nxs-gold_tp_2-heldout.npz",
+      "mtime_ns": 1792474192404020872,
+      "mtime_utc": "2026-10-20T05:29:52.404021+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/nxs-gold_tp_2-heldout.npz",
+      "sha256": "06c9f76358a3b7f782cbfa07f449aa2f46a4ee2de5a2a6ccd3558b6ebf093ec7",
+      "size_bytes": 105990584
+    },
+    {
+      "filename": "test-0000.npz",
+      "mtime_ns": 1792474155088619431,
+      "mtime_utc": "2026-10-20T05:29:15.088619+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0000.npz",
+      "sha256": "e8aa43be1ae9eccd7742fae0d02e6d24f1f40e65a425803e575cdde2c2f67123",
+      "size_bytes": 11091012
+    },
+    {
+      "filename": "test-0001.npz",
+      "mtime_ns": 1792474156661593437,
+      "mtime_utc": "2026-10-20T05:29:16.661593+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0001.npz",
+      "sha256": "96c873b79594912ae5f3f6b08ca91d4e7dd0267b7a34ea8caa42d643b4f8a92f",
+      "size_bytes": 11134494
+    },
+    {
+      "filename": "test-0002.npz",
+      "mtime_ns": 1792474158265566999,
+      "mtime_utc": "2026-10-20T05:29:18.265567+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0002.npz",
+      "sha256": "1fcf1b59a59f0c90aca10408510b4321938594802ec50b19a0ff7a2e85b103b5",
+      "size_bytes": 10923423
+    },
+    {
+      "filename": "test-0003.npz",
+      "mtime_ns": 1792474159804541700,
+      "mtime_utc": "2026-10-20T05:29:19.804542+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0003.npz",
+      "sha256": "8aada748ddae345f3e03d8ab64253f199ec2b71d6a5f6869827c3577b71da697",
+      "size_bytes": 11267998
+    },
+    {
+      "filename": "test-0004.npz",
+      "mtime_ns": 1792474161291517318,
+      "mtime_utc": "2026-10-20T05:29:21.291517+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0004.npz",
+      "sha256": "c99b3fd12ca326d8f236f6c7a845e237a657f8773eec6ff51c70e5e549d3e16f",
+      "size_bytes": 11233794
+    },
+    {
+      "filename": "test-0005.npz",
+      "mtime_ns": 1792474162954490120,
+      "mtime_utc": "2026-10-20T05:29:22.954490+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0005.npz",
+      "sha256": "74bee1f7dbc8506d33e5b97a0168238c4ce9012aa45b2e33bb8a940cb5482dbb",
+      "size_bytes": 10332076
+    },
+    {
+      "filename": "test-0006.npz",
+      "mtime_ns": 1792474164491465055,
+      "mtime_utc": "2026-10-20T05:29:24.491465+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0006.npz",
+      "sha256": "de5c3d4c26fa431a9408745af06ba99f17b7b55df1d5253d715bb0b7d5a5df0d",
+      "size_bytes": 11150760
+    },
+    {
+      "filename": "test-0007.npz",
+      "mtime_ns": 1792474166026440082,
+      "mtime_utc": "2026-10-20T05:29:26.026440+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0007.npz",
+      "sha256": "9c10ad846cde607d3acfc7d5608ff1970de93072613002ca8daff01a176ace86",
+      "size_bytes": 11166078
+    },
+    {
+      "filename": "test-0008.npz",
+      "mtime_ns": 1792474167909409539,
+      "mtime_utc": "2026-10-20T05:29:27.909410+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0008.npz",
+      "sha256": "dabfc9b7390d3fb0a506d61dd8ab878c89367be5d17a387be4fb276b2666319f",
+      "size_bytes": 10448357
+    },
+    {
+      "filename": "test-0009.npz",
+      "mtime_ns": 1792474170209372363,
+      "mtime_utc": "2026-10-20T05:29:30.209372+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0009.npz",
+      "sha256": "b806111e59d159c8c7f92db4ac34b1547e6022921fe587245141f36e200fd019",
+      "size_bytes": 10191240
+    },
+    {
+      "filename": "fly001-128-law4-heldout.provenance.json",
+      "mtime_ns": 1792474173650936401,
+      "mtime_utc": "2026-10-20T05:29:33.650936+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/fly001-128-law4-heldout.provenance.json",
+      "sha256": "3c05baf0c2b4674eafa9045c046d937d94b3b503022a0ab80893db8d2191c228",
+      "size_bytes": 3361
+    },
+    {
+      "filename": "nxs-gold_tp_2-heldout.provenance.json",
+      "mtime_ns": 1792474192589791244,
+      "mtime_utc": "2026-10-20T05:29:52.589791+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/nxs-gold_tp_2-heldout.provenance.json",
+      "sha256": "c46d50d659653d64781adb128854e8b289b9f8c6052a308378b37d21dd589c64",
+      "size_bytes": 3423
+    },
+    {
+      "filename": "test-0000.provenance.json",
+      "mtime_ns": 1792474155173153443,
+      "mtime_utc": "2026-10-20T05:29:15.173153+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0000.provenance.json",
+      "sha256": "fd485bd5b5ca33346e9ee1ad82cfb98e56685b1814bc83abe15e988d6918e365",
+      "size_bytes": 1246
+    },
+    {
+      "filename": "test-0001.provenance.json",
+      "mtime_ns": 1792474156744738764,
+      "mtime_utc": "2026-10-20T05:29:16.744739+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0001.provenance.json",
+      "sha256": "22737166cce5cb4f71f9423e8de734d6a325239460e2c91d047a3550b22c1e2f",
+      "size_bytes": 1246
+    },
+    {
+      "filename": "test-0002.provenance.json",
+      "mtime_ns": 1792474158348251079,
+      "mtime_utc": "2026-10-20T05:29:18.348251+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0002.provenance.json",
+      "sha256": "5300bc592fbb5505c862e7fc5036a8203787ef233ecf765086d35e151c991232",
+      "size_bytes": 1246
+    },
+    {
+      "filename": "test-0003.provenance.json",
+      "mtime_ns": 1792474159888528060,
+      "mtime_utc": "2026-10-20T05:29:19.888528+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0003.provenance.json",
+      "sha256": "67ee5ec7c629a4fe5aa969c11421956bdd8e39df2dd44dcef3b8079e18681ba3",
+      "size_bytes": 1246
+    },
+    {
+      "filename": "test-0004.provenance.json",
+      "mtime_ns": 1792474161374834564,
+      "mtime_utc": "2026-10-20T05:29:21.374835+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0004.provenance.json",
+      "sha256": "eaf58cbc1ed5c7c3fdbfdae9a29a1c6c3b96200f6188e092275ed6dad60e737d",
+      "size_bytes": 1246
+    },
+    {
+      "filename": "test-0005.provenance.json",
+      "mtime_ns": 1792474163036722317,
+      "mtime_utc": "2026-10-20T05:29:23.036722+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0005.provenance.json",
+      "sha256": "0eabebb67e95d67b4f1de0d6a5376e91020f9f87a866f54f3acb808d87f1c29d",
+      "size_bytes": 1246
+    },
+    {
+      "filename": "test-0006.provenance.json",
+      "mtime_ns": 1792474164575184751,
+      "mtime_utc": "2026-10-20T05:29:24.575185+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0006.provenance.json",
+      "sha256": "887c36d53f2005ada1d4c99f36bd6c630fddd58aefb0b8dee575f18d0f4552b0",
+      "size_bytes": 1246
+    },
+    {
+      "filename": "test-0007.provenance.json",
+      "mtime_ns": 1792474166108064747,
+      "mtime_utc": "2026-10-20T05:29:26.108065+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0007.provenance.json",
+      "sha256": "bf3c005bd2de7d6c80cce8b639bee2026b07fbf02ef5ab3526751f1d24152a79",
+      "size_bytes": 1246
+    },
+    {
+      "filename": "test-0008.provenance.json",
+      "mtime_ns": 1792474168308313532,
+      "mtime_utc": "2026-10-20T05:29:28.308314+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0008.provenance.json",
+      "sha256": "96c7e53dfd884ec7c41758f4902b9ac115a284ac0bf91ea58e7857c7492f8749",
+      "size_bytes": 1246
+    },
+    {
+      "filename": "test-0009.provenance.json",
+      "mtime_ns": 1792474170319516857,
+      "mtime_utc": "2026-10-20T05:29:30.319517+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0009.provenance.json",
+      "sha256": "c52d662fd775b727f44d1bb36174adc95ba6d7a7135d05e5c6a88fea68dbac1f",
+      "size_bytes": 1246
+    }
+  ]
+}

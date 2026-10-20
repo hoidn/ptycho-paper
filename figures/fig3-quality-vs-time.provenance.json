@@ -1,0 +1,53 @@
+{
+  "commit": "7d5104505f0893e1d0d512b37197b6ccddad3b1a",
+  "inputs": [
+    {
+      "filename": "quality_vs_time.py",
+      "mtime_ns": 1792520283143435526,
+      "mtime_utc": "2026-10-20T18:18:03.143435+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/scripts/studies/paper_figures/quality_vs_time.py",
+      "sha256": "6af49c1b5a4019580ab2cb8e76a8674b3196a1f97afba79d1047774f4b190520",
+      "size_bytes": 127145
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792494366967059454,
+      "mtime_utc": "2026-10-20T11:06:06.967059+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/nxs-ncm_1-heldout/reserved-frames/run.json",
+      "sha256": "6c0bf82589daff3d971404c539dbe20191662ec46e63a252dd76f9e199a2b459",
+      "size_bytes": 181521
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792494751776699551,
+      "mtime_utc": "2026-10-20T11:12:31.776700+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/nxs-gold_tp_2-heldout/reserved-frames/run.json",
+      "sha256": "3e3911d5463cacac48cc932d389d09ed6bb71e138d4500170dadc6af434e4776",
+      "size_bytes": 464122
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792495150273014961,
+      "mtime_utc": "2026-10-20T11:19:10.273015+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/fly001-128-law4-heldout/reserved-frames/run.json",
+      "sha256": "b78ecae7ee68ccf06d4bc89f6b03e6000d21ec12fdc50cdb8373c39a8f58dab9",
+      "size_bytes": 625755
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792519540045258605,
+      "mtime_utc": "2026-10-20T18:05:40.045259+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/native-admission-recovery/cnm-scan39-heldout/reserved-frames/run.json",
+      "sha256": "f6bf32237424df0f0674152aa8169032212559fb9b5fd415d484d5f189404546",
+      "size_bytes": 1825548
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792519962730951712,
+      "mtime_utc": "2026-10-20T18:12:42.730952+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/native-admission-recovery/synthetic-test-0000/reserved-frames/run.json",
+      "sha256": "399a7e14f913ef0f5d49207f6fe78816f6ef0fb97727003a223d12984c7ce97a",
+      "size_bytes": 307629
+    }
+  ]
+}
