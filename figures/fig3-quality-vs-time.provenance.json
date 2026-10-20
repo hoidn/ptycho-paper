@@ -1,13 +1,14 @@
 {
-  "commit": "7d5104505f0893e1d0d512b37197b6ccddad3b1a",
+  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "display": "Main text",
   "inputs": [
     {
       "filename": "quality_vs_time.py",
-      "mtime_ns": 1792520283143435526,
-      "mtime_utc": "2026-10-20T18:18:03.143435+00:00",
+      "mtime_ns": 1792534765150357587,
+      "mtime_utc": "2026-10-20T22:19:25.150357+00:00",
       "path": "/home/ollie/Documents/PtychoPINN/scripts/studies/paper_figures/quality_vs_time.py",
-      "sha256": "6af49c1b5a4019580ab2cb8e76a8674b3196a1f97afba79d1047774f4b190520",
-      "size_bytes": 127145
+      "sha256": "8ee4e348c22f06730019cdb4783f543fabd02b2fc4403a02f8eb0a4eeee9aa15",
+      "size_bytes": 129233
     },
     {
       "filename": "run.json",
@@ -49,5 +50,7 @@
       "sha256": "399a7e14f913ef0f5d49207f6fe78816f6ef0fb97727003a223d12984c7ce97a",
       "size_bytes": 307629
     }
-  ]
+  ],
+  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "original_generation_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319"
 }

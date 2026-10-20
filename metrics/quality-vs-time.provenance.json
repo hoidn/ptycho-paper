@@ -1,5 +1,5 @@
 {
-  "commit": "7d5104505f0893e1d0d512b37197b6ccddad3b1a",
+  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
   "inputs": [
     {
       "filename": "finalize-timing.py",
@@ -251,51 +251,51 @@
     },
     {
       "filename": "fig2-timing.png",
-      "mtime_ns": 1792520397169452281,
-      "mtime_utc": "2026-10-20T18:19:57.169452+00:00",
+      "mtime_ns": 1792535647397072917,
+      "mtime_utc": "2026-10-20T22:34:07.397073+00:00",
       "path": "/home/ollie/Documents/ptychopinn-paper-package/figures/fig2-timing.png",
-      "sha256": "5f3940e80a4ff0d0eb12fdf76a8306a164b0efdec80836efbb5ad95de0db8dd1",
-      "size_bytes": 186729
+      "sha256": "0da2d5a648a644f5f868a05584a2e2b561c34cdfcf648bc9df691b91bdc8d297",
+      "size_bytes": 159717
     },
     {
       "filename": "fig2-timing.pdf",
-      "mtime_ns": 1792520397397454316,
-      "mtime_utc": "2026-10-20T18:19:57.397454+00:00",
+      "mtime_ns": 1792535647590075214,
+      "mtime_utc": "2026-10-20T22:34:07.590075+00:00",
       "path": "/home/ollie/Documents/ptychopinn-paper-package/figures/fig2-timing.pdf",
-      "sha256": "858d3c9ebbab5771c9c43d98c2971ee6996af4ce43c2d8db25da1c646d744ff1",
-      "size_bytes": 22229
+      "sha256": "9ab6249c3e72d5e5fe6ab9b0df694b757d296bc8d80c69eddf82314dc47efd68",
+      "size_bytes": 21291
     },
     {
       "filename": "fig2-timing.provenance.json",
-      "mtime_ns": 1792520397415467136,
-      "mtime_utc": "2026-10-20T18:19:57.415467+00:00",
+      "mtime_ns": 1792535748534453309,
+      "mtime_utc": "2026-10-20T22:35:48.534453+00:00",
       "path": "/home/ollie/Documents/ptychopinn-paper-package/figures/fig2-timing.provenance.json",
-      "sha256": "1d34a6e213de2311b7b1f4eba3a23793435606dc9ee514e5041b2c6c169efbb0",
-      "size_bytes": 9123
+      "sha256": "cc6cbbd0bf76db60bfa95c68b49f696d0b2b66ae1a3a71a4e5c79b0424a77976",
+      "size_bytes": 9288
     },
     {
       "filename": "fig3-quality-vs-time.png",
-      "mtime_ns": 1792520397923459009,
-      "mtime_utc": "2026-10-20T18:19:57.923459+00:00",
+      "mtime_ns": 1792535648511086177,
+      "mtime_utc": "2026-10-20T22:34:08.511086+00:00",
       "path": "/home/ollie/Documents/ptychopinn-paper-package/figures/fig3-quality-vs-time.png",
-      "sha256": "34971570f537028f5b008662207bd1dab0e0545d5d247e52f480d09c57bcea24",
-      "size_bytes": 262148
+      "sha256": "72b11b9db3669ec71f6233b17e2fe53fafbb93ae9115ba536dffc9350d0d282e",
+      "size_bytes": 249740
     },
     {
       "filename": "fig3-quality-vs-time.pdf",
-      "mtime_ns": 1792520398159461114,
-      "mtime_utc": "2026-10-20T18:19:58.159461+00:00",
+      "mtime_ns": 1792535648875090509,
+      "mtime_utc": "2026-10-20T22:34:08.875091+00:00",
       "path": "/home/ollie/Documents/ptychopinn-paper-package/figures/fig3-quality-vs-time.pdf",
-      "sha256": "7a2a47d243eb1025d43d8b5e6b0b827cabe45cd123471e4be173da29bf970321",
-      "size_bytes": 34834
+      "sha256": "bb245cf3592ebc7770475231477e8b4c15cfb97f99157808100da81853a6c1ba",
+      "size_bytes": 35061
     },
     {
       "filename": "fig3-quality-vs-time.provenance.json",
-      "mtime_ns": 1792520398166219275,
-      "mtime_utc": "2026-10-20T18:19:58.166219+00:00",
+      "mtime_ns": 1792535748534816304,
+      "mtime_utc": "2026-10-20T22:35:48.534816+00:00",
       "path": "/home/ollie/Documents/ptychopinn-paper-package/figures/fig3-quality-vs-time.provenance.json",
-      "sha256": "80d644d0e8c3b4ef473367cdc68cb525358fa2f418c67de195b3a3f75568e087",
-      "size_bytes": 2465
+      "sha256": "33b7fa8a5d656c1a46f780d1515a60607f1bba22c3cc5eab85ea1e076bfb218b",
+      "size_bytes": 2630
     },
     {
       "filename": "si5-synthetic-objective-check.png",
@@ -315,13 +315,15 @@
     },
     {
       "filename": "si5-synthetic-objective-check.provenance.json",
-      "mtime_ns": 1792520398325789568,
-      "mtime_utc": "2026-10-20T18:19:58.325789+00:00",
+      "mtime_ns": 1792535748536492124,
+      "mtime_utc": "2026-10-20T22:35:48.536492+00:00",
       "path": "/home/ollie/Documents/ptychopinn-paper-package/figures/si5-synthetic-objective-check.provenance.json",
-      "sha256": "8125512cc3dae4d91847d6f9d414d57dc3d72779257a7cc83e1c24142ea04f30",
-      "size_bytes": 855
+      "sha256": "9a4554087616a8988b6de4cc44f66c638b8f2759294b5b9c88a8e1405021a04a",
+      "size_bytes": 1088
     }
   ],
+  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "original_generation_commit": "7d5104505f0893e1d0d512b37197b6ccddad3b1a",
   "outputs": {
     "all-frames": "/home/ollie/Documents/ptychopinn-paper-package/figures/fig2-timing.png",
     "reserved-frames": "/home/ollie/Documents/ptychopinn-paper-package/figures/fig3-quality-vs-time.png",

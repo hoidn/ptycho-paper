@@ -1,0 +1,360 @@
+{
+  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "display": "Supplementary",
+  "inputs": [
+    {
+      "filename": "train.npz",
+      "mtime_ns": 1792192819491984593,
+      "mtime_utc": "2026-10-16T23:20:19.491985+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/gold-tp1/datasets/train.npz",
+      "sha256": "38b20f00262dad0d733140d77440f5193f3a5aa6a637996026549a4cfa634fb0",
+      "size_bytes": 1770472848
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792192884089355012,
+      "mtime_utc": "2026-10-16T23:21:24.089355+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/gold-tp1/datasets/manifest.json",
+      "sha256": "48c03ce077419df750641fe97ef7e6c8f0f5801b56e9a123c5e21dd6e91aba09",
+      "size_bytes": 1908
+    },
+    {
+      "filename": "frozen_train_validation.npz",
+      "mtime_ns": 1790731284820101808,
+      "mtime_utc": "2026-09-30T01:21:24.820102+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/object-law-v4/bank/objects/frozen_train_validation.npz",
+      "sha256": "951de961d39be8d464c6e015a5549fd2427a23684600f857b513d8f5894f3ee2",
+      "size_bytes": 1352243748
+    },
+    {
+      "filename": "object_bank_manifest.json",
+      "mtime_ns": 1790731284940604593,
+      "mtime_utc": "2026-09-30T01:21:24.940605+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/object-law-v4/bank/objects/object_bank_manifest.json",
+      "sha256": "eab6cd1e9a934d8347f9def7b2b3c268cc3565f5d62f4a4ef31c630d58d5943a",
+      "size_bytes": 1959232
+    },
+    {
+      "filename": "rgb_crops.npz",
+      "mtime_ns": 1788292883358962856,
+      "mtime_utc": "2026-09-01T20:01:23.358963+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/iclr/broad-synthetic-ptycho-v4-frozen/objects/rgb_crops.npz",
+      "sha256": "6fcb1d53f2708b8841af2af7645c11fa71021a5b8054fa59ac26386cccb9c652",
+      "size_bytes": 553262924
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792472970419471461,
+      "mtime_utc": "2026-10-20T05:09:30.419472+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/heldout/rows.json",
+      "sha256": "6b32d87ec4558251c4c246753656275c5de0c981abd9800cc1cf876b932d4920",
+      "size_bytes": 136022
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792474134740526196,
+      "mtime_utc": "2026-10-20T05:28:54.740526+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/rows.json",
+      "sha256": "cf23a031750b88a8f1523692a506d0b90639d849238cbdbe89e9b026a09ef6e0",
+      "size_bytes": 120899
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792478255330345623,
+      "mtime_utc": "2026-10-20T06:37:35.330346+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/heldout/rows.json",
+      "sha256": "ec63d933862204bc1a9da99dfc9fe4cb2afc200f7971749be6049cbe4b0905c4",
+      "size_bytes": 119651
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792481464372783855,
+      "mtime_utc": "2026-10-20T07:31:04.372784+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/heldout/rows.json",
+      "sha256": "4dc356d1905a7cff9f53478f974fad5f16d92ace15e083365565432dc97fb663",
+      "size_bytes": 120154
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792484067776925048,
+      "mtime_utc": "2026-10-20T08:14:27.776925+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ncm_1/heldout/rows.json",
+      "sha256": "1152abddf876495ed17547390bd8fae27f54afe2e62827023c077d89cd6095da",
+      "size_bytes": 120237
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792474148249978257,
+      "mtime_utc": "2026-10-20T05:29:08.249978+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/fly001-128-law4/heldout/rows.json",
+      "sha256": "cb813bda9742456c1f6d08dd8aaed70c6f95733e1e4e42ac468af5202df554e8",
+      "size_bytes": 81875
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792472970453712622,
+      "mtime_utc": "2026-10-20T05:09:30.453713+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/heldout/manifest.json",
+      "sha256": "4ff2addd79acef5018d1094663da9eaae2d5064689549b877a14f157e9d60f33",
+      "size_bytes": 4893
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792474134905588048,
+      "mtime_utc": "2026-10-20T05:28:54.905588+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/manifest.json",
+      "sha256": "140e3f7e4bcc0be09741ecab0c40d38d478a3fac584964ecfe7b014c4b29579d",
+      "size_bytes": 3466
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792478255360145606,
+      "mtime_utc": "2026-10-20T06:37:35.360146+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/heldout/manifest.json",
+      "sha256": "a6a2fcc685dc38498b3972360a6cd464b5f0863b9cd1c7fc107f9192af92825e",
+      "size_bytes": 3397
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792481464491238414,
+      "mtime_utc": "2026-10-20T07:31:04.491238+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/heldout/manifest.json",
+      "sha256": "dba0c282938e7f0428d96416991d62f04bd8b358df0aa7205265ed52085580e5",
+      "size_bytes": 3408
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792484067817921963,
+      "mtime_utc": "2026-10-20T08:14:27.817922+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ncm_1/heldout/manifest.json",
+      "sha256": "4d9c10d92db6e6186a9f189b37861811b1e68609c1a7da2178f5d287f03f7922",
+      "size_bytes": 3417
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792474148297272876,
+      "mtime_utc": "2026-10-20T05:29:08.297273+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/fly001-128-law4/heldout/manifest.json",
+      "sha256": "f8d9266c38b9ba3d9d4c91ce1799c2a8295efcaff13a070f658440dcc810129c",
+      "size_bytes": 2458
+    },
+    {
+      "filename": "geometry.npz",
+      "mtime_ns": 1792472963458022842,
+      "mtime_utc": "2026-10-20T05:09:23.458023+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/heldout/geometry.npz",
+      "sha256": "5bc6af9a827263224dd225e8e0c1ca755c40054ae4126b7fcffb264d748f1e17",
+      "size_bytes": 2032
+    },
+    {
+      "filename": "geometry.npz",
+      "mtime_ns": 1792474081974907589,
+      "mtime_utc": "2026-10-20T05:28:01.974908+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/geometry.npz",
+      "sha256": "5fa5130ab3cad085eeeb9ead8d2d104927b1b49f3e39f3edc036cf1dfcb8ab07",
+      "size_bytes": 10632
+    },
+    {
+      "filename": "geometry.npz",
+      "mtime_ns": 1792478248665098923,
+      "mtime_utc": "2026-10-20T06:37:28.665099+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/heldout/geometry.npz",
+      "sha256": "3e55d9318ef8871b8f247ba986ca46e9f013d2e5f0cb664ff9ecd42ccd3272f5",
+      "size_bytes": 2108
+    },
+    {
+      "filename": "geometry.npz",
+      "mtime_ns": 1792481436610816268,
+      "mtime_utc": "2026-10-20T07:30:36.610816+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/heldout/geometry.npz",
+      "sha256": "8f3633400ebecff8af677f54557ca6460bf938eaab574bf24e2c3e16dffa525f",
+      "size_bytes": 6039
+    },
+    {
+      "filename": "geometry.npz",
+      "mtime_ns": 1792484058566836307,
+      "mtime_utc": "2026-10-20T08:14:18.566836+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ncm_1/heldout/geometry.npz",
+      "sha256": "6c71fd7ea33ebafe0dc9b5c4aef1a6c484b25c05e7e41364134f576f2515eeaf",
+      "size_bytes": 3184
+    },
+    {
+      "filename": "geometry.npz",
+      "mtime_ns": 1792474140478864209,
+      "mtime_utc": "2026-10-20T05:29:00.478864+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/fly001-128-law4/heldout/geometry.npz",
+      "sha256": "02ec3cb75b560b00400d4f769c83b3a8d944581d862fc6fbe81e36879012ffb4",
+      "size_bytes": 4067
+    },
+    {
+      "filename": "nxs-ic_2-128-general-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792481464354241260,
+      "mtime_utc": "2026-10-20T07:31:04.354241+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/heldout/synthetic/reconstructions/measured/hybrid_resnet/general/nxs-ic_2-128-general-hybrid_resnet-heldout.npz",
+      "sha256": "fe1989dbccb78d02492447f595d5038e8b161a978c4057ff2f3301e6118ac148",
+      "size_bytes": 43828684
+    },
+    {
+      "filename": "heldout.npz",
+      "mtime_ns": 1792212626170114025,
+      "mtime_utc": "2026-10-17T04:50:26.170114+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half/nxs-ic_2/scan/heldout.npz",
+      "sha256": "87bf53188d69143cdb99318c4fbc2f553ddd3070fca5b761fa132d7654b4bbfb",
+      "size_bytes": 64208740
+    },
+    {
+      "filename": "nxs-ic_2-128-scan_trained-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792481446393613797,
+      "mtime_utc": "2026-10-20T07:30:46.393614+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/heldout/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-ic_2-128-scan_trained-hybrid_resnet-heldout.npz",
+      "sha256": "073b4b08f6a4430791b52c7473d026fcb188ab7a6ef7de8bb2d1a855edb0b8bd",
+      "size_bytes": 43971160
+    },
+    {
+      "filename": "nxs-ic_2-128-scan_trained-heldout.npz",
+      "mtime_ns": 1792481447222596625,
+      "mtime_utc": "2026-10-20T07:30:47.222597+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/heldout/c1/reconstructions/lsqml/nxs-ic_2-128-scan_trained-heldout.npz",
+      "sha256": "2a7024c4c839b5f6640bcdaff742da8cb5c90a2b166960db631cb40c54096722",
+      "size_bytes": 9265847
+    },
+    {
+      "filename": "fly001-128-general-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792474148230733579,
+      "mtime_utc": "2026-10-20T05:29:08.230734+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/fly001-128-law4/heldout/synthetic/reconstructions/measured/hybrid_resnet/general/fly001-128-general-hybrid_resnet-heldout.npz",
+      "sha256": "9f81164ca77f2333c68a5ecc1410080c456a91fdcbf23417642a803da5854082",
+      "size_bytes": 9298676
+    },
+    {
+      "filename": "heldout.npz",
+      "mtime_ns": 1792214782157237238,
+      "mtime_utc": "2026-10-17T05:26:22.157237+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half/fly001-128-law4/scan/heldout.npz",
+      "sha256": "1d00e4cf438763c063a635badf47d4885044fecd05b927498afede2d922640c9",
+      "size_bytes": 58719218
+    },
+    {
+      "filename": "fly001-128-scan_trained-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792474144625794115,
+      "mtime_utc": "2026-10-20T05:29:04.625794+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/fly001-128-law4/heldout/c1/reconstructions/measured/hybrid_resnet/scan_trained/fly001-128-scan_trained-hybrid_resnet-heldout.npz",
+      "sha256": "cd40e2f14ba17544da550997f200be3e6920f76bc7b2d5ccfb523ec5e8880a86",
+      "size_bytes": 9292789
+    },
+    {
+      "filename": "fly001-128-scan_trained-heldout.npz",
+      "mtime_ns": 1792474144887789701,
+      "mtime_utc": "2026-10-20T05:29:04.887790+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/fly001-128-law4/heldout/c1/reconstructions/lsqml/fly001-128-scan_trained-heldout.npz",
+      "sha256": "28c20d0bb063a2d5913d5291b73bd4a9746f40be067080579dd1f4c7f1a568cc",
+      "size_bytes": 1935812
+    },
+    {
+      "filename": "nxs-gold_tp_2-128-general-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792474134723962300,
+      "mtime_utc": "2026-10-20T05:28:54.723962+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/synthetic/reconstructions/measured/hybrid_resnet/general/nxs-gold_tp_2-128-general-hybrid_resnet-heldout.npz",
+      "sha256": "2ed8b39a1aa2d5a89d66c96dcb1d844e328f53077ae0c3317c05e18d5cc7f471",
+      "size_bytes": 74125518
+    },
+    {
+      "filename": "heldout.npz",
+      "mtime_ns": 1792211368277542026,
+      "mtime_utc": "2026-10-17T04:29:28.277542+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half/nxs-gold_tp_2/scan/heldout.npz",
+      "sha256": "0ae19ee8c70fdc50035b05b43a78a0672b812b61a0954e9c7c327fafb2c0aea2",
+      "size_bytes": 52328021
+    },
+    {
+      "filename": "nxs-gold_tp_2-128-scan_trained-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792474102414531171,
+      "mtime_utc": "2026-10-20T05:28:22.414531+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-gold_tp_2-128-scan_trained-hybrid_resnet-heldout.npz",
+      "sha256": "41ff4e5f6a06173bba16401670e13368abc7579be775dd800171515824dd97a6",
+      "size_bytes": 74208586
+    },
+    {
+      "filename": "nxs-gold_tp_2-128-scan_trained-heldout.npz",
+      "mtime_ns": 1792474103948503446,
+      "mtime_utc": "2026-10-20T05:28:23.948503+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/c1/reconstructions/lsqml/nxs-gold_tp_2-128-scan_trained-heldout.npz",
+      "sha256": "698017089a25106cddbe7f5e2b84f58b31927e6673fc7e951e4eb038fd6646df",
+      "size_bytes": 15895299
+    },
+    {
+      "filename": "nxs-ic_1-128-general-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792478255322958668,
+      "mtime_utc": "2026-10-20T06:37:35.322959+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/heldout/synthetic/reconstructions/measured/hybrid_resnet/general/nxs-ic_1-128-general-hybrid_resnet-heldout.npz",
+      "sha256": "50b9ad902a96cdf7e66a3f3a652b4f3dbad4f7c1679d97cdc56de746c85b3c66",
+      "size_bytes": 7362407
+    },
+    {
+      "filename": "heldout.npz",
+      "mtime_ns": 1792212332245556198,
+      "mtime_utc": "2026-10-17T04:45:32.245556+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half/nxs-ic_1/scan/heldout.npz",
+      "sha256": "c6f158ea97cc8ae01d7d75f0a2272703785ce7bf56843bef286192209b285732",
+      "size_bytes": 8183262
+    },
+    {
+      "filename": "nxs-ic_1-128-scan_trained-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792478251256044299,
+      "mtime_utc": "2026-10-20T06:37:31.256044+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/heldout/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-ic_1-128-scan_trained-hybrid_resnet-heldout.npz",
+      "sha256": "47787dea79731b3cce631faf6c5b6b54094f48ecb9473b41995db05aa31c16e1",
+      "size_bytes": 7432249
+    },
+    {
+      "filename": "nxs-ic_1-128-scan_trained-heldout.npz",
+      "mtime_ns": 1792478251432040591,
+      "mtime_utc": "2026-10-20T06:37:31.432041+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/heldout/c1/reconstructions/lsqml/nxs-ic_1-128-scan_trained-heldout.npz",
+      "sha256": "16baa2c9b881ecb4147f590203986c16a089ed6d8feb8a11aa6a263487eac525",
+      "size_bytes": 1479597
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792475033306546297,
+      "mtime_utc": "2026-10-20T05:43:53.306546+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/cnm-scan39/heldout/rows.json",
+      "sha256": "016887535dd6ca4e4029fa7eac397c438859c419f91d9898b10816ffe21840e8",
+      "size_bytes": 43624
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792470942786895320,
+      "mtime_utc": "2026-10-20T04:35:42.786895+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/als-128/heldout/rows.json",
+      "sha256": "bb59b518c16792682e23cb38a2ccb0d224c6bfc9b27f9fda8e9e5f74d19f425b",
+      "size_bytes": 45732
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792470956625721596,
+      "mtime_utc": "2026-10-20T04:35:56.625722+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/microlfp-single-128/heldout/rows.json",
+      "sha256": "ea114625f83ae40da0271d08733469abbd9191d7ed3b0cb88a807bdf56061d14",
+      "size_bytes": 87881
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792470976950390015,
+      "mtime_utc": "2026-10-20T04:36:16.950390+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/microlfp-double-128/heldout/rows.json",
+      "sha256": "dd78cca710c192b873b33380b2518b6665a64aa64e348465acd20e6c3f61d1a3",
+      "size_bytes": 88013
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792476134317547652,
+      "mtime_utc": "2026-10-20T06:02:14.317548+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/s200-128/heldout/rows.json",
+      "sha256": "fcc25c415258473c54c56e0209d089b9ed8665c1510115477dc962d7e163e4ac",
+      "size_bytes": 43936
+    }
+  ],
+  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "original_generation_commit": "6945b2d4f7d6ae6385def9fe5518e3e88954836d"
+}

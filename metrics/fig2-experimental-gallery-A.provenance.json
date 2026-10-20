@@ -1,46 +1,12 @@
 {
-  "commit": "7496ef54c240426c9a116b3dbb9afb59906ad614",
+  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "display_crops": {},
+  "fragment_scale_scope": {
+    "limits_source": "per-fragment channel limits from fragments.json",
+    "scope": "prior fragments only",
+    "shared_dataset_bar": "computed methods and reference only"
+  },
   "inputs": [
-    {
-      "filename": "nxs-gold_tp_2-128-scan_trained-hybrid_resnet-diagnostic-whole.npz",
-      "mtime_ns": 1792473201974532800,
-      "mtime_utc": "2026-10-20T05:13:21.974533+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/diagnostic-whole/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-gold_tp_2-128-scan_trained-hybrid_resnet-diagnostic-whole.npz",
-      "sha256": "406c1f8939ac5d5ed1ab537b55489c76f295b09a4a48f6fc86326c61f9135493",
-      "size_bytes": 118615551
-    },
-    {
-      "filename": "whole.npz",
-      "mtime_ns": 1792211343206148053,
-      "mtime_utc": "2026-10-17T04:29:03.206148+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half/nxs-gold_tp_2/scan/whole.npz",
-      "sha256": "e2ecbfb076236e660c1fbf7973ecb2fa4a2a54ffc8e6ade970d8985af49f1a50",
-      "size_bytes": 93283584
-    },
-    {
-      "filename": "nxs-gold_tp_2-128-scan_trained-diagnostic-whole.npz",
-      "mtime_ns": 1792473206888071907,
-      "mtime_utc": "2026-10-20T05:13:26.888072+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/diagnostic-whole/c1/reconstructions/lsqml/nxs-gold_tp_2-128-scan_trained-diagnostic-whole.npz",
-      "sha256": "fc2091a0eee2adefd3360fee19325a047a9d151b55aaf0b9511c75874610f3fb",
-      "size_bytes": 25975638
-    },
-    {
-      "filename": "manifest.json",
-      "mtime_ns": 1792473256053685853,
-      "mtime_utc": "2026-10-20T05:14:16.053686+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/diagnostic-whole/manifest.json",
-      "sha256": "6dd401ab2caedebf72f67af352e848e439724959582e7896d62774fb5d7fb708",
-      "size_bytes": 3598
-    },
-    {
-      "filename": "geometry.npz",
-      "mtime_ns": 1792473165730069514,
-      "mtime_utc": "2026-10-20T05:12:45.730069+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/diagnostic-whole/geometry.npz",
-      "sha256": "603776cf46df4253983d722e446c71041c735a4299d0b13de998af3fa8ade83f",
-      "size_bytes": 11643
-    },
     {
       "filename": "nxs-ic_2-128-scan_trained-hybrid_resnet-diagnostic-whole.npz",
       "mtime_ns": 1792473322053981693,
@@ -250,14 +216,6 @@
       "size_bytes": 5045
     },
     {
-      "filename": "SI_syn_model_results-112.png",
-      "mtime_ns": 1792450098411432833,
-      "mtime_utc": "2026-10-19T22:48:18.411433+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-112.png",
-      "sha256": "5b30b09353d0d8fbf7d3fb19f5e047a23b5005f3e17662a0d80c0c43df26c985",
-      "size_bytes": 307859
-    },
-    {
       "filename": "SI_syn_model_results-064.png",
       "mtime_ns": 1792450098082437974,
       "mtime_utc": "2026-10-19T22:48:18.082438+00:00",
@@ -281,5 +239,11 @@
       "sha256": "15dfd45f10fbed29acc28889a7d0fc5e84e7c9fef55f5209914dbc98acbade15",
       "size_bytes": 32308
     }
-  ]
+  ],
+  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "original_generation_commit": "cffe57890339fbaffae16016af611d83d05db9d8",
+  "page_inventory": [
+    "fig2-experimental-gallery-A.png"
+  ],
+  "pdf": "fig2-experimental-gallery-A.pdf"
 }

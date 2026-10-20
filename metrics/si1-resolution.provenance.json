@@ -1,5 +1,5 @@
 {
-  "commit": "35f1d101b4d5947a9952d3ce49f3dda041e3f53c",
+  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
   "inputs": [
     {
       "filename": "nxs-gold-tp1-128-scan_trained-hybrid_resnet-heldout.npz",
@@ -441,5 +441,7 @@
       "sha256": "54d4be0729e332dd62171b56c1c8d5162f5494e3636e55e130fef7c254471dec",
       "size_bytes": 7964
     }
-  ]
+  ],
+  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "original_generation_commit": "35f1d101b4d5947a9952d3ce49f3dda041e3f53c"
 }

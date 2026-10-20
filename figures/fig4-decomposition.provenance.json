@@ -1,0 +1,49 @@
+{
+  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "display": "Main text",
+  "display_crop": "full support bounding box; not the scored interior",
+  "inputs": [
+    {
+      "filename": "decomposition_figure.py",
+      "mtime_ns": 1792534765148357568,
+      "mtime_utc": "2026-10-20T22:19:25.148358+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/scripts/studies/paper_figures/decomposition_figure.py",
+      "sha256": "018bc6f7a6fb64558209288003aea9c77e5bbb996d4201b4e290afe7ec7d7265",
+      "size_bytes": 11805
+    },
+    {
+      "filename": "test-0000.npz",
+      "mtime_ns": 1792474155088619431,
+      "mtime_utc": "2026-10-20T05:29:15.088619+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0000.npz",
+      "sha256": "e8aa43be1ae9eccd7742fae0d02e6d24f1f40e65a425803e575cdde2c2f67123",
+      "size_bytes": 11091012
+    },
+    {
+      "filename": "test-0000.scores.json",
+      "mtime_ns": 1792474155089634234,
+      "mtime_utc": "2026-10-20T05:29:15.089634+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/test-0000.scores.json",
+      "sha256": "45cf0d03feb77c76f47233d510c509ecc62f1e8c68fd3865242807f412d74d4c",
+      "size_bytes": 9493
+    },
+    {
+      "filename": "fly001-128-law4-heldout.npz",
+      "mtime_ns": 1792474173601317797,
+      "mtime_utc": "2026-10-20T05:29:33.601318+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/fly001-128-law4-heldout.npz",
+      "sha256": "774442e7cee8b20d71d8630b72c4c93d3174d318fbc428ea21b0acbb7d3ab30c",
+      "size_bytes": 12935823
+    },
+    {
+      "filename": "fly001-128-law4-heldout.scores.json",
+      "mtime_ns": 1792474173603516692,
+      "mtime_utc": "2026-10-20T05:29:33.603517+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/decomposition/fly001-128-law4-heldout.scores.json",
+      "sha256": "857cdfc7d77f912fe1b4a342690eb5c11a9186a908fcee8bd2de9902ad427c92",
+      "size_bytes": 44901
+    }
+  ],
+  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "original_generation_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319"
+}

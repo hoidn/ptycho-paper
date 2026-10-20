@@ -1,0 +1,192 @@
+{
+  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "display": "Supplementary",
+  "inputs": [
+    {
+      "filename": "quality_vs_time.py",
+      "mtime_ns": 1792534765150357587,
+      "mtime_utc": "2026-10-20T22:19:25.150357+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/scripts/studies/paper_figures/quality_vs_time.py",
+      "sha256": "8ee4e348c22f06730019cdb4783f543fabd02b2fc4403a02f8eb0a4eeee9aa15",
+      "size_bytes": 129233
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792486157069594618,
+      "mtime_utc": "2026-10-20T08:49:17.069595+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/als-128-diagnostic-whole/all-frames/run.json",
+      "sha256": "baae9b2b2e9fad24e4d10619c5f0ff46481ca21e9815b28d5ced8b577bd6d158",
+      "size_bytes": 173649
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792486075605163322,
+      "mtime_utc": "2026-10-20T08:47:55.605163+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/als-128-heldout/all-frames/run.json",
+      "sha256": "53bf2e302cbc78c6826a0e095ec33977a22859de3990838532fe2652c2ff58ee",
+      "size_bytes": 105092
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792494241483260329,
+      "mtime_utc": "2026-10-20T11:04:01.483260+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/cnm-scan39-diagnostic-whole/all-frames/run.json",
+      "sha256": "cefd2e9264b5c84635dd8afd5849caad7f5a960b48ac28fe0696cc091b62c57b",
+      "size_bytes": 3266630
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792492881811149222,
+      "mtime_utc": "2026-10-20T10:41:21.811149+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/cnm-scan39-heldout/all-frames/run.json",
+      "sha256": "00d7e244b28a2dc8a76df1e340411266bd87ccb1f6f897467df87250639278a8",
+      "size_bytes": 1843431
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792489252084449220,
+      "mtime_utc": "2026-10-20T09:40:52.084449+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/fly001-128-law4-diagnostic-whole/all-frames/run.json",
+      "sha256": "b813d31cce4efec5da7382651a44db15aa1344ae04fe7f5c7d08bef226bccd54",
+      "size_bytes": 1251398
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792488746534256074,
+      "mtime_utc": "2026-10-20T09:32:26.534256+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/fly001-128-law4-heldout/all-frames/run.json",
+      "sha256": "46ce3e936f3c9e3d224d48d716df630bef6ec181d721e7d92280d6cba40fe4a2",
+      "size_bytes": 689464
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792485922349390142,
+      "mtime_utc": "2026-10-20T08:45:22.349390+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/gold-tp1-diagnostic-whole/all-frames/run.json",
+      "sha256": "5528b5cf0feedeae1ccbe5caafab269df520b46d0bc00cade5212d4e1d045ee6",
+      "size_bytes": 140292
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792485856433020622,
+      "mtime_utc": "2026-10-20T08:44:16.433021+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/gold-tp1-heldout/all-frames/run.json",
+      "sha256": "8bc68ac73efbb7b5fec77cf23c3049b7dbc34e0b1623abec6203f26614cb888c",
+      "size_bytes": 80932
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792486684411978407,
+      "mtime_utc": "2026-10-20T08:58:04.411978+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/microlfp-double-128-diagnostic-whole/all-frames/run.json",
+      "sha256": "32c234f42a33c31768a0c51d86ef4b24a4b2210f2844194848a8c86910d73dc4",
+      "size_bytes": 452242
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792486484957504207,
+      "mtime_utc": "2026-10-20T08:54:44.957504+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/microlfp-double-128-heldout/all-frames/run.json",
+      "sha256": "c4b361dd4e16522a229349feae7c06fb652de197968db8f9eb195b1e56d769d4",
+      "size_bytes": 248280
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792487118899751474,
+      "mtime_utc": "2026-10-20T09:05:18.899751+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/microlfp-single-128-diagnostic-whole/all-frames/run.json",
+      "sha256": "10ccfc19581efa10a81e8b030eaeaaded23019a17aff6a81e1ee52a7ae56aaf9",
+      "size_bytes": 685210
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792486833765166538,
+      "mtime_utc": "2026-10-20T09:00:33.765167+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/microlfp-single-128-heldout/all-frames/run.json",
+      "sha256": "d225b476a811c83c617041aa500b8f6abda4bb3a1d2f723441fdb9484327ad58",
+      "size_bytes": 366340
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792487744433093769,
+      "mtime_utc": "2026-10-20T09:15:44.433094+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/nxs-gold_tp_2-diagnostic-whole/all-frames/run.json",
+      "sha256": "342bccd8640819eaaad8e73279247f9bbde29574ce26270fcff626183419a5af",
+      "size_bytes": 937127
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792487331505634071,
+      "mtime_utc": "2026-10-20T09:08:51.505634+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/nxs-gold_tp_2-heldout/all-frames/run.json",
+      "sha256": "c87a0abcbea8f8e652ff946520c1751a7680ef99fa3064c6e522f4d0d98b3c4a",
+      "size_bytes": 526888
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792486027836413034,
+      "mtime_utc": "2026-10-20T08:47:07.836413+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/nxs-ic_1-diagnostic-whole/all-frames/run.json",
+      "sha256": "2c0fbe1e76912cf68644eafe02a7c95ead1ac1c007b81f907d8427d4e686e980",
+      "size_bytes": 140411
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792485961121450217,
+      "mtime_utc": "2026-10-20T08:46:01.121450+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/nxs-ic_1-heldout/all-frames/run.json",
+      "sha256": "46b43cc173655baada951f4896aaf3681a989fbed1d45a39db13f9b57093844e",
+      "size_bytes": 80206
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792488475733965633,
+      "mtime_utc": "2026-10-20T09:27:55.733966+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/nxs-ic_2-diagnostic-whole/all-frames/run.json",
+      "sha256": "27495dfeef2b00aa9e7a94b9e32aeb0236f9e6dc2e2b0a984ff1775eea1089c9",
+      "size_bytes": 1144403
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792488005022780753,
+      "mtime_utc": "2026-10-20T09:20:05.022781+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/nxs-ic_2-heldout/all-frames/run.json",
+      "sha256": "44b7432d5e37c1fde2aa06cc9be3310e8e0769f86403ad0f3ab8e8a271a8bb0d",
+      "size_bytes": 641345
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792486383100950119,
+      "mtime_utc": "2026-10-20T08:53:03.100950+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/nxs-ncm_1-diagnostic-whole/all-frames/run.json",
+      "sha256": "cbcdd38e57feb4211a050514332663e9c8205b139db08808fad5794edbecb51e",
+      "size_bytes": 307688
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792486244981529602,
+      "mtime_utc": "2026-10-20T08:50:44.981530+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/nxs-ncm_1-heldout/all-frames/run.json",
+      "sha256": "7802abb801bfd7e591ab8494b3e8df4d5cf06a6413b85387a28c4e0905e54fc0",
+      "size_bytes": 178419
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792492228496228298,
+      "mtime_utc": "2026-10-20T10:30:28.496228+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/s200-128-diagnostic-whole/all-frames/run.json",
+      "sha256": "631a69e7f56f9901905b7f5c191eccdda65f9bd6c5a359dc163abd21ed51bfc2",
+      "size_bytes": 2065579
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792490256937495747,
+      "mtime_utc": "2026-10-20T09:57:36.937496+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/s200-128-heldout/all-frames/run.json",
+      "sha256": "efd3ded7c5626d48e74a541b894a9449ab739c491773e47329c4b47c96899051",
+      "size_bytes": 1179404
+    }
+  ],
+  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "original_generation_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319"
+}

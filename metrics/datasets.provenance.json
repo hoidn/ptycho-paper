@@ -1,11 +1,12 @@
 {
-  "commit": "3f0ae0c7c",
+  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
   "inputs": [
     {
-      "filename": "paper_package.py",
-      "mtime_ns": 1792523129596047224,
-      "mtime_utc": "2026-10-20T19:05:29.596047+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/paper_package.py",
+      "filename": "548aa8087ec3cc7b1c5674a5963c25b4e4363597e5657ca8828ab901d79c4908-paper_package.py",
+      "mtime_ns": 1792534965898580959,
+      "mtime_utc": "2026-10-20T22:22:45.898581+00:00",
+      "original_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/paper_package.py",
+      "path": "/var/tmp/paper-figure-readability-20261020/before-sources/548aa8087ec3cc7b1c5674a5963c25b4e4363597e5657ca8828ab901d79c4908-paper_package.py",
       "sha256": "548aa8087ec3cc7b1c5674a5963c25b4e4363597e5657ca8828ab901d79c4908",
       "size_bytes": 21460
     },
@@ -441,5 +442,7 @@
       "sha256": "6ef587ce6ed0f47f1f0fa25f2d6eaa65b7911d7a7964b79408aa790f801bf658",
       "size_bytes": 2201690748
     }
-  ]
+  ],
+  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "original_generation_commit": "3f0ae0c7c"
 }

@@ -1,5 +1,5 @@
 {
-  "commit": "3f0ae0c7c0ee3e32abc9e44f2d8f8716a47e1563",
+  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
   "inputs": [
     {
       "filename": "rows.json",
@@ -889,5 +889,7 @@
       "sha256": "90c7095bb5d26a2a7c2798a17126922084d9f3943dbb94fe4ed1aeb715203465",
       "size_bytes": 30890199
     }
-  ]
+  ],
+  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "original_generation_commit": "6945b2d4f7d6ae6385def9fe5518e3e88954836d"
 }

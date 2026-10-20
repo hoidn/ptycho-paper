@@ -1,70 +1,40 @@
 {
-  "commit": "3f0ae0c7c0ee3e32abc9e44f2d8f8716a47e1563",
+  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "display_crops": {
+    "nxs-ic_2": {
+      "cols_px": [
+        436,
+        628
+      ],
+      "rows_px": [
+        431,
+        623
+      ],
+      "selection": "centered within the supported field; half-open source-canvas indices",
+      "shared_phase_scale": {
+        "applies_to": [
+          "full field",
+          "192px detail"
+        ],
+        "cmap": "viridis",
+        "gauge": "global; prepared before cropping",
+        "methods": [
+          "Hybrid polished",
+          "LSQ-ML100",
+          "Matched CNN B",
+          "Reference"
+        ],
+        "vmax": 1.2498622417449952,
+        "vmin": 0.05194166079163552
+      },
+      "size_px": [
+        192,
+        192
+      ]
+    }
+  },
+  "fragment_scale_scope": {},
   "inputs": [
-    {
-      "filename": "nxs-gold_tp_2-128-scan_trained-hybrid_resnet-diagnostic-whole.npz",
-      "mtime_ns": 1792473201974532800,
-      "mtime_utc": "2026-10-20T05:13:21.974533+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/diagnostic-whole/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-gold_tp_2-128-scan_trained-hybrid_resnet-diagnostic-whole.npz",
-      "sha256": "406c1f8939ac5d5ed1ab537b55489c76f295b09a4a48f6fc86326c61f9135493",
-      "size_bytes": 118615551
-    },
-    {
-      "filename": "whole.npz",
-      "mtime_ns": 1792211343206148053,
-      "mtime_utc": "2026-10-17T04:29:03.206148+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half/nxs-gold_tp_2/scan/whole.npz",
-      "sha256": "e2ecbfb076236e660c1fbf7973ecb2fa4a2a54ffc8e6ade970d8985af49f1a50",
-      "size_bytes": 93283584
-    },
-    {
-      "filename": "nxs-gold_tp_2-128-scan_trained-diagnostic-whole.npz",
-      "mtime_ns": 1792473206888071907,
-      "mtime_utc": "2026-10-20T05:13:26.888072+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/diagnostic-whole/c1/reconstructions/lsqml/nxs-gold_tp_2-128-scan_trained-diagnostic-whole.npz",
-      "sha256": "fc2091a0eee2adefd3360fee19325a047a9d151b55aaf0b9511c75874610f3fb",
-      "size_bytes": 25975638
-    },
-    {
-      "filename": "manifest.json",
-      "mtime_ns": 1792473256053685853,
-      "mtime_utc": "2026-10-20T05:14:16.053686+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/diagnostic-whole/manifest.json",
-      "sha256": "6dd401ab2caedebf72f67af352e848e439724959582e7896d62774fb5d7fb708",
-      "size_bytes": 3598
-    },
-    {
-      "filename": "geometry.npz",
-      "mtime_ns": 1792473165730069514,
-      "mtime_utc": "2026-10-20T05:12:45.730069+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/diagnostic-whole/geometry.npz",
-      "sha256": "603776cf46df4253983d722e446c71041c735a4299d0b13de998af3fa8ade83f",
-      "size_bytes": 11643
-    },
-    {
-      "filename": "rows.json",
-      "mtime_ns": 1792525074729799122,
-      "mtime_utc": "2026-10-20T19:37:54.729799+00:00",
-      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-gold_tp_2/diagnostic-whole/rows.json",
-      "sha256": "1ca04b5ceb682c8450334fbb83bfcd4f3e20a6734b6c96edce1c7f55160fa294",
-      "size_bytes": 115750
-    },
-    {
-      "filename": "manifest.json",
-      "mtime_ns": 1792525074727968699,
-      "mtime_utc": "2026-10-20T19:37:54.727969+00:00",
-      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-gold_tp_2/diagnostic-whole/manifest.json",
-      "sha256": "8330528bc96c6b02684ab0a325f5178efe413f8693d07092d116c93b19a9c653",
-      "size_bytes": 98689
-    },
-    {
-      "filename": "nxs-gold_tp_2-128-scan_trained-cnn-diagnostic-whole.npz",
-      "mtime_ns": 1792525074428513225,
-      "mtime_utc": "2026-10-20T19:37:54.428513+00:00",
-      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/nxs-gold_tp_2/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/nxs-gold_tp_2-128-scan_trained-cnn-diagnostic-whole.npz",
-      "sha256": "35e896e7abe246297208b38c3f2afd0294cf48544630618beeb0c580c62251c2",
-      "size_bytes": 22254427
-    },
     {
       "filename": "nxs-ic_2-128-scan_trained-hybrid_resnet-diagnostic-whole.npz",
       "mtime_ns": 1792473322053981693,
@@ -385,5 +355,11 @@
       "sha256": "90c7095bb5d26a2a7c2798a17126922084d9f3943dbb94fe4ed1aeb715203465",
       "size_bytes": 30890199
     }
-  ]
+  ],
+  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "original_generation_commit": "8fb504861a1d4ae7a19d25569ac99f4993583c4d",
+  "page_inventory": [
+    "fig2-experimental-gallery-B.png"
+  ],
+  "pdf": "fig2-experimental-gallery-B.pdf"
 }
