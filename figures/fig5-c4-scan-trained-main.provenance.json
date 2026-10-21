@@ -1,7 +1,7 @@
 {
-  "commit": "39e7ced7d7dc14fd6f78bbca86e4e4364d3f6145",
+  "commit": "26470ece406c38c2c3c19605bb0dbf7eb1600026",
   "display": "Main text",
-  "figure": "/var/tmp/paper-c4-figures-20261020/comparison-preview/fig5/figures/fig5-c4-scan-trained-main.png",
+  "figure": "/var/tmp/paper-c4-figures-20261020/fig5-order-preview/figures/fig5-c4-scan-trained-main.png",
   "inputs": [
     {
       "filename": "rows.json",
@@ -356,7 +356,7 @@
       "size_bytes": 3939424
     }
   ],
-  "metrics": "/var/tmp/paper-c4-figures-20261020/comparison-preview/fig5/metrics/fig5-c4-scan-trained-main.csv",
+  "metrics": "/var/tmp/paper-c4-figures-20261020/fig5-order-preview/metrics/fig5-c4-scan-trained-main.csv",
   "model_group": "c4",
   "selection": [
     {

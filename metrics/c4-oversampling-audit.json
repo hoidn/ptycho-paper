@@ -1,0 +1,815 @@
+{
+  "audit_version": 1,
+  "created_utc": "2026-10-20",
+  "purpose": "Read-only verification of saved C4 assignment multiplicity, training config, completion receipts, and displayed-model provenance; no runs performed.",
+  "interpretation": "All eight saved C4 assignment archives contain exactly 10 assignment rows per unique training center. The C4 training config training_groups field intentionally counts unique centers; train-spatial-c4.py builds the expanded container from the frozen assignment table, checks that its row count equals the assignment count, and trains that container. The completion receipt and selected inference bundle hashes match; displayed C4 reconstructions/ALS receipt point to those same bundles.",
+  "records": [
+    {
+      "label": "TP1",
+      "root": "gold-tp1",
+      "role": "selected_heldout",
+      "paths": {
+        "assignment_manifest": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/gold-tp1/c4-assignment-manifest.json",
+        "assignment_archive": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/gold-tp1/c4-assignments.npz",
+        "training_config": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/gold-tp1/rows/scan_trained/hybrid_resnet/seed-3/configs/training_config.json",
+        "training_data": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/gold-tp1/scan/split_train.npz",
+        "completion_receipt": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/gold-tp1/spatial-training-c4-complete.json",
+        "weight_bundle": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/gold-tp1/rows/scan_trained/hybrid_resnet/seed-3/wts.h5.zip"
+      },
+      "sha256": {
+        "assignment_manifest": "d7b1b1f81732edce234f0f0f90d52970ea4730a9b9ffca50cafef2e94a7a7465",
+        "assignment_archive_file": "2ec91c446776d49e45929c0b1c3cb01c999cf3f77aa0641281075568c3f52c65",
+        "assignment_content": "2ec91c446776d49e45929c0b1c3cb01c999cf3f77aa0641281075568c3f52c65",
+        "training_config": "28d2ee7a215f5afc98a491ae8736d88a79662b91dc2302cd1f58d7329c595c59",
+        "training_data": "9215c67ccac839b62639a1e3d319e93822cf3a782df4a43a5dbb203fedcd63dd",
+        "completion_receipt": "8d029a87096e55c2517dbe1aa0199e99119cff2312921df0dfed9edf9eabc12d",
+        "weight_bundle": "0e1ea674388ddda11be0db0a5425543c3621c7e6080ecc7b60ab2341645ada3b"
+      },
+      "protocol": "centered-nearest-c4-v1",
+      "group_size": 4,
+      "assignments_per_training_center_declared": 10,
+      "training_center_count": 572,
+      "training_assignment_count_declared": 5720,
+      "training_assignment_count_actual": 5720,
+      "unique_training_centers_in_assignments": 572,
+      "actual_assignments_per_center_min": 10,
+      "actual_assignments_per_center_max": 10,
+      "actual_distinct_assignment_multiplicities": [
+        10
+      ],
+      "training_neighbor_indices_shape": [
+        5720,
+        4
+      ],
+      "config_training_groups": 572,
+      "training_data_diffraction_rows": 572,
+      "training_data_source_row_count": 572,
+      "completion_training_centers": 572,
+      "completion_emitted_training_groups": 5720,
+      "completion_emitted_groups_per_center": 10.0,
+      "checks": {
+        "manifest_assignment_hash_matches_completion": true,
+        "assignment_content_hash_matches_completion": true,
+        "actual_per_center_multiplicity_is_10": true,
+        "training_config_groups_equal_center_count": true,
+        "training_input_rows_equal_center_count": true,
+        "completion_centers_equal_manifest": true,
+        "completion_emitted_groups_equal_assignment_count": true,
+        "completion_bundle_path_matches": true,
+        "completion_bundle_hash_matches_file": true,
+        "assignment_archive_hash_matches_manifest": true,
+        "assignment_center_ids_match_manifest": true,
+        "selected_checkpoint_hash_matches_selection": true
+      },
+      "display_receipt": {
+        "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/heldout/c4/reconstructions/measured/hybrid_resnet/scan_trained/nxs-gold-tp1-128-scan_trained-hybrid_resnet-heldout.npz",
+        "sha256": "09316849f393cd1e9e1953833fd8ae130f80b609903c7b9ba96afa7a37e97a78",
+        "bundle_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/gold-tp1/rows/scan_trained/hybrid_resnet/seed-3/wts.h5.zip",
+        "bundle_sha256": "0e1ea674388ddda11be0db0a5425543c3621c7e6080ecc7b60ab2341645ada3b",
+        "assignment_manifest_sha256": "d7b1b1f81732edce234f0f0f90d52970ea4730a9b9ffca50cafef2e94a7a7465",
+        "assignment_sha256": "2ec91c446776d49e45929c0b1c3cb01c999cf3f77aa0641281075568c3f52c65",
+        "groups_per_center_metadata": 1,
+        "checks": {
+          "bundle_path_matches": true,
+          "bundle_hash_matches_completion": true,
+          "manifest_hash_matches_completion": true,
+          "assignment_hash_matches_manifest": true
+        }
+      },
+      "actual_center_index_range": [
+        0,
+        591
+      ],
+      "selected_checkpoint": {
+        "selection_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/gold-tp1/rows/scan_trained/hybrid_resnet/seed-3/checkpoint_selection.json",
+        "selection_sha256": "c563ace8b3070cf84ebfb6b4345795a34e1ff5d96750525c24b8583fd315d815",
+        "selected_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/gold-tp1/rows/scan_trained/hybrid_resnet/seed-3/checkpoints/epoch=epoch=14-poisson_val=poisson_val_loss=4761.3359.ckpt",
+        "selected_sha256_declared": "a57734e7a10ae657c1f1a235cfba3bc75f2fc645cdc771f2277db64d567a2198",
+        "selected_sha256_actual": "a57734e7a10ae657c1f1a235cfba3bc75f2fc645cdc771f2277db64d567a2198",
+        "selected_epoch": 14,
+        "selected_global_step": 5370,
+        "checks": {
+          "selected_checkpoint_hash_matches_selection": true
+        }
+      },
+      "training_data_procedure": {
+        "training_config_groups_count_unique_centers": true,
+        "raw_train_npz_rows_count_unique_centers": true,
+        "expanded_container_rows_declared_in_manifest": 5720,
+        "expanded_container_rows_match_assignment_count": true,
+        "implementation_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/train-spatial-c4.py",
+        "implementation_sha256": "52eb24e649a6cecdfb4a9a4c47c73790c13ab63d9f9f84325fadf4de7fed0d81",
+        "implementation_lines": {
+          "materialize_assignment_rows": "166-216",
+          "verify_center_and_container_counts": "430-457",
+          "train_expanded_container": "458-479"
+        }
+      }
+    },
+    {
+      "label": "TP2",
+      "root": "nxs-gold_tp_2",
+      "role": "selected_heldout",
+      "paths": {
+        "assignment_manifest": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-gold_tp_2/c4-assignment-manifest.json",
+        "assignment_archive": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-gold_tp_2/c4-assignments.npz",
+        "training_config": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-gold_tp_2/rows/scan_trained/hybrid_resnet/seed-3/configs/training_config.json",
+        "training_data": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-gold_tp_2/scan/split_train.npz",
+        "completion_receipt": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-gold_tp_2/spatial-training-c4-complete.json",
+        "weight_bundle": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-gold_tp_2/rows/scan_trained/hybrid_resnet/seed-3/wts.h5.zip"
+      },
+      "sha256": {
+        "assignment_manifest": "4776c8c488dc003b66fbb57f4e3d4d3cc0a9abee5e74b7c47199a88237b1b951",
+        "assignment_archive_file": "fc69a21a07442d373413d8458ba2b92b3a94f72dfc32bc64c0443a1f806c7d2d",
+        "assignment_content": "fc69a21a07442d373413d8458ba2b92b3a94f72dfc32bc64c0443a1f806c7d2d",
+        "training_config": "eec2a272df75005ec7e196adc79f62940e63fe85600a3ae3b0db0b7d27cc3dfa",
+        "training_data": "9666ae100d75107695cd927a65943c9f3fea52f989f3288c199f4ac215948be3",
+        "completion_receipt": "202dea166c4f35c031215fcf0c8a0a1aa6a5f80e724d4d16ad098ad3eccc9e5f",
+        "weight_bundle": "3b5b96397c444f89e8b9b6614d6ce251cb76808205e0d474a5fca47fb1480e7f"
+      },
+      "protocol": "centered-nearest-c4-v1",
+      "group_size": 4,
+      "assignments_per_training_center_declared": 10,
+      "training_center_count": 3841,
+      "training_assignment_count_declared": 38410,
+      "training_assignment_count_actual": 38410,
+      "unique_training_centers_in_assignments": 3841,
+      "actual_assignments_per_center_min": 10,
+      "actual_assignments_per_center_max": 10,
+      "actual_distinct_assignment_multiplicities": [
+        10
+      ],
+      "training_neighbor_indices_shape": [
+        38410,
+        4
+      ],
+      "config_training_groups": 3841,
+      "training_data_diffraction_rows": 3841,
+      "training_data_source_row_count": 3841,
+      "completion_training_centers": 3841,
+      "completion_emitted_training_groups": 38410,
+      "completion_emitted_groups_per_center": 10.0,
+      "checks": {
+        "manifest_assignment_hash_matches_completion": true,
+        "assignment_content_hash_matches_completion": true,
+        "actual_per_center_multiplicity_is_10": true,
+        "training_config_groups_equal_center_count": true,
+        "training_input_rows_equal_center_count": true,
+        "completion_centers_equal_manifest": true,
+        "completion_emitted_groups_equal_assignment_count": true,
+        "completion_bundle_path_matches": true,
+        "completion_bundle_hash_matches_file": true,
+        "assignment_archive_hash_matches_manifest": true,
+        "assignment_center_ids_match_manifest": true,
+        "selected_checkpoint_hash_matches_selection": true
+      },
+      "display_receipt": {
+        "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/c4/reconstructions/measured/hybrid_resnet/scan_trained/nxs-gold_tp_2-128-scan_trained-hybrid_resnet-heldout.npz",
+        "sha256": "ce0f5e3331e04c0c3e80d4ea464761e7cdb192531490fe99f28971f66861a6f3",
+        "bundle_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-gold_tp_2/rows/scan_trained/hybrid_resnet/seed-3/wts.h5.zip",
+        "bundle_sha256": "3b5b96397c444f89e8b9b6614d6ce251cb76808205e0d474a5fca47fb1480e7f",
+        "assignment_manifest_sha256": "4776c8c488dc003b66fbb57f4e3d4d3cc0a9abee5e74b7c47199a88237b1b951",
+        "assignment_sha256": "fc69a21a07442d373413d8458ba2b92b3a94f72dfc32bc64c0443a1f806c7d2d",
+        "groups_per_center_metadata": 1,
+        "checks": {
+          "bundle_path_matches": true,
+          "bundle_hash_matches_completion": true,
+          "manifest_hash_matches_completion": true,
+          "assignment_hash_matches_manifest": true
+        }
+      },
+      "actual_center_index_range": [
+        35,
+        7708
+      ],
+      "selected_checkpoint": {
+        "selection_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-gold_tp_2/rows/scan_trained/hybrid_resnet/seed-3/checkpoint_selection.json",
+        "selection_sha256": "2c53c45925290479a5681bc50e4d3f244c6b7e37cffa0a2df7d16d2c45e6575e",
+        "selected_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-gold_tp_2/rows/scan_trained/hybrid_resnet/seed-3/checkpoints/epoch=epoch=20-poisson_val=poisson_val_loss=2521.5776.ckpt",
+        "selected_sha256_declared": "f7913f98144e4f0a9bd814369dda878931a0176e0ac76d074bf0801bf09a44bd",
+        "selected_sha256_actual": "f7913f98144e4f0a9bd814369dda878931a0176e0ac76d074bf0801bf09a44bd",
+        "selected_epoch": 20,
+        "selected_global_step": 50421,
+        "checks": {
+          "selected_checkpoint_hash_matches_selection": true
+        }
+      },
+      "training_data_procedure": {
+        "training_config_groups_count_unique_centers": true,
+        "raw_train_npz_rows_count_unique_centers": true,
+        "expanded_container_rows_declared_in_manifest": 38410,
+        "expanded_container_rows_match_assignment_count": true,
+        "implementation_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/train-spatial-c4.py",
+        "implementation_sha256": "52eb24e649a6cecdfb4a9a4c47c73790c13ab63d9f9f84325fadf4de7fed0d81",
+        "implementation_lines": {
+          "materialize_assignment_rows": "166-216",
+          "verify_center_and_container_counts": "430-457",
+          "train_expanded_container": "458-479"
+        }
+      }
+    },
+    {
+      "label": "IC1",
+      "root": "nxs-ic_1",
+      "role": "selected_heldout",
+      "paths": {
+        "assignment_manifest": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_1/c4-assignment-manifest.json",
+        "assignment_archive": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_1/c4-assignments.npz",
+        "training_config": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_1/rows/scan_trained/hybrid_resnet/seed-3/configs/training_config.json",
+        "training_data": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_1/scan/split_train.npz",
+        "completion_receipt": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_1/spatial-training-c4-complete.json",
+        "weight_bundle": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_1/rows/scan_trained/hybrid_resnet/seed-3/wts.h5.zip"
+      },
+      "sha256": {
+        "assignment_manifest": "5a1b05d57f3a21f798d6f32e61652877cb71dae9767fed3b956bc73f177e0bd0",
+        "assignment_archive_file": "47a61a0ddbf69f2e51f029735b4f0d9a01b11e3b1b230b64a256c157ee4440ac",
+        "assignment_content": "47a61a0ddbf69f2e51f029735b4f0d9a01b11e3b1b230b64a256c157ee4440ac",
+        "training_config": "d22b1dbee874d13d86d720c151508c5672cd43e88aac1482dd32e66ae8395318",
+        "training_data": "951e5cdae3933d98cde7d2f34e8d3cdbe5d2668c582c3c750d679fdaf5bf4f2a",
+        "completion_receipt": "b4b4a31b685e3c5a1636943922565f3bcc0c6ce69a7877b39f562a147930c0f3",
+        "weight_bundle": "bed203c307091bc5de60906baf2aa843fb7119280632103f6cb2231bf4becde5"
+      },
+      "protocol": "centered-nearest-c4-v1",
+      "group_size": 4,
+      "assignments_per_training_center_declared": 10,
+      "training_center_count": 579,
+      "training_assignment_count_declared": 5790,
+      "training_assignment_count_actual": 5790,
+      "unique_training_centers_in_assignments": 579,
+      "actual_assignments_per_center_min": 10,
+      "actual_assignments_per_center_max": 10,
+      "actual_distinct_assignment_multiplicities": [
+        10
+      ],
+      "training_neighbor_indices_shape": [
+        5790,
+        4
+      ],
+      "config_training_groups": 579,
+      "training_data_diffraction_rows": 579,
+      "training_data_source_row_count": 579,
+      "completion_training_centers": 579,
+      "completion_emitted_training_groups": 5790,
+      "completion_emitted_groups_per_center": 10.0,
+      "checks": {
+        "manifest_assignment_hash_matches_completion": true,
+        "assignment_content_hash_matches_completion": true,
+        "actual_per_center_multiplicity_is_10": true,
+        "training_config_groups_equal_center_count": true,
+        "training_input_rows_equal_center_count": true,
+        "completion_centers_equal_manifest": true,
+        "completion_emitted_groups_equal_assignment_count": true,
+        "completion_bundle_path_matches": true,
+        "completion_bundle_hash_matches_file": true,
+        "assignment_archive_hash_matches_manifest": true,
+        "assignment_center_ids_match_manifest": true,
+        "selected_checkpoint_hash_matches_selection": true
+      },
+      "display_receipt": {
+        "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/heldout/c4/reconstructions/measured/hybrid_resnet/scan_trained/nxs-ic_1-128-scan_trained-hybrid_resnet-heldout.npz",
+        "sha256": "01ba70116f53480797d137b80acadec9beed5575169c530dcf4b0647eb74323b",
+        "bundle_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_1/rows/scan_trained/hybrid_resnet/seed-3/wts.h5.zip",
+        "bundle_sha256": "bed203c307091bc5de60906baf2aa843fb7119280632103f6cb2231bf4becde5",
+        "assignment_manifest_sha256": "5a1b05d57f3a21f798d6f32e61652877cb71dae9767fed3b956bc73f177e0bd0",
+        "assignment_sha256": "47a61a0ddbf69f2e51f029735b4f0d9a01b11e3b1b230b64a256c157ee4440ac",
+        "groups_per_center_metadata": 1,
+        "checks": {
+          "bundle_path_matches": true,
+          "bundle_hash_matches_completion": true,
+          "manifest_hash_matches_completion": true,
+          "assignment_hash_matches_manifest": true
+        }
+      },
+      "actual_center_index_range": [
+        0,
+        590
+      ],
+      "selected_checkpoint": {
+        "selection_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_1/rows/scan_trained/hybrid_resnet/seed-3/checkpoint_selection.json",
+        "selection_sha256": "793a3a2f8d2a05f49a4ec2448e6488a782f3219f44b8f8d60d59963325076f51",
+        "selected_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_1/rows/scan_trained/hybrid_resnet/seed-3/checkpoints/epoch=epoch=20-poisson_val=poisson_val_loss=2772.8984.ckpt",
+        "selected_sha256_declared": "86b891a5154ab2de0ebc6452436edb140b3005d38aaae001e13f44570a76ae74",
+        "selected_sha256_actual": "86b891a5154ab2de0ebc6452436edb140b3005d38aaae001e13f44570a76ae74",
+        "selected_epoch": 20,
+        "selected_global_step": 7602,
+        "checks": {
+          "selected_checkpoint_hash_matches_selection": true
+        }
+      },
+      "training_data_procedure": {
+        "training_config_groups_count_unique_centers": true,
+        "raw_train_npz_rows_count_unique_centers": true,
+        "expanded_container_rows_declared_in_manifest": 5790,
+        "expanded_container_rows_match_assignment_count": true,
+        "implementation_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/train-spatial-c4.py",
+        "implementation_sha256": "52eb24e649a6cecdfb4a9a4c47c73790c13ab63d9f9f84325fadf4de7fed0d81",
+        "implementation_lines": {
+          "materialize_assignment_rows": "166-216",
+          "verify_center_and_container_counts": "430-457",
+          "train_expanded_container": "458-479"
+        }
+      }
+    },
+    {
+      "label": "IC2",
+      "root": "nxs-ic_2",
+      "role": "selected_heldout",
+      "paths": {
+        "assignment_manifest": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_2/c4-assignment-manifest.json",
+        "assignment_archive": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_2/c4-assignments.npz",
+        "training_config": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_2/rows/scan_trained/hybrid_resnet/seed-3/configs/training_config.json",
+        "training_data": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_2/scan/split_train.npz",
+        "completion_receipt": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_2/spatial-training-c4-complete.json",
+        "weight_bundle": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_2/rows/scan_trained/hybrid_resnet/seed-3/wts.h5.zip"
+      },
+      "sha256": {
+        "assignment_manifest": "d8fd22b19c56e457f38f76223c84008d52bb30e6296953e4e9a5f4fd58d24a3e",
+        "assignment_archive_file": "47e10d261f77d0a43c63f924ee2eaa1705520911a9d9a1323d4b3b5edc80c023",
+        "assignment_content": "47e10d261f77d0a43c63f924ee2eaa1705520911a9d9a1323d4b3b5edc80c023",
+        "training_config": "815742fdb7e143cba2395d3cbaf801254c83d802bdd3c43a272c608e99a4c98d",
+        "training_data": "8984962ae70e78632a14c7f5b17f3af1f594800f46b5aa2f5b3195cb61897e4d",
+        "completion_receipt": "f85654ad3e3ba4cc258b5c2f4dc97ef337a7a83bc61081ada59e866fb18b227c",
+        "weight_bundle": "c4faaf131aa5c67970115ca028540a67e0710534d0954f21ba000bd91d9dd762"
+      },
+      "protocol": "centered-nearest-c4-v1",
+      "group_size": 4,
+      "assignments_per_training_center_declared": 10,
+      "training_center_count": 4742,
+      "training_assignment_count_declared": 47420,
+      "training_assignment_count_actual": 47420,
+      "unique_training_centers_in_assignments": 4742,
+      "actual_assignments_per_center_min": 10,
+      "actual_assignments_per_center_max": 10,
+      "actual_distinct_assignment_multiplicities": [
+        10
+      ],
+      "training_neighbor_indices_shape": [
+        47420,
+        4
+      ],
+      "config_training_groups": 4742,
+      "training_data_diffraction_rows": 4742,
+      "training_data_source_row_count": 4742,
+      "completion_training_centers": 4742,
+      "completion_emitted_training_groups": 47420,
+      "completion_emitted_groups_per_center": 10.0,
+      "checks": {
+        "manifest_assignment_hash_matches_completion": true,
+        "assignment_content_hash_matches_completion": true,
+        "actual_per_center_multiplicity_is_10": true,
+        "training_config_groups_equal_center_count": true,
+        "training_input_rows_equal_center_count": true,
+        "completion_centers_equal_manifest": true,
+        "completion_emitted_groups_equal_assignment_count": true,
+        "completion_bundle_path_matches": true,
+        "completion_bundle_hash_matches_file": true,
+        "assignment_archive_hash_matches_manifest": true,
+        "assignment_center_ids_match_manifest": true,
+        "selected_checkpoint_hash_matches_selection": true
+      },
+      "display_receipt": {
+        "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/heldout/c4/reconstructions/measured/hybrid_resnet/scan_trained/nxs-ic_2-128-scan_trained-hybrid_resnet-heldout.npz",
+        "sha256": "98cb29013c7502c7d6c72e61fc8ae6a5d0a4cb14a9b920f778f7824c2b210bcb",
+        "bundle_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_2/rows/scan_trained/hybrid_resnet/seed-3/wts.h5.zip",
+        "bundle_sha256": "c4faaf131aa5c67970115ca028540a67e0710534d0954f21ba000bd91d9dd762",
+        "assignment_manifest_sha256": "d8fd22b19c56e457f38f76223c84008d52bb30e6296953e4e9a5f4fd58d24a3e",
+        "assignment_sha256": "47e10d261f77d0a43c63f924ee2eaa1705520911a9d9a1323d4b3b5edc80c023",
+        "groups_per_center_metadata": 1,
+        "checks": {
+          "bundle_path_matches": true,
+          "bundle_hash_matches_completion": true,
+          "manifest_hash_matches_completion": true,
+          "assignment_hash_matches_manifest": true
+        }
+      },
+      "actual_center_index_range": [
+        0,
+        4787
+      ],
+      "selected_checkpoint": {
+        "selection_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_2/rows/scan_trained/hybrid_resnet/seed-3/checkpoint_selection.json",
+        "selection_sha256": "623769652a296cb98daf702c0e2bef791b3917978b0a7394c61ce8e0231275e1",
+        "selected_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ic_2/rows/scan_trained/hybrid_resnet/seed-3/checkpoints/epoch=epoch=39-poisson_val=poisson_val_loss=2475.7119.ckpt",
+        "selected_sha256_declared": "d0d3a48d010847534396fb9c3ef24c0633b70f94de6c6753ecac3c84fda70859",
+        "selected_sha256_actual": "d0d3a48d010847534396fb9c3ef24c0633b70f94de6c6753ecac3c84fda70859",
+        "selected_epoch": 39,
+        "selected_global_step": 118560,
+        "checks": {
+          "selected_checkpoint_hash_matches_selection": true
+        }
+      },
+      "training_data_procedure": {
+        "training_config_groups_count_unique_centers": true,
+        "raw_train_npz_rows_count_unique_centers": true,
+        "expanded_container_rows_declared_in_manifest": 47420,
+        "expanded_container_rows_match_assignment_count": true,
+        "implementation_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/train-spatial-c4.py",
+        "implementation_sha256": "52eb24e649a6cecdfb4a9a4c47c73790c13ab63d9f9f84325fadf4de7fed0d81",
+        "implementation_lines": {
+          "materialize_assignment_rows": "166-216",
+          "verify_center_and_container_counts": "430-457",
+          "train_expanded_container": "458-479"
+        }
+      }
+    },
+    {
+      "label": "NCM1",
+      "root": "nxs-ncm_1",
+      "role": "selected_heldout",
+      "paths": {
+        "assignment_manifest": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ncm_1/c4-assignment-manifest.json",
+        "assignment_archive": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ncm_1/c4-assignments.npz",
+        "training_config": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ncm_1/rows/scan_trained/hybrid_resnet/seed-3/configs/training_config.json",
+        "training_data": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ncm_1/scan/split_train.npz",
+        "completion_receipt": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ncm_1/spatial-training-c4-complete.json",
+        "weight_bundle": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ncm_1/rows/scan_trained/hybrid_resnet/seed-3/wts.h5.zip"
+      },
+      "sha256": {
+        "assignment_manifest": "1efe67c3f8500bcef417ec85c5abd67fe88f6fa5e903cc735fe2471522a28e79",
+        "assignment_archive_file": "0450175ed73ad599ecdf23e0d4ae176b4de6d4283e35b8da581a95fa0a0ad530",
+        "assignment_content": "0450175ed73ad599ecdf23e0d4ae176b4de6d4283e35b8da581a95fa0a0ad530",
+        "training_config": "f0d90e1320ba7ad6079bf089f6b81a70327366f966493c555dd3ad88e50d882a",
+        "training_data": "1c5eab535a7691e644f755b397874e197ddafd580c28508c5d5f95ffcbb231ce",
+        "completion_receipt": "a414d6b5cd71477a7b5acd4c6fea5f6e5b817211a14c954702b039bc62afc155",
+        "weight_bundle": "10d76a5e273dcb5b968cb22ab06616142d8753a74501b78779badba4963beb40"
+      },
+      "protocol": "centered-nearest-c4-v1",
+      "group_size": 4,
+      "assignments_per_training_center_declared": 10,
+      "training_center_count": 1207,
+      "training_assignment_count_declared": 12070,
+      "training_assignment_count_actual": 12070,
+      "unique_training_centers_in_assignments": 1207,
+      "actual_assignments_per_center_min": 10,
+      "actual_assignments_per_center_max": 10,
+      "actual_distinct_assignment_multiplicities": [
+        10
+      ],
+      "training_neighbor_indices_shape": [
+        12070,
+        4
+      ],
+      "config_training_groups": 1207,
+      "training_data_diffraction_rows": 1207,
+      "training_data_source_row_count": 1207,
+      "completion_training_centers": 1207,
+      "completion_emitted_training_groups": 12070,
+      "completion_emitted_groups_per_center": 10.0,
+      "checks": {
+        "manifest_assignment_hash_matches_completion": true,
+        "assignment_content_hash_matches_completion": true,
+        "actual_per_center_multiplicity_is_10": true,
+        "training_config_groups_equal_center_count": true,
+        "training_input_rows_equal_center_count": true,
+        "completion_centers_equal_manifest": true,
+        "completion_emitted_groups_equal_assignment_count": true,
+        "completion_bundle_path_matches": true,
+        "completion_bundle_hash_matches_file": true,
+        "assignment_archive_hash_matches_manifest": true,
+        "assignment_center_ids_match_manifest": true,
+        "selected_checkpoint_hash_matches_selection": true
+      },
+      "display_receipt": {
+        "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ncm_1/heldout/c4/reconstructions/measured/hybrid_resnet/scan_trained/nxs-ncm_1-128-scan_trained-hybrid_resnet-heldout.npz",
+        "sha256": "f81b5163e4e167cb1f3a23bbc45ee7df6fc9d319664724ed7f7b66bfc6688eca",
+        "bundle_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ncm_1/rows/scan_trained/hybrid_resnet/seed-3/wts.h5.zip",
+        "bundle_sha256": "10d76a5e273dcb5b968cb22ab06616142d8753a74501b78779badba4963beb40",
+        "assignment_manifest_sha256": "1efe67c3f8500bcef417ec85c5abd67fe88f6fa5e903cc735fe2471522a28e79",
+        "assignment_sha256": "0450175ed73ad599ecdf23e0d4ae176b4de6d4283e35b8da581a95fa0a0ad530",
+        "groups_per_center_metadata": 1,
+        "checks": {
+          "bundle_path_matches": true,
+          "bundle_hash_matches_completion": true,
+          "manifest_hash_matches_completion": true,
+          "assignment_hash_matches_manifest": true
+        }
+      },
+      "actual_center_index_range": [
+        0,
+        1264
+      ],
+      "selected_checkpoint": {
+        "selection_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ncm_1/rows/scan_trained/hybrid_resnet/seed-3/checkpoint_selection.json",
+        "selection_sha256": "8915fba9718866e6cab5172cc9d613fa6fee23828065d088c0651c6ca3545381",
+        "selected_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/nxs-ncm_1/rows/scan_trained/hybrid_resnet/seed-3/checkpoints/epoch=epoch=14-poisson_val=poisson_val_loss=1934.1039.ckpt",
+        "selected_sha256_declared": "7f4374128698b6341ee490165982040aee56f9fd01530b788ddfab317e2aa8f6",
+        "selected_sha256_actual": "7f4374128698b6341ee490165982040aee56f9fd01530b788ddfab317e2aa8f6",
+        "selected_epoch": 14,
+        "selected_global_step": 11325,
+        "checks": {
+          "selected_checkpoint_hash_matches_selection": true
+        }
+      },
+      "training_data_procedure": {
+        "training_config_groups_count_unique_centers": true,
+        "raw_train_npz_rows_count_unique_centers": true,
+        "expanded_container_rows_declared_in_manifest": 12070,
+        "expanded_container_rows_match_assignment_count": true,
+        "implementation_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/train-spatial-c4.py",
+        "implementation_sha256": "52eb24e649a6cecdfb4a9a4c47c73790c13ab63d9f9f84325fadf4de7fed0d81",
+        "implementation_lines": {
+          "materialize_assignment_rows": "166-216",
+          "verify_center_and_container_counts": "430-457",
+          "train_expanded_container": "458-479"
+        }
+      }
+    },
+    {
+      "label": "ALS",
+      "root": "als-128",
+      "role": "selected_diagnostic_whole",
+      "paths": {
+        "assignment_manifest": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/als-128/c4-assignment-manifest.json",
+        "assignment_archive": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/als-128/c4-assignments.npz",
+        "training_config": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/als-128/rows/scan_trained/hybrid_resnet/seed-3/configs/training_config.json",
+        "training_data": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/als-128/scan/split_train.npz",
+        "completion_receipt": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/als-128/spatial-training-c4-complete.json",
+        "weight_bundle": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/als-128/rows/scan_trained/hybrid_resnet/seed-3/wts.h5.zip"
+      },
+      "sha256": {
+        "assignment_manifest": "5f72a0c2a18a73b9eabf71e726de8ce8e38dd79c8d10d29b124cd3df7b9daa0c",
+        "assignment_archive_file": "7a8e4479d08e62ba28f822838a6ec298e3e51f2111d3fe525d1f1b31b1004292",
+        "assignment_content": "7a8e4479d08e62ba28f822838a6ec298e3e51f2111d3fe525d1f1b31b1004292",
+        "training_config": "fc1d3c4fabe5380869fb06964c0ff2f45ca437b89ff6b40bf2e0c4d4cfad3b1d",
+        "training_data": "77b8cf1dc40346d8eb38c5ef009010a51a695c550076c0a1960cc19abf25f931",
+        "completion_receipt": "ab4e49791a1f0b0492db8ae0f7373c223ce85580d782ddf0b7ff460201d5022d",
+        "weight_bundle": "867924cdabbc757cc897f1aa000408b31a5e6d07e9d83af3f453d71aca1c6b18"
+      },
+      "protocol": "centered-nearest-c4-v1",
+      "group_size": 4,
+      "assignments_per_training_center_declared": 10,
+      "training_center_count": 722,
+      "training_assignment_count_declared": 7220,
+      "training_assignment_count_actual": 7220,
+      "unique_training_centers_in_assignments": 722,
+      "actual_assignments_per_center_min": 10,
+      "actual_assignments_per_center_max": 10,
+      "actual_distinct_assignment_multiplicities": [
+        10
+      ],
+      "training_neighbor_indices_shape": [
+        7220,
+        4
+      ],
+      "config_training_groups": 722,
+      "training_data_diffraction_rows": 722,
+      "training_data_source_row_count": 722,
+      "completion_training_centers": 722,
+      "completion_emitted_training_groups": 7220,
+      "completion_emitted_groups_per_center": 10.0,
+      "checks": {
+        "manifest_assignment_hash_matches_completion": true,
+        "assignment_content_hash_matches_completion": true,
+        "actual_per_center_multiplicity_is_10": true,
+        "training_config_groups_equal_center_count": true,
+        "training_input_rows_equal_center_count": true,
+        "completion_centers_equal_manifest": true,
+        "completion_emitted_groups_equal_assignment_count": true,
+        "completion_bundle_path_matches": true,
+        "completion_bundle_hash_matches_file": true,
+        "assignment_archive_hash_matches_manifest": true,
+        "assignment_center_ids_match_manifest": true,
+        "selected_checkpoint_hash_matches_selection": true
+      },
+      "display_receipt": {
+        "path": "/var/tmp/als-c4-repeated-positions-20261020/c4/diagnostic-whole/verified.json",
+        "sha256": "59bb4378a3a011d45d0a0b6a7ae7caf094282c20b40bfb722e3eaa23138e5771",
+        "case": "diagnostic-whole",
+        "model": "c4",
+        "bundle_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/als-128/rows/scan_trained/hybrid_resnet/seed-3/wts.h5.zip",
+        "bundle_sha256": "867924cdabbc757cc897f1aa000408b31a5e6d07e9d83af3f453d71aca1c6b18",
+        "checks": {
+          "case_is_diagnostic_whole": true,
+          "model_is_c4": true,
+          "bundle_path_matches": true,
+          "bundle_hash_matches_completion": true
+        }
+      },
+      "actual_center_index_range": [
+        0,
+        721
+      ],
+      "selected_checkpoint": {
+        "selection_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/als-128/rows/scan_trained/hybrid_resnet/seed-3/checkpoint_selection.json",
+        "selection_sha256": "f75e88e397cf5c5e585536c18c788de3f8502297814cc7eba583ea99713287bc",
+        "selected_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/als-128/rows/scan_trained/hybrid_resnet/seed-3/checkpoints/epoch=epoch=26-poisson_val=poisson_val_loss=816.4836.ckpt",
+        "selected_sha256_declared": "95d9f89054e3ff69ac7f2cbf9fa548e38f562f99e25fb44cd897c6bfeebcc833",
+        "selected_sha256_actual": "95d9f89054e3ff69ac7f2cbf9fa548e38f562f99e25fb44cd897c6bfeebcc833",
+        "selected_epoch": 26,
+        "selected_global_step": 12204,
+        "checks": {
+          "selected_checkpoint_hash_matches_selection": true
+        }
+      },
+      "training_data_procedure": {
+        "training_config_groups_count_unique_centers": true,
+        "raw_train_npz_rows_count_unique_centers": true,
+        "expanded_container_rows_declared_in_manifest": 7220,
+        "expanded_container_rows_match_assignment_count": true,
+        "implementation_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/train-spatial-c4.py",
+        "implementation_sha256": "52eb24e649a6cecdfb4a9a4c47c73790c13ab63d9f9f84325fadf4de7fed0d81",
+        "implementation_lines": {
+          "materialize_assignment_rows": "166-216",
+          "verify_center_and_container_counts": "430-457",
+          "train_expanded_container": "458-479"
+        }
+      }
+    },
+    {
+      "label": "microLFP single",
+      "root": "microlfp-single-128",
+      "role": "unselected_candidate",
+      "paths": {
+        "assignment_manifest": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-single-128/c4-assignment-manifest.json",
+        "assignment_archive": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-single-128/c4-assignments.npz",
+        "training_config": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-single-128/rows/scan_trained/hybrid_resnet/seed-3/configs/training_config.json",
+        "training_data": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-single-128/scan/split_train.npz",
+        "completion_receipt": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-single-128/spatial-training-c4-complete.json",
+        "weight_bundle": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-single-128/rows/scan_trained/hybrid_resnet/seed-3/wts.h5.zip"
+      },
+      "sha256": {
+        "assignment_manifest": "ba4130020f16cb2c07203d890a2c89ed3788e9e20602de36eaade975db6ef9f3",
+        "assignment_archive_file": "f269c5705c1ea3a5d2ea0f0d450b74fce37fc43a0d748a59378b51bab3c40c29",
+        "assignment_content": "f269c5705c1ea3a5d2ea0f0d450b74fce37fc43a0d748a59378b51bab3c40c29",
+        "training_config": "79dd7c0b1b90c2475a608cfc2e39cfd25fb392d1855fe636fa9bbec7e7ad9cae",
+        "training_data": "d7c644ceea84ae36bd1ef284becfbba5ec3125d08a8bde15f7fbd05b56ca82fd",
+        "completion_receipt": "0c1bffa4d04978883192df6b20bd61c3a0eeb44a739735a377305df3d0da6373",
+        "weight_bundle": "732667c1a65bad842148716aff5b434780c82d3d068a0b5548fcd8ada0e991b3"
+      },
+      "protocol": "centered-nearest-c4-v1",
+      "group_size": 4,
+      "assignments_per_training_center_declared": 10,
+      "training_center_count": 2850,
+      "training_assignment_count_declared": 28500,
+      "training_assignment_count_actual": 28500,
+      "unique_training_centers_in_assignments": 2850,
+      "actual_assignments_per_center_min": 10,
+      "actual_assignments_per_center_max": 10,
+      "actual_distinct_assignment_multiplicities": [
+        10
+      ],
+      "training_neighbor_indices_shape": [
+        28500,
+        4
+      ],
+      "config_training_groups": 2850,
+      "training_data_diffraction_rows": 2850,
+      "training_data_source_row_count": 2850,
+      "completion_training_centers": 2850,
+      "completion_emitted_training_groups": 28500,
+      "completion_emitted_groups_per_center": 10.0,
+      "checks": {
+        "manifest_assignment_hash_matches_completion": true,
+        "assignment_content_hash_matches_completion": true,
+        "actual_per_center_multiplicity_is_10": true,
+        "training_config_groups_equal_center_count": true,
+        "training_input_rows_equal_center_count": true,
+        "completion_centers_equal_manifest": true,
+        "completion_emitted_groups_equal_assignment_count": true,
+        "completion_bundle_path_matches": true,
+        "completion_bundle_hash_matches_file": true,
+        "assignment_archive_hash_matches_manifest": true,
+        "assignment_center_ids_match_manifest": true,
+        "selected_checkpoint_hash_matches_selection": true
+      },
+      "display_receipt": null,
+      "actual_center_index_range": [
+        2775,
+        5624
+      ],
+      "selected_checkpoint": {
+        "selection_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-single-128/rows/scan_trained/hybrid_resnet/seed-3/checkpoint_selection.json",
+        "selection_sha256": "58ccfd215f6ad55f8674c9c2ffebf42c35c2585edafff10946ffd75a7580c322",
+        "selected_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-single-128/rows/scan_trained/hybrid_resnet/seed-3/checkpoints/epoch=epoch=25-poisson_val=poisson_val_loss=1521.0621.ckpt",
+        "selected_sha256_declared": "180b640429e90369276faed2f1ee0bde39c19057ed3ee81a3082b5d2519e67b5",
+        "selected_sha256_actual": "180b640429e90369276faed2f1ee0bde39c19057ed3ee81a3082b5d2519e67b5",
+        "selected_epoch": 25,
+        "selected_global_step": 46332,
+        "checks": {
+          "selected_checkpoint_hash_matches_selection": true
+        }
+      },
+      "training_data_procedure": {
+        "training_config_groups_count_unique_centers": true,
+        "raw_train_npz_rows_count_unique_centers": true,
+        "expanded_container_rows_declared_in_manifest": 28500,
+        "expanded_container_rows_match_assignment_count": true,
+        "implementation_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/train-spatial-c4.py",
+        "implementation_sha256": "52eb24e649a6cecdfb4a9a4c47c73790c13ab63d9f9f84325fadf4de7fed0d81",
+        "implementation_lines": {
+          "materialize_assignment_rows": "166-216",
+          "verify_center_and_container_counts": "430-457",
+          "train_expanded_container": "458-479"
+        }
+      }
+    },
+    {
+      "label": "microLFP double",
+      "root": "microlfp-double-128",
+      "role": "unselected_candidate",
+      "paths": {
+        "assignment_manifest": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-double-128/c4-assignment-manifest.json",
+        "assignment_archive": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-double-128/c4-assignments.npz",
+        "training_config": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-double-128/rows/scan_trained/hybrid_resnet/seed-3/configs/training_config.json",
+        "training_data": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-double-128/scan/split_train.npz",
+        "completion_receipt": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-double-128/spatial-training-c4-complete.json",
+        "weight_bundle": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-double-128/rows/scan_trained/hybrid_resnet/seed-3/wts.h5.zip"
+      },
+      "sha256": {
+        "assignment_manifest": "b32e56d96378ae65aff22c05a6c9c10e5a33dc68bbe87f7f9e3aee1e74125082",
+        "assignment_archive_file": "59cc9ecef442c1600c8382f12ec209b2b6536ec3271837105b3356e41c79af55",
+        "assignment_content": "59cc9ecef442c1600c8382f12ec209b2b6536ec3271837105b3356e41c79af55",
+        "training_config": "ac941577991e73cf94454a615961d569b608ca5cab1da42891bcf1569c08db25",
+        "training_data": "23557d631c0e7f45870cfc1635c22b454a3fdc32369a65d447604ede61db5ac1",
+        "completion_receipt": "25ce1fdf694755d18a31f8bdd81239035694b0f427c345ffd579f892592cb228",
+        "weight_bundle": "28f2b2dc7d574a17c15ee707ef51523628944a45ed3058d7fe47424db25fce71"
+      },
+      "protocol": "centered-nearest-c4-v1",
+      "group_size": 4,
+      "assignments_per_training_center_declared": 10,
+      "training_center_count": 1900,
+      "training_assignment_count_declared": 19000,
+      "training_assignment_count_actual": 19000,
+      "unique_training_centers_in_assignments": 1900,
+      "actual_assignments_per_center_min": 10,
+      "actual_assignments_per_center_max": 10,
+      "actual_distinct_assignment_multiplicities": [
+        10
+      ],
+      "training_neighbor_indices_shape": [
+        19000,
+        4
+      ],
+      "config_training_groups": 1900,
+      "training_data_diffraction_rows": 1900,
+      "training_data_source_row_count": 1900,
+      "completion_training_centers": 1900,
+      "completion_emitted_training_groups": 19000,
+      "completion_emitted_groups_per_center": 10.0,
+      "checks": {
+        "manifest_assignment_hash_matches_completion": true,
+        "assignment_content_hash_matches_completion": true,
+        "actual_per_center_multiplicity_is_10": true,
+        "training_config_groups_equal_center_count": true,
+        "training_input_rows_equal_center_count": true,
+        "completion_centers_equal_manifest": true,
+        "completion_emitted_groups_equal_assignment_count": true,
+        "completion_bundle_path_matches": true,
+        "completion_bundle_hash_matches_file": true,
+        "assignment_archive_hash_matches_manifest": true,
+        "assignment_center_ids_match_manifest": true,
+        "selected_checkpoint_hash_matches_selection": true
+      },
+      "display_receipt": null,
+      "actual_center_index_range": [
+        1850,
+        3749
+      ],
+      "selected_checkpoint": {
+        "selection_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-double-128/rows/scan_trained/hybrid_resnet/seed-3/checkpoint_selection.json",
+        "selection_sha256": "2328d747e2f0b1b5df11a0de3bd1593ec536edbb51ef7945fe48ffd771b5e242",
+        "selected_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half-c4/microlfp-double-128/rows/scan_trained/hybrid_resnet/seed-3/checkpoints/epoch=epoch=26-poisson_val=poisson_val_loss=468.3246.ckpt",
+        "selected_sha256_declared": "b2e188b823a350ae45f3ab8ea2e2220536bac03f06eb31dafb8a07cf6c30e54a",
+        "selected_sha256_actual": "b2e188b823a350ae45f3ab8ea2e2220536bac03f06eb31dafb8a07cf6c30e54a",
+        "selected_epoch": 26,
+        "selected_global_step": 32076,
+        "checks": {
+          "selected_checkpoint_hash_matches_selection": true
+        }
+      },
+      "training_data_procedure": {
+        "training_config_groups_count_unique_centers": true,
+        "raw_train_npz_rows_count_unique_centers": true,
+        "expanded_container_rows_declared_in_manifest": 19000,
+        "expanded_container_rows_match_assignment_count": true,
+        "implementation_path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/train-spatial-c4.py",
+        "implementation_sha256": "52eb24e649a6cecdfb4a9a4c47c73790c13ab63d9f9f84325fadf4de7fed0d81",
+        "implementation_lines": {
+          "materialize_assignment_rows": "166-216",
+          "verify_center_and_container_counts": "430-457",
+          "train_expanded_container": "458-479"
+        }
+      },
+      "c4_training_procedure": {
+        "source": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/train-spatial-c4.py",
+        "sha256": "52eb24e649a6cecdfb4a9a4c47c73790c13ab63d9f9f84325fadf4de7fed0d81",
+        "meaning_of_training_groups": "Counts unique C4 training centers in config; the custom C4 runner materializes ten frozen assignment rows per center, checks container row count equals assignment count, then passes that expanded container to the training call.",
+        "source_lines": {
+          "ten_assignments_per_center": "38-63",
+          "materialize_assignment_rows": "166-216",
+          "config_unique_center_count_and_expanded_row_assertion": "430-457",
+          "train_expanded_container_and_completion_receipt": "458-485"
+        }
+      }
+    }
+  ],
+  "summary_checks": {
+    "all_assignment_multiplicities_are_10": true,
+    "all_manifest_assignment_hashes_match_archives": true,
+    "all_expanded_training_containers_match_assignment_counts": true,
+    "all_training_config_center_counts_match": true,
+    "all_training_bundles_match_completion_receipts": true,
+    "all_selected_checkpoint_hashes_match": true,
+    "all_display_receipts_match_training_bundle": true
+  }
+}

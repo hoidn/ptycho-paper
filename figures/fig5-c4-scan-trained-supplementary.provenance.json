@@ -1,7 +1,7 @@
 {
-  "commit": "39e7ced7d7dc14fd6f78bbca86e4e4364d3f6145",
+  "commit": "26470ece406c38c2c3c19605bb0dbf7eb1600026",
   "display": "Supplementary",
-  "figure": "/var/tmp/paper-c4-figures-20261020/comparison-preview/fig5/figures/fig5-c4-scan-trained-supplementary.png",
+  "figure": "/var/tmp/paper-c4-figures-20261020/fig5-order-preview/figures/fig5-c4-scan-trained-supplementary.png",
   "inputs": [
     {
       "filename": "rows.json",
@@ -52,22 +52,6 @@
       "size_bytes": 7286301
     },
     {
-      "filename": "nxs-gold-tp1-128-general-hybrid_resnet-heldout.npz",
-      "mtime_ns": 1792472970322007627,
-      "mtime_utc": "2026-10-20T05:09:30.322008+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/heldout/synthetic/reconstructions/measured/hybrid_resnet/general/nxs-gold-tp1-128-general-hybrid_resnet-heldout.npz",
-      "sha256": "8dfcee7ac732867c6b1ed79ee068db7396057b0132616e6610811649aeccecbd",
-      "size_bytes": 13434261
-    },
-    {
-      "filename": "heldout.npz",
-      "mtime_ns": 1792214157357547227,
-      "mtime_utc": "2026-10-17T05:15:57.357547+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half/gold-tp1/scan/heldout.npz",
-      "sha256": "c9a02de68d29079461b9c725040cc08751d163f0d3a08ca499901aaadc39a92b",
-      "size_bytes": 9785551
-    },
-    {
       "filename": "nxs-gold-tp1-128-scan_trained-hybrid_resnet-heldout.npz",
       "mtime_ns": 1792472968399290656,
       "mtime_utc": "2026-10-20T05:09:28.399291+00:00",
@@ -84,6 +68,22 @@
       "size_bytes": 9785551
     },
     {
+      "filename": "nxs-gold-tp1-128-general-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792472970322007627,
+      "mtime_utc": "2026-10-20T05:09:30.322008+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/heldout/synthetic/reconstructions/measured/hybrid_resnet/general/nxs-gold-tp1-128-general-hybrid_resnet-heldout.npz",
+      "sha256": "8dfcee7ac732867c6b1ed79ee068db7396057b0132616e6610811649aeccecbd",
+      "size_bytes": 13434261
+    },
+    {
+      "filename": "heldout.npz",
+      "mtime_ns": 1792214157357547227,
+      "mtime_utc": "2026-10-17T05:15:57.357547+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half/gold-tp1/scan/heldout.npz",
+      "sha256": "c9a02de68d29079461b9c725040cc08751d163f0d3a08ca499901aaadc39a92b",
+      "size_bytes": 9785551
+    },
+    {
       "filename": "nxs-gold-tp1-128-scan_trained-heldout.npz",
       "mtime_ns": 1792472966113628455,
       "mtime_utc": "2026-10-20T05:09:26.113628+00:00",
@@ -92,7 +92,7 @@
       "size_bytes": 2515427
     }
   ],
-  "metrics": "/var/tmp/paper-c4-figures-20261020/comparison-preview/fig5/metrics/fig5-c4-scan-trained-supplementary.csv",
+  "metrics": "/var/tmp/paper-c4-figures-20261020/fig5-order-preview/metrics/fig5-c4-scan-trained-supplementary.csv",
   "model_group": "c4",
   "selection": [
     {

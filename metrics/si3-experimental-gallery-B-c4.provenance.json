@@ -3,7 +3,7 @@
   "c4_training_compute_matched": false,
   "caption_note": "TP2 is shown full field only; FRC is excluded because of scan-grid artefacts. ",
   "cnn_offset_tilt_correction": false,
-  "commit": "14ef8f1848573826bebe31c72b31a2a8e8e9b2ab",
+  "commit": "42146a9dc5ff2ab834e18313f6a6115a2220614a",
   "conventional_notes": {},
   "dataset_roots": [
     "gold-tp1",
@@ -737,19 +737,19 @@
     },
     {
       "filename": "experimental_gallery.py",
-      "mtime_ns": 1792547077934910637,
-      "mtime_utc": "2026-10-21T01:44:37.934911+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/scripts/studies/paper_figures/experimental_gallery.py",
-      "sha256": "7326e7bb185ad8cd1160cd243767bc9fbe6ace6dbcbe60f9feb143c0bfd1b7fc",
-      "size_bytes": 35588
+      "mtime_ns": 1792552060363634903,
+      "mtime_utc": "2026-10-21T03:07:40.363635+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/gallery-method-order/scripts/studies/paper_figures/experimental_gallery.py",
+      "sha256": "11b0c3d042034f54a2bc0aa949ef745e184a99b6935b8f950b6056f2c2f9f7fa",
+      "size_bytes": 35508
     },
     {
-      "filename": "render_galleries.py",
-      "mtime_ns": 1792546720877048869,
-      "mtime_utc": "2026-10-21T01:38:40.877049+00:00",
-      "path": "/var/tmp/paper-c4-figures-20261020/control/render_galleries.py",
-      "sha256": "9b4c0b702de1ab2f92ada68b03796519365cfd2d93a7063566434b19639b029d",
-      "size_bytes": 6991
+      "filename": "render_galleries_order_preview.py",
+      "mtime_ns": 1792553120898280863,
+      "mtime_utc": "2026-10-21T03:25:20.898281+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/control/render_galleries_order_preview.py",
+      "sha256": "d7068a9f8f2d6544111ddf7baf4fd2f4b203cc514160aa2c69ad9aa328495ed1",
+      "size_bytes": 7168
     },
     {
       "filename": "prior-fragments.json",

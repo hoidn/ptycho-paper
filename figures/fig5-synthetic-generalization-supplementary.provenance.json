@@ -1,5 +1,5 @@
 {
-  "commit": "39e7ced7d7dc14fd6f78bbca86e4e4364d3f6145",
+  "commit": "26470ece406c38c2c3c19605bb0dbf7eb1600026",
   "display": "Supplementary",
   "inputs": [
     {
@@ -219,12 +219,12 @@
       "size_bytes": 1935812
     },
     {
-      "filename": "nxs-gold-tp1-128-general-hybrid_resnet-heldout.npz",
-      "mtime_ns": 1792472970322007627,
-      "mtime_utc": "2026-10-20T05:09:30.322008+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/heldout/synthetic/reconstructions/measured/hybrid_resnet/general/nxs-gold-tp1-128-general-hybrid_resnet-heldout.npz",
-      "sha256": "8dfcee7ac732867c6b1ed79ee068db7396057b0132616e6610811649aeccecbd",
-      "size_bytes": 13434261
+      "filename": "nxs-gold-tp1-128-scan_trained-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792472965925656298,
+      "mtime_utc": "2026-10-20T05:09:25.925656+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/heldout/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-gold-tp1-128-scan_trained-hybrid_resnet-heldout.npz",
+      "sha256": "c67289d8194d50b8f219443ef0a46394e84fd9b6ae9ee3ae38b22f353f5df3df",
+      "size_bytes": 13433148
     },
     {
       "filename": "heldout.npz",
@@ -235,12 +235,12 @@
       "size_bytes": 9785551
     },
     {
-      "filename": "nxs-gold-tp1-128-scan_trained-hybrid_resnet-heldout.npz",
-      "mtime_ns": 1792472965925656298,
-      "mtime_utc": "2026-10-20T05:09:25.925656+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/heldout/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-gold-tp1-128-scan_trained-hybrid_resnet-heldout.npz",
-      "sha256": "c67289d8194d50b8f219443ef0a46394e84fd9b6ae9ee3ae38b22f353f5df3df",
-      "size_bytes": 13433148
+      "filename": "nxs-gold-tp1-128-general-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792472970322007627,
+      "mtime_utc": "2026-10-20T05:09:30.322008+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/heldout/synthetic/reconstructions/measured/hybrid_resnet/general/nxs-gold-tp1-128-general-hybrid_resnet-heldout.npz",
+      "sha256": "8dfcee7ac732867c6b1ed79ee068db7396057b0132616e6610811649aeccecbd",
+      "size_bytes": 13434261
     },
     {
       "filename": "nxs-gold-tp1-128-scan_trained-heldout.npz",
@@ -251,12 +251,12 @@
       "size_bytes": 2515427
     },
     {
-      "filename": "nxs-gold_tp_2-128-general-hybrid_resnet-heldout.npz",
-      "mtime_ns": 1792474134723962300,
-      "mtime_utc": "2026-10-20T05:28:54.723962+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/synthetic/reconstructions/measured/hybrid_resnet/general/nxs-gold_tp_2-128-general-hybrid_resnet-heldout.npz",
-      "sha256": "2ed8b39a1aa2d5a89d66c96dcb1d844e328f53077ae0c3317c05e18d5cc7f471",
-      "size_bytes": 74125518
+      "filename": "nxs-gold_tp_2-128-scan_trained-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792474102414531171,
+      "mtime_utc": "2026-10-20T05:28:22.414531+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-gold_tp_2-128-scan_trained-hybrid_resnet-heldout.npz",
+      "sha256": "41ff4e5f6a06173bba16401670e13368abc7579be775dd800171515824dd97a6",
+      "size_bytes": 74208586
     },
     {
       "filename": "heldout.npz",
@@ -267,12 +267,12 @@
       "size_bytes": 52328021
     },
     {
-      "filename": "nxs-gold_tp_2-128-scan_trained-hybrid_resnet-heldout.npz",
-      "mtime_ns": 1792474102414531171,
-      "mtime_utc": "2026-10-20T05:28:22.414531+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-gold_tp_2-128-scan_trained-hybrid_resnet-heldout.npz",
-      "sha256": "41ff4e5f6a06173bba16401670e13368abc7579be775dd800171515824dd97a6",
-      "size_bytes": 74208586
+      "filename": "nxs-gold_tp_2-128-general-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792474134723962300,
+      "mtime_utc": "2026-10-20T05:28:54.723962+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/synthetic/reconstructions/measured/hybrid_resnet/general/nxs-gold_tp_2-128-general-hybrid_resnet-heldout.npz",
+      "sha256": "2ed8b39a1aa2d5a89d66c96dcb1d844e328f53077ae0c3317c05e18d5cc7f471",
+      "size_bytes": 74125518
     },
     {
       "filename": "nxs-gold_tp_2-128-scan_trained-heldout.npz",
@@ -283,12 +283,12 @@
       "size_bytes": 15895299
     },
     {
-      "filename": "nxs-ic_1-128-general-hybrid_resnet-heldout.npz",
-      "mtime_ns": 1792478255322958668,
-      "mtime_utc": "2026-10-20T06:37:35.322959+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/heldout/synthetic/reconstructions/measured/hybrid_resnet/general/nxs-ic_1-128-general-hybrid_resnet-heldout.npz",
-      "sha256": "50b9ad902a96cdf7e66a3f3a652b4f3dbad4f7c1679d97cdc56de746c85b3c66",
-      "size_bytes": 7362407
+      "filename": "nxs-ic_1-128-scan_trained-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792478251256044299,
+      "mtime_utc": "2026-10-20T06:37:31.256044+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/heldout/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-ic_1-128-scan_trained-hybrid_resnet-heldout.npz",
+      "sha256": "47787dea79731b3cce631faf6c5b6b54094f48ecb9473b41995db05aa31c16e1",
+      "size_bytes": 7432249
     },
     {
       "filename": "heldout.npz",
@@ -299,12 +299,12 @@
       "size_bytes": 8183262
     },
     {
-      "filename": "nxs-ic_1-128-scan_trained-hybrid_resnet-heldout.npz",
-      "mtime_ns": 1792478251256044299,
-      "mtime_utc": "2026-10-20T06:37:31.256044+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/heldout/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-ic_1-128-scan_trained-hybrid_resnet-heldout.npz",
-      "sha256": "47787dea79731b3cce631faf6c5b6b54094f48ecb9473b41995db05aa31c16e1",
-      "size_bytes": 7432249
+      "filename": "nxs-ic_1-128-general-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792478255322958668,
+      "mtime_utc": "2026-10-20T06:37:35.322959+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_1/heldout/synthetic/reconstructions/measured/hybrid_resnet/general/nxs-ic_1-128-general-hybrid_resnet-heldout.npz",
+      "sha256": "50b9ad902a96cdf7e66a3f3a652b4f3dbad4f7c1679d97cdc56de746c85b3c66",
+      "size_bytes": 7362407
     },
     {
       "filename": "nxs-ic_1-128-scan_trained-heldout.npz",
@@ -315,12 +315,12 @@
       "size_bytes": 1479597
     },
     {
-      "filename": "nxs-ic_2-128-general-hybrid_resnet-heldout.npz",
-      "mtime_ns": 1792481464354241260,
-      "mtime_utc": "2026-10-20T07:31:04.354241+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/heldout/synthetic/reconstructions/measured/hybrid_resnet/general/nxs-ic_2-128-general-hybrid_resnet-heldout.npz",
-      "sha256": "fe1989dbccb78d02492447f595d5038e8b161a978c4057ff2f3301e6118ac148",
-      "size_bytes": 43828684
+      "filename": "nxs-ic_2-128-scan_trained-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792481446393613797,
+      "mtime_utc": "2026-10-20T07:30:46.393614+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/heldout/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-ic_2-128-scan_trained-hybrid_resnet-heldout.npz",
+      "sha256": "073b4b08f6a4430791b52c7473d026fcb188ab7a6ef7de8bb2d1a855edb0b8bd",
+      "size_bytes": 43971160
     },
     {
       "filename": "heldout.npz",
@@ -331,12 +331,12 @@
       "size_bytes": 64208740
     },
     {
-      "filename": "nxs-ic_2-128-scan_trained-hybrid_resnet-heldout.npz",
-      "mtime_ns": 1792481446393613797,
-      "mtime_utc": "2026-10-20T07:30:46.393614+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/heldout/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-ic_2-128-scan_trained-hybrid_resnet-heldout.npz",
-      "sha256": "073b4b08f6a4430791b52c7473d026fcb188ab7a6ef7de8bb2d1a855edb0b8bd",
-      "size_bytes": 43971160
+      "filename": "nxs-ic_2-128-general-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792481464354241260,
+      "mtime_utc": "2026-10-20T07:31:04.354241+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-ic_2/heldout/synthetic/reconstructions/measured/hybrid_resnet/general/nxs-ic_2-128-general-hybrid_resnet-heldout.npz",
+      "sha256": "fe1989dbccb78d02492447f595d5038e8b161a978c4057ff2f3301e6118ac148",
+      "size_bytes": 43828684
     },
     {
       "filename": "nxs-ic_2-128-scan_trained-heldout.npz",

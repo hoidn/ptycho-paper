@@ -3,7 +3,7 @@
   "c4_training_compute_matched": null,
   "caption_note": "S200 LSQ-ML2000: historical 8,308-pattern subset versus 16,613 neural patterns; iteration-budget limited, not a matched timing result. ",
   "cnn_offset_tilt_correction": false,
-  "commit": "6cd50ba68629278dcaa7c8f801270ad7681a0867",
+  "commit": "42146a9dc5ff2ab834e18313f6a6115a2220614a",
   "conventional_notes": {
     "s200-128": "LSQ-ML: 8,308 patterns"
   },
@@ -375,38 +375,6 @@
       "size_bytes": 1176995
     },
     {
-      "filename": "mapped.npz",
-      "mtime_ns": 1792529580937653383,
-      "mtime_utc": "2026-10-20T20:53:00.937653+00:00",
-      "path": "/var/tmp/als-c4-repeated-positions-20261020/c1/diagnostic-whole/mapped.npz",
-      "sha256": "3522702fdc8e69234e1183ca0516aaf0792178a28ded082a415bafb6ae6f95da",
-      "size_bytes": 2461812
-    },
-    {
-      "filename": "verified.json",
-      "mtime_ns": 1792529581036788110,
-      "mtime_utc": "2026-10-20T20:53:01.036788+00:00",
-      "path": "/var/tmp/als-c4-repeated-positions-20261020/c1/diagnostic-whole/verified.json",
-      "sha256": "3cd7807c3229e1fdf54bfbe1ed33fc6bf5c04addade0e039d712962f31b92bc4",
-      "size_bytes": 16769
-    },
-    {
-      "filename": "mapped.npz",
-      "mtime_ns": 1792529617272540854,
-      "mtime_utc": "2026-10-20T20:53:37.272541+00:00",
-      "path": "/var/tmp/als-c4-repeated-positions-20261020/c4/diagnostic-whole/mapped.npz",
-      "sha256": "3c9d28a0f2bbbbc92ac28c5d12404a60f6ad55ce9b5c7ad92343260ca33bc862",
-      "size_bytes": 4152881
-    },
-    {
-      "filename": "verified.json",
-      "mtime_ns": 1792529617369697432,
-      "mtime_utc": "2026-10-20T20:53:37.369697+00:00",
-      "path": "/var/tmp/als-c4-repeated-positions-20261020/c4/diagnostic-whole/verified.json",
-      "sha256": "59bb4378a3a011d45d0a0b6a7ae7caf094282c20b40bfb722e3eaa23138e5771",
-      "size_bytes": 16714
-    },
-    {
       "filename": "rows.json",
       "mtime_ns": 1792470968310635725,
       "mtime_utc": "2026-10-20T04:36:08.310636+00:00",
@@ -608,6 +576,38 @@
     },
     {
       "filename": "whole.npz",
+      "mtime_ns": 1792220247324130230,
+      "mtime_utc": "2026-10-17T06:57:27.324130+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half/als-128/scan/whole.npz",
+      "sha256": "16f04cb42763b0331a0ba7aac66dbd06c8ded752cc8b7b4fe0ccf79652928788",
+      "size_bytes": 87540696
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792523929057510321,
+      "mtime_utc": "2026-10-20T19:18:49.057510+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/als-128/diagnostic-whole/rows.json",
+      "sha256": "3a7afc807fca989f076c5a21f9b40f3c4eeefc4c4a03062b486c14a08c6e1baa",
+      "size_bytes": 28533
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792523929056742357,
+      "mtime_utc": "2026-10-20T19:18:49.056742+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/als-128/diagnostic-whole/manifest.json",
+      "sha256": "5872473beba9ace3115b78ef97c83b0f9a1f0d5a8858560209bcc8ff41505b91",
+      "size_bytes": 25999
+    },
+    {
+      "filename": "als-128-scan_trained-cnn-diagnostic-whole.npz",
+      "mtime_ns": 1792523928967740766,
+      "mtime_utc": "2026-10-20T19:18:48.967741+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/als-128/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/als-128-scan_trained-cnn-diagnostic-whole.npz",
+      "sha256": "09073b9ac47eb3e12320edfae81057f3a9f27bb770fb524112173afee64c6be1",
+      "size_bytes": 1047927
+    },
+    {
+      "filename": "whole.npz",
       "mtime_ns": 1792220963305261065,
       "mtime_utc": "2026-10-17T07:09:23.305261+00:00",
       "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half/microlfp-single-128/scan/whole.npz",
@@ -720,19 +720,19 @@
     },
     {
       "filename": "experimental_gallery.py",
-      "mtime_ns": 1792547584044564087,
-      "mtime_utc": "2026-10-21T01:53:04.044564+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/scripts/studies/paper_figures/experimental_gallery.py",
-      "sha256": "eb9c80e4118d99674d8629aa29990c1316680c6d66266dde831100663102ee7d",
-      "size_bytes": 35455
+      "mtime_ns": 1792552060363634903,
+      "mtime_utc": "2026-10-21T03:07:40.363635+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/gallery-method-order/scripts/studies/paper_figures/experimental_gallery.py",
+      "sha256": "11b0c3d042034f54a2bc0aa949ef745e184a99b6935b8f950b6056f2c2f9f7fa",
+      "size_bytes": 35508
     },
     {
-      "filename": "render_galleries.py",
-      "mtime_ns": 1792546720877048869,
-      "mtime_utc": "2026-10-21T01:38:40.877049+00:00",
-      "path": "/var/tmp/paper-c4-figures-20261020/control/render_galleries.py",
-      "sha256": "9b4c0b702de1ab2f92ada68b03796519365cfd2d93a7063566434b19639b029d",
-      "size_bytes": 6991
+      "filename": "render_galleries_method_order.py",
+      "mtime_ns": 1792552150484544308,
+      "mtime_utc": "2026-10-21T03:09:10.484544+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/control/render_galleries_method_order.py",
+      "sha256": "8aa22617c72232a656c87ead1fb4daf46b7150e0e9621cf211513f5b0cf28251",
+      "size_bytes": 7004
     },
     {
       "filename": "prior-fragments.json",

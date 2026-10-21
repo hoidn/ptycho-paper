@@ -56,8 +56,10 @@ IC2. Original C1 IC2 images remain in SI and the paired grouping ablation.
 `raw` already includes offsets; `polished_tilt` adds tilt seeding and field
 refinement. Matched CNN B uses C1, the same measured training half, CI VarPro
 and scalar count calibration, with **no offset, tilt or field correction**.
-It is not the published synthetic-only recipe. B order is Hybrid, CNN, LSQ-ML,
-then Reference in SI only.
+It is not the published synthetic-only recipe. Both gallery variants put LSQ-ML last: Hybrid, CNN comparator, LSQ-ML
+in main; Reference, Hybrid, CNN comparator, LSQ-ML in SI. The prior-paper
+method is labelled “PtychoPINN-CI (published)”; its raster provenance and
+acquisition caveats are retained.
 
 CNM scan39 CNN failed to recover phase structure within 40 epochs. Native and
 displayed objects match exactly on the scored mask; whole phase standard
@@ -81,8 +83,13 @@ see the [source audit](metrics/als-ns-reference-match.json). Prior fragments
 are cropped and rescaled under CC BY 4.0. Missing cells say “No verified panel.”
 
 `Patterns` counts displayed acquisition patterns; `Training` counts distinct
-training patterns. C4 uses ten groups per training center and is not compute
-matched to C1. [Dataset metadata](metrics/datasets.csv) retains group counts.
+training patterns. Every C4 arm uses **10× training-group oversampling**:
+ten four-pattern groups per training center. For IC2, 4,742 distinct training
+patterns produce 47,420 groups. C4 is not compute matched to C1.
+The [checkpoint/input audit](metrics/c4-oversampling-audit.json) verifies all
+eight C4 candidate arms, including the six selected acquisitions. The saved
+configuration counts unique centers; training consumes the expanded group
+container. [Dataset metadata](metrics/datasets.csv) retains both counts.
 The high half selects checkpoints and is spatial validation, not independent
 testing; no footprint guard band separates halves. Whole images include the
 training region.

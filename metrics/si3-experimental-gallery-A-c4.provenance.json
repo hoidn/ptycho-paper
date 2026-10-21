@@ -3,7 +3,7 @@
   "c4_training_compute_matched": false,
   "caption_note": "TP2 is shown full field only; FRC is excluded because of scan-grid artefacts. ALS is published as NS: same specimen field, 960 published patterns versus 1,444 here; exact acquisition relationship unverified. ",
   "cnn_offset_tilt_correction": false,
-  "commit": "6cd50ba68629278dcaa7c8f801270ad7681a0867",
+  "commit": "42146a9dc5ff2ab834e18313f6a6115a2220614a",
   "conventional_notes": {},
   "dataset_roots": [
     "gold-tp1",
@@ -737,19 +737,19 @@
     },
     {
       "filename": "experimental_gallery.py",
-      "mtime_ns": 1792547584044564087,
-      "mtime_utc": "2026-10-21T01:53:04.044564+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/scripts/studies/paper_figures/experimental_gallery.py",
-      "sha256": "eb9c80e4118d99674d8629aa29990c1316680c6d66266dde831100663102ee7d",
-      "size_bytes": 35455
+      "mtime_ns": 1792552060363634903,
+      "mtime_utc": "2026-10-21T03:07:40.363635+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/gallery-method-order/scripts/studies/paper_figures/experimental_gallery.py",
+      "sha256": "11b0c3d042034f54a2bc0aa949ef745e184a99b6935b8f950b6056f2c2f9f7fa",
+      "size_bytes": 35508
     },
     {
-      "filename": "render_galleries.py",
-      "mtime_ns": 1792546720877048869,
-      "mtime_utc": "2026-10-21T01:38:40.877049+00:00",
-      "path": "/var/tmp/paper-c4-figures-20261020/control/render_galleries.py",
-      "sha256": "9b4c0b702de1ab2f92ada68b03796519365cfd2d93a7063566434b19639b029d",
-      "size_bytes": 6991
+      "filename": "render_galleries_order_preview.py",
+      "mtime_ns": 1792553120898280863,
+      "mtime_utc": "2026-10-21T03:25:20.898281+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/control/render_galleries_order_preview.py",
+      "sha256": "d7068a9f8f2d6544111ddf7baf4fd2f4b203cc514160aa2c69ad9aa328495ed1",
+      "size_bytes": 7168
     },
     {
       "filename": "prior-fragments.json",
