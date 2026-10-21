@@ -1,5 +1,9 @@
 {
-  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "commit": "ac9c322f25ea069e491b77cda0537e78521abf1e",
+  "display": "Main text",
+  "frc_exclusions": {
+    "nxs-gold_tp_2": "grid artefacts"
+  },
   "inputs": [
     {
       "filename": "rows.json",
@@ -354,12 +358,12 @@
       "size_bytes": 1481
     },
     {
-      "filename": "timing.csv",
-      "mtime_ns": 1792520398326808697,
-      "mtime_utc": "2026-10-20T18:19:58.326809+00:00",
-      "path": "/home/ollie/Documents/ptychopinn-paper-package/metrics/timing.csv",
-      "sha256": "1b878cb966d6c5012897193d10572b95b750a553f1ddc7a0de79ea1e38f773a7",
-      "size_bytes": 56753
+      "filename": "core-timing.csv",
+      "mtime_ns": 1792551211286484179,
+      "mtime_utc": "2026-10-21T02:53:31.286484+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/core-timing.csv",
+      "sha256": "cd9e8bb29514b4202a6344fe7914d54dfd9febae2844106d162aa51e198e012a",
+      "size_bytes": 46076
     },
     {
       "filename": "rows.json",
@@ -889,7 +893,5 @@
       "sha256": "90c7095bb5d26a2a7c2798a17126922084d9f3943dbb94fe4ed1aeb715203465",
       "size_bytes": 30890199
     }
-  ],
-  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
-  "original_generation_commit": "6945b2d4f7d6ae6385def9fe5518e3e88954836d"
+  ]
 }

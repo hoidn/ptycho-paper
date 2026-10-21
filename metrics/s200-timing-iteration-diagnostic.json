@@ -1,0 +1,72 @@
+{
+  "commit": "9969ec9174ba1ed35971267b4116514692b2b610",
+  "created_utc": "2026-10-21T02:31:55.046607+00:00",
+  "message": "timed C1 refinement iteration count differs from saved recipe: /home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half/s200-128/diagnostic-whole",
+  "saved_effective_precision": "32-true",
+  "saved_polished_sha256": "fa88210a8d3fa9f48ba1283ca5c9bb6fda331dd6456e9744b1c731cbe65c4c81",
+  "saved_raw_sha256": "8485063c3fb780e0fdf1a201b612f4ca5198ef9626e89666ee3b4a929be12f4f",
+  "saved_recipe": {
+    "converged": false,
+    "frames_excluded": 0,
+    "frames_used": 7721,
+    "iterations": 16,
+    "nll_after": -137829170813.74503,
+    "nll_optimized": -137833285315.08167,
+    "phase_smoothing_sigma_px": 1.5
+  },
+  "source_hashes": {
+    "dense_override_sha256": "538534149ac616789618ae4f00336af81b5a75235be8e2a4e028c2014396f4b5",
+    "dense_reference": {
+      "implementation": "dense separable per-patch basis",
+      "operations": [
+        "SmoothField.patch_weights",
+        "SmoothField.sample_patches"
+      ],
+      "source_commit": "2248918fed15dc0cef5cc10f6e95749579b0d8ce",
+      "source_path": "ptycho_torch/phase_field_model.py",
+      "source_sha256": "741316fa29f6399ca09cf15bcc7efb77e46f61f7b558aa103c4f96dc3f9699ea"
+    },
+    "files": {
+      "ptycho_torch/phase_field_model.py": "3228b14541d4a38a2b22171df09275ec38374ddc6f4d4dbe348ab9d2605d3155",
+      "ptycho_torch/phase_field_refinement.py": "ce1382359f3ed3511f3d295905209a6b39608bc77b94e21570bee5d98382acfa",
+      "ptycho_torch/phase_field_seed.py": "88f0a8ebe2ac0701450d0218a6c8dd5fd50827ad78150d2c761912debcb69845",
+      "ptycho_torch/reassembly.py": "3db5f59c7dbd5c4e9be09a3a12ef24957201981c1caed147a58ad9d9d1ffba34",
+      "ptycho_torch/reassembly_phase_alignment.py": "9674a72780b7e1458bf907f43a80e53de1ac1bc41e443c147422fcf98a1416cd",
+      "ptycho_torch/varpro.py": "fc7523e0971660b27efc166b0733063cfd9b2e9f72d8806e4dd01f572164a91e",
+      "scripts/studies/paper_figures/quality_vs_time.py": "c2bffa72b2472eee9d5741d65671531f1e79105a61b3c5927765110a0ea8dc94"
+    }
+  },
+  "status": "diagnosed_iteration_mismatch",
+  "trials": [
+    {
+      "arrays": "/var/tmp/paper-c4-figures-20261020/core-timing/s200-iteration-diagnostic-20261020-01/trial-01.npz",
+      "arrays_sha256": "e17ed36e6272b2db365b644ab4207ff99b0ad1c0530f56373c59aeaeced1f37b",
+      "components": {
+        "inference_seconds": 9.80435909917287,
+        "offset_correction_seconds": 1.8795997870038263,
+        "stitching_seconds": 0.22555369591282215,
+        "tilt_correction_seconds": 7.071306099998765
+      },
+      "iterations": 15,
+      "nll_after": -137829009306.97394,
+      "nll_optimized": -137833130439.78058,
+      "phase_smoothing_sigma_px": 1.5,
+      "polished_candidate_sha256": "28968155080b1a44eabaeeab24557922ac2b5fd2120c7e03acb3430144532bc3",
+      "raw_candidate_sha256": "11a416c671e46981fee21455a80be70b48dc7e7c2f47c6012b1e17f9fba085b8",
+      "saved_polished_comparison": {
+        "candidate_sha256": "28968155080b1a44eabaeeab24557922ac2b5fd2120c7e03acb3430144532bc3",
+        "diagnostic_only": true,
+        "historical_allclose_rtol_2e-4_atol_2e-5": false,
+        "max_absolute_delta": 0.09047869512025704,
+        "relative_l2_delta": 0.01849813052529967,
+        "rms_absolute_delta": 0.015180890122013617,
+        "saved_sha256": "fa88210a8d3fa9f48ba1283ca5c9bb6fda331dd6456e9744b1c731cbe65c4c81"
+      },
+      "saved_raw_relative_l2_delta": 2.6536813732525977e-07,
+      "seed": "tilt",
+      "selected_fit_frame_count": 7721,
+      "selected_fit_local_ids_sha256": "e20e3a6eae48779ebf294797bbcaf5c120973803fbcd037ba65ff82c6b07a983",
+      "trial": 1
+    }
+  ]
+}

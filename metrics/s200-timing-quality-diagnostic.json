@@ -1,0 +1,48 @@
+{
+  "array_comparison": {
+    "candidate_sha256": "28968155080b1a44eabaeeab24557922ac2b5fd2120c7e03acb3430144532bc3",
+    "diagnostic_only": true,
+    "historical_allclose_rtol_2e-4_atol_2e-5": false,
+    "max_absolute_delta": 0.09047869512025704,
+    "relative_l2_delta": 0.01849813052529967,
+    "rms_absolute_delta": 0.01518089012201361,
+    "saved_sha256": "fa88210a8d3fa9f48ba1283ca5c9bb6fda331dd6456e9744b1c731cbe65c4c81"
+  },
+  "arrays": {
+    "path": "/var/tmp/paper-c4-figures-20261020/core-timing/s200-iteration-diagnostic-20261020-01/quality-score-inputs/shown-object-quality-diagnostic.npz",
+    "sha256": "50beb7849fdf533f26ea87f12c4778a37ef30f91617de8f1600493d5ed13e810"
+  },
+  "delta_vs_saved": {
+    "amp_mae": 8.92374368843818e-12,
+    "amplitude_ssim": -2.0788626375889407e-09,
+    "phase_ssim": 0.0006911470816796106,
+    "phase_wrapped_mae": -0.001085042953491211
+  },
+  "diagnostic_only": true,
+  "evaluator": "ptycho_torch.reconstruction_scoring.score_canvas",
+  "metric_support_pixels": 2222271,
+  "metric_support_sha256": "7bfd1f45c4fd09b67d67261c9312b1eccde3083db3065c4c55f917e3d176a76e",
+  "pairwise_vs_saved_after_shared_global_gauge": {
+    "amp_mae": 7.255081770369884e-08,
+    "amplitude_ssim": 0.9999999999731033,
+    "common_pixels": 2222271,
+    "phase_ssim": 0.9934273000046661,
+    "phase_wrapped_mae_rad": 0.009081143885850906
+  },
+  "reference_role": "supplied experimental estimate, not ground truth",
+  "scores_against_reference": {
+    "fresh": {
+      "amp_mae": 0.03354714350549911,
+      "amplitude_ssim": 0.4146788812350146,
+      "phase_ssim": 0.8391801470520398,
+      "phase_wrapped_mae": 0.6403540372848511
+    },
+    "saved": {
+      "amp_mae": 0.033547143496575366,
+      "amplitude_ssim": 0.41467888331387726,
+      "phase_ssim": 0.8384889999703602,
+      "phase_wrapped_mae": 0.6414390802383423
+    }
+  },
+  "trial": 1
+}

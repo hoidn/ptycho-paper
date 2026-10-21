@@ -1,0 +1,148 @@
+{
+  "status": "complete",
+  "count": 22,
+  "timing_basis": "c1-inference-stitch-offset-tilt-v1",
+  "receipt_paths_relative_to": "this index directory",
+  "source_index": {
+    "path": "/var/tmp/paper-c4-figures-20261020/core-timing/c1-dense-final22-combined-20261020-01/index.json",
+    "filename": "index.json",
+    "size_bytes": 7162,
+    "mtime_ns": 1792551245215327963,
+    "mtime_utc": "2026-10-21T02:54:05.215328+00:00",
+    "sha256": "a12ef942a7b4369f6f8ed160e915878acb9b1902cf96e3db72f13e17051286d2"
+  },
+  "receipts": [
+    {
+      "root": "als-128",
+      "case": "diagnostic-whole",
+      "receipt": "core-timing/als-128-diagnostic-whole.json",
+      "sha256": "f2f93705d1255b0df40324774d6856ed8e9a2ce4f1a999717d44b89c2848de21"
+    },
+    {
+      "root": "als-128",
+      "case": "heldout",
+      "receipt": "core-timing/als-128-heldout.json",
+      "sha256": "4d5c1408a2f0b77fa40cc3ace20b4f0b0ebf42fbe2ffcbdd400f28298fbcd331"
+    },
+    {
+      "root": "cnm-scan39",
+      "case": "diagnostic-whole",
+      "receipt": "core-timing/cnm-scan39-diagnostic-whole.json",
+      "sha256": "6da7fc9dca3eea1dfe2e08cd060ef4639061f3b890bef8e3a00d701b7fe02392"
+    },
+    {
+      "root": "cnm-scan39",
+      "case": "heldout",
+      "receipt": "core-timing/cnm-scan39-heldout.json",
+      "sha256": "909dabef5e681ccdb7284a12b3e2b3ddc23ef1906ddcf42691b78c6257a40855"
+    },
+    {
+      "root": "fly001-128-law4",
+      "case": "diagnostic-whole",
+      "receipt": "core-timing/fly001-128-law4-diagnostic-whole.json",
+      "sha256": "8ca6e160370afbfce57a24212df89db4c0bc4a881e9b12aabaae0724d138d68a"
+    },
+    {
+      "root": "fly001-128-law4",
+      "case": "heldout",
+      "receipt": "core-timing/fly001-128-law4-heldout.json",
+      "sha256": "68314378e4fe7e17fc0c02e0ad2ae354e12930a64441c9e255e6a73f2034cb39"
+    },
+    {
+      "root": "gold-tp1",
+      "case": "diagnostic-whole",
+      "receipt": "core-timing/gold-tp1-diagnostic-whole.json",
+      "sha256": "1aef9ce9f2c09346c8ec769cc4bf52e72b1996949b002d6fb480994682f6764f"
+    },
+    {
+      "root": "gold-tp1",
+      "case": "heldout",
+      "receipt": "core-timing/gold-tp1-heldout.json",
+      "sha256": "dc8dad974dcbf28e757de2631c3f2f1f88a49a237c08f54cfd9807a10b25251f"
+    },
+    {
+      "root": "microlfp-double-128",
+      "case": "diagnostic-whole",
+      "receipt": "core-timing/microlfp-double-128-diagnostic-whole.json",
+      "sha256": "088e3c4dbaeb300adeb28ef0df6e247748fbdb9ea4bc85ab3864faea2207fe52"
+    },
+    {
+      "root": "microlfp-double-128",
+      "case": "heldout",
+      "receipt": "core-timing/microlfp-double-128-heldout.json",
+      "sha256": "c3e41fa2ffe4a9db28c877fae49a25fcf4723e5e13da809d9ab1a949b32ef341"
+    },
+    {
+      "root": "microlfp-single-128",
+      "case": "diagnostic-whole",
+      "receipt": "core-timing/microlfp-single-128-diagnostic-whole.json",
+      "sha256": "f11671654ab4c17c3095ba85c6d2bacd369af68026adfd6783b39c1be148b22b"
+    },
+    {
+      "root": "microlfp-single-128",
+      "case": "heldout",
+      "receipt": "core-timing/microlfp-single-128-heldout.json",
+      "sha256": "efafe59a57bec357cac33ef9804b9e5a0f9884f6740a111d2a27ace2a8aac214"
+    },
+    {
+      "root": "nxs-gold_tp_2",
+      "case": "diagnostic-whole",
+      "receipt": "core-timing/nxs-gold_tp_2-diagnostic-whole.json",
+      "sha256": "2fb31552dbdebf1cd4480ac7fac52f0e68f8dd1dd91088212816779ca61cd26c"
+    },
+    {
+      "root": "nxs-gold_tp_2",
+      "case": "heldout",
+      "receipt": "core-timing/nxs-gold_tp_2-heldout.json",
+      "sha256": "38dd0ecf0874fe28e6f9dc3fea004cd4536cf3edf6c92a29800c29cd1359bbd9"
+    },
+    {
+      "root": "nxs-ic_1",
+      "case": "diagnostic-whole",
+      "receipt": "core-timing/nxs-ic_1-diagnostic-whole.json",
+      "sha256": "7299e905e4eed4bfa57c2c054f91dc9ec9f4d0786ad26289cb06c98c44576b45"
+    },
+    {
+      "root": "nxs-ic_1",
+      "case": "heldout",
+      "receipt": "core-timing/nxs-ic_1-heldout.json",
+      "sha256": "c703d6ada4c88a0a502006b2a816ef25adea904526be210e63dfea12b309f6fd"
+    },
+    {
+      "root": "nxs-ic_2",
+      "case": "diagnostic-whole",
+      "receipt": "core-timing/nxs-ic_2-diagnostic-whole.json",
+      "sha256": "1a74ff3b9232d8e7e1df20878db5e0400f50f245f3e892e0f80301496f2b0468"
+    },
+    {
+      "root": "nxs-ic_2",
+      "case": "heldout",
+      "receipt": "core-timing/nxs-ic_2-heldout.json",
+      "sha256": "d90968082b0404df7f7afbc31cf260e9d4fa2a91b003c12bd26966934d11a79f"
+    },
+    {
+      "root": "nxs-ncm_1",
+      "case": "diagnostic-whole",
+      "receipt": "core-timing/nxs-ncm_1-diagnostic-whole.json",
+      "sha256": "29c2f60f72f15364803e0bc95df41c217d503d03a5ecdac74830689726da43d1"
+    },
+    {
+      "root": "nxs-ncm_1",
+      "case": "heldout",
+      "receipt": "core-timing/nxs-ncm_1-heldout.json",
+      "sha256": "187b41a4e27abac0502f87162c7721c06668c0d2c661abc1dced8de82c6a0698"
+    },
+    {
+      "root": "s200-128",
+      "case": "diagnostic-whole",
+      "receipt": "core-timing/s200-128-diagnostic-whole.json",
+      "sha256": "8733f2f93471267f2b2ee44b2009fe4d5b3b85b6e08cb8d6e80f3dfc0d8ac6ea"
+    },
+    {
+      "root": "s200-128",
+      "case": "heldout",
+      "receipt": "core-timing/s200-128-heldout.json",
+      "sha256": "ebee51835baab4bb77a3727c75c824cd6965f6b7a739fd8ee6e8a349281bca45"
+    }
+  ]
+}

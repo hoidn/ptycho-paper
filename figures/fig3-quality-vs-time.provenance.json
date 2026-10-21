@@ -1,30 +1,14 @@
 {
-  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "commit": "850375abfe3784e344307d2e861254e2094ebb62",
   "display": "Main text",
   "inputs": [
     {
       "filename": "quality_vs_time.py",
-      "mtime_ns": 1792534765150357587,
-      "mtime_utc": "2026-10-20T22:19:25.150357+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/scripts/studies/paper_figures/quality_vs_time.py",
-      "sha256": "8ee4e348c22f06730019cdb4783f543fabd02b2fc4403a02f8eb0a4eeee9aa15",
-      "size_bytes": 129233
-    },
-    {
-      "filename": "run.json",
-      "mtime_ns": 1792494366967059454,
-      "mtime_utc": "2026-10-20T11:06:06.967059+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/nxs-ncm_1-heldout/reserved-frames/run.json",
-      "sha256": "6c0bf82589daff3d971404c539dbe20191662ec46e63a252dd76f9e199a2b459",
-      "size_bytes": 181521
-    },
-    {
-      "filename": "run.json",
-      "mtime_ns": 1792494751776699551,
-      "mtime_utc": "2026-10-20T11:12:31.776700+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/nxs-gold_tp_2-heldout/reserved-frames/run.json",
-      "sha256": "3e3911d5463cacac48cc932d389d09ed6bb71e138d4500170dadc6af434e4776",
-      "size_bytes": 464122
+      "mtime_ns": 1792551142207482077,
+      "mtime_utc": "2026-10-21T02:52:22.207482+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/timing-implementation/scripts/studies/paper_figures/quality_vs_time.py",
+      "sha256": "64ad3ca9ee85b8d7b77def4c1f945c9155f9ea3355c0fec1a943b5a3ce105956",
+      "size_bytes": 169171
     },
     {
       "filename": "run.json",
@@ -49,8 +33,34 @@
       "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/native-admission-recovery/synthetic-test-0000/reserved-frames/run.json",
       "sha256": "399a7e14f913ef0f5d49207f6fe78816f6ef0fb97727003a223d12984c7ce97a",
       "size_bytes": 307629
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792494751776699551,
+      "mtime_utc": "2026-10-20T11:12:31.776700+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/nxs-gold_tp_2-heldout/reserved-frames/run.json",
+      "sha256": "3e3911d5463cacac48cc932d389d09ed6bb71e138d4500170dadc6af434e4776",
+      "size_bytes": 464122
+    },
+    {
+      "filename": "run.json",
+      "mtime_ns": 1792494366967059454,
+      "mtime_utc": "2026-10-20T11:06:06.967059+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/quality-vs-time/nxs-ncm_1-heldout/reserved-frames/run.json",
+      "sha256": "6c0bf82589daff3d971404c539dbe20191662ec46e63a252dd76f9e199a2b459",
+      "size_bytes": 181521
     }
   ],
-  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
-  "original_generation_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319"
+  "outputs": [
+    "figures/fig3-quality-vs-time.png",
+    "figures/fig3-quality-vs-time.pdf"
+  ],
+  "source_export_identity": {
+    "filename": "reserved-quality-vs-time.provenance.json",
+    "mtime_ns": 1792551213264656048,
+    "mtime_utc": "2026-10-21T02:53:33.264656+00:00",
+    "path": "/var/tmp/paper-c4-figures-20261020/timing-preview/reserved-quality-vs-time.provenance.json",
+    "sha256": "c1b4c0aaf8b0bf15362ca37f25c6f5a13aee8879a73d1b38fbf6ae6616f19111",
+    "size_bytes": 2515
+  }
 }

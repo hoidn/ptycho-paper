@@ -13,7 +13,7 @@ C1 IC2 images are supplementary.
 |---|---|---|
 | 2, matched CNN | [C4 primary](figures/fig2-experimental-gallery-B.png), [C1](figures/fig2-experimental-gallery-B-c1.png) | C4: TP2, IC1, IC2, NCM1. C1: microLFP single, Fly001, S200. Hybrid, CNN C1, LSQ-ML; IC2 has a shared 192 px detail. TP2 is full-field only. |
 | 2, prior fragments | [C4 primary](figures/fig2-experimental-gallery-A.png), [C1](figures/fig2-experimental-gallery-A-c1.png) | Attributed published rasters are illustrative, not rescored. |
-| 2, timing | [Historical C1 timing](figures/fig2-timing.png) | The narrower inference/stitching/offset/tilt remeasurement is running; this file still shows the historical host-to-host measurement. |
+| 2, timing | [C1 timing](figures/fig2-timing.png) | Inference, stitching and offset/tilt correction only; component breakdown and patterns/s. C4 and CNN timings are unavailable. |
 | 3 | [Quality/time](figures/fig3-quality-vs-time.png) | Original C1 reserved-frame protocol; no corresponding C4 evidence. |
 | 4 | [Decomposition](figures/fig4-decomposition.png) | Existing Fly/synthetic C1 stages. Saved TP2 C4 stages are supplementary. |
 | 5 | [C4 scan-trained](figures/fig5-c4-scan-trained-main.png), [C1 scan-trained](figures/fig5-c1-scan-trained-main.png) | Synthetic-trained comparator remains C1; the C4 comparison does not isolate training source. |
@@ -93,21 +93,42 @@ registration are not established; they are separate acquisitions.
 
 ## Timing and scale bars
 
-“Whole acquisition” reconstructs all patterns from both halves, not training.
-Host-to-host timing includes per-acquisition RAM preparation, transfers,
-inference/VarPro, stitch/offset alignment, count gauge and applicable tilt/
-refinement. It excludes model/process loading, compilation, scoring and plots.
-Measurements use one warm-up and three fresh trials on an idle GPU.
+“Whole acquisition” reconstructs all patterns from both spatial halves; it
+excludes training. Fig. 2 now times **inference (including intrinsic VarPro),
+stitching, patch-offset correction and tilt/phase refinement only**. RAM
+preparation, external transfers, frame selection, separate scalar count
+calibration, loading, compilation, scoring and plotting are excluded.
 
-| Whole acquisition | Patterns | Polished C1 seconds | Patterns/s |
-|---|---:|---:|---:|
-| IC2 | 9,436 | 8.389 | 1,125 |
-| Fly001 | 10,304 | 8.698 | 1,185 |
-| S200 | 16,613 | 19.899 | 835 |
+All 22 C1 whole/heldout cases use one warmup of the measured dense field
+implementation and three fresh trials on an otherwise idle RTX 3090. The
+total is the median of per-trial component sums. Components below are from
+the actual median-total trial, so they add to that total. Assembly inside
+offset correction belongs to that column and is not counted twice.
 
+| Whole acquisition | Patterns | Inference (s) | Stitching (s) | Offsets (s) | Tilt/refinement (s) | Total (s) | Patterns/s |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| IC2 | 9,436 | 5.075 | 0.133 | 0.947 | 0.956 | 7.110 | 1,327 |
+| Fly001 | 10,304 | 5.550 | 0.142 | 1.091 | 0.247 | 7.030 | 1,466 |
+| S200 | 16,613 | 9.817 | 0.231 | 1.877 | 7.045 | 18.970 | 876 |
+
+[Component timing CSV](metrics/core-timing.csv) includes both spatial cases
+and identifies the timing boundary on every row. This reproduces the shown
+C1 recipe with dense field evaluation, not the later compact implementation.
+The saved raw ALS replay exactly reproduces its stored refined object;
+fresh network runs have small numerical variation documented in the trial
+receipts. S200 also stopped at 15 iterations in the bounded replay, under
+the unchanged cap of 16; the [saved/fresh score comparison](metrics/s200-timing-quality-diagnostic.json)
+records the numerical difference. Displayed images and quality scores were
+not replaced. [All 22 timing receipts](metrics/core-timing-index.json) are
+packaged with their source hashes.
+
+Historical LSQ-ML100 times and Fig. 3 retain their wider host-to-host boundary;
+no matched speedup is calculated against the narrower neural Fig. 2 times.
+For context, the old whole-acquisition times were 8.389 s (IC2), 8.698 s
+(Fly001) and 19.899 s (S200). The original `metrics/timing.csv` is retained.
 Fig. 3 reserves frames before every fitting stage and uses the first sampled
-LSQ-ML quality crossing without interpolation. Its membership receipts and
-original `metrics/timing.csv` are unchanged.
+LSQ-ML quality crossing without interpolation. C4 and CNN timings remain
+unavailable; no C1 throughput is attributed to their images.
 
 No verified object-plane nm/pixel calibration was recovered for the eleven
 acquisitions. Bars remain in **pixels**; the

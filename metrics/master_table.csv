@@ -1,37 +1,33 @@
-dataset,case,model,canvas,frames (train/heldout/whole),method,deviance,deviance_floor,phase_frc50,throughput_fps,wall_clock_s
-ALS,heldout,Hybrid ResNet C=1,raw,722/722/1444,Hybrid raw ablation,n/a,n/a,0.11499999999999999,871.0877377573311,0.8288487699974212
-ALS,heldout,Hybrid ResNet C=1,polished_tilt,722/722/1444,"ours (C=1, after correction)",n/a,n/a,0.125,687.380588749172,1.0503642549956567
-ALS,heldout,Hybrid ResNet C=1,lsqml100,722/722/1444,LSQ-ML100,n/a,n/a,0.34500000000000003,90.12817467046179,8.010813517968927
-CNM scan39,heldout,Hybrid ResNet C=1,raw,13041/12880/25921,Hybrid raw ablation,61.72123899730654,0.7259527223295946,0.14500000000000002,1170.5449786349502,11.003421683992201
-CNM scan39,heldout,Hybrid ResNet C=1,polished_tilt,13041/12880/25921,"ours (C=1, after correction)",54.91692543271857,0.7255634031140406,0.155,887.6024453784537,14.511001030994521
-CNM scan39,heldout,Hybrid ResNet C=1,lsqml100,13041/12880/25921,LSQ-ML100,52.86216475052143,0.7959169444740096,0.14500000000000002,91.28759881853924,141.09254889706062
-Fly001,heldout,Hybrid ResNet C=1,raw,5180/5124/10304,Hybrid raw ablation,2.6499510065690215,0.5119325774780055,0.235,1225.708668081959,4.180438739997044
-Fly001,heldout,Hybrid ResNet C=1,polished_tilt,5180/5124/10304,"ours (C=1, after correction)",2.211340134759843,0.5192711892674758,0.225,1152.3248289589042,4.446662843001832
-Fly001,heldout,Hybrid ResNet C=1,lsqml100,5180/5124/10304,LSQ-ML100,1.9431647418747953,0.5494220482279253,0.28500000000000003,84.60911308200097,60.5608522929906
-Gold TP1,heldout,Hybrid ResNet C=1,raw,572/571/1143,Hybrid raw ablation,41.81583306076679,0.4994859331280368,0.135,917.0710140057921,0.622634443003335
-Gold TP1,heldout,Hybrid ResNet C=1,polished_tilt,572/571/1143,"ours (C=1, after correction)",20.830178609558878,0.5279560901095353,0.155,692.7641762059527,0.8242343060046551
-Gold TP1,heldout,Hybrid ResNet C=1,lsqml100,572/571/1143,LSQ-ML100,12.359680407827458,0.6825234471582322,0.335,89.78404898864768,6.359704272996169
-microLFP double,heldout,Hybrid ResNet C=1,raw,1900/1850/3750,Hybrid raw ablation,n/a,n/a,0.175,1103.4960742481494,1.6764898790061125
-microLFP double,heldout,Hybrid ResNet C=1,polished_tilt,1900/1850/3750,"ours (C=1, after correction)",n/a,n/a,0.14500000000000002,866.4777427608811,2.1350808090064675
-microLFP double,heldout,Hybrid ResNet C=1,lsqml100,1900/1850/3750,LSQ-ML100,n/a,n/a,0.185,92.3033347581064,20.042612814024324
-microLFP single,heldout,Hybrid ResNet C=1,raw,2850/2775/5625,Hybrid raw ablation,n/a,n/a,0.20500000000000002,1064.8530839012483,2.6059932979987934
-microLFP single,heldout,Hybrid ResNet C=1,polished_tilt,2850/2775/5625,"ours (C=1, after correction)",n/a,n/a,0.20500000000000002,836.5058281613414,3.3173707899914007
-microLFP single,heldout,Hybrid ResNet C=1,lsqml100,2850/2775/5625,LSQ-ML100,n/a,n/a,0.20500000000000002,89.66223210364207,30.94948603100056
-IC2,heldout,Hybrid ResNet C=1,raw,4742/4694/9436,Hybrid raw ablation,3.8366788711221247,0.5410941324669261,0.245,1122.1943097030792,4.182876315993781
-IC2,heldout,Hybrid ResNet C=1,polished_tilt,4742/4694/9436,"ours (C=1, after correction)",3.6185034938520264,0.5411520690618443,0.245,968.3549169768643,4.847396256998763
-IC2,heldout,Hybrid ResNet C=1,lsqml100,4742/4694/9436,LSQ-ML100,2.926482487362427,0.6111605671350823,0.275,84.91804171980655,55.276828162008314
-NCM1,heldout,Hybrid ResNet C=1,raw,1207/1259/2466,Hybrid raw ablation,15.00021045945959,0.434139278264185,0.065,906.7825781099982,1.3884254400036298
-NCM1,heldout,Hybrid ResNet C=1,polished_tilt,1207/1259/2466,"ours (C=1, after correction)",7.546032299986461,0.4504548698448156,0.125,747.2699486579563,1.6847994520067004
-NCM1,heldout,Hybrid ResNet C=1,lsqml100,1207/1259/2466,LSQ-ML100,6.593482431298068,0.5557057531545501,0.255,70.2412077249055,17.92395149199001
-S200,heldout,Hybrid ResNet C=1,raw,8294/8319/16613,Hybrid raw ablation,6.691682959881444,0.2624481240195206,0.0,1152.9374234967493,7.21548267101025
-S200,heldout,Hybrid ResNet C=1,polished_tilt,8294/8319/16613,"ours (C=1, after correction)",5.115450736811223,0.2750308883045294,0.08499999999999999,781.2385650452964,10.648475858994061
-S200,heldout,Hybrid ResNet C=1,lsqml100,8294/8319/16613,LSQ-ML100,8.854260575140039,0.30599603560470034,0.0,34.814079945465124,238.95504385097593
-Gold TP1,heldout,CNN C=1,unaligned,572/571/1143,"CNN C=1, unaligned (no offset/tilt)",45.054599936840056,0.4771450357831861,0.095,n/a,n/a
-IC2,heldout,CNN C=1,unaligned,4742/4694/9436,"CNN C=1, unaligned (no offset/tilt)",3.7354093617920237,0.543684504649071,0.175,n/a,n/a
-NCM1,heldout,CNN C=1,unaligned,1207/1259/2466,"CNN C=1, unaligned (no offset/tilt)",13.791165346881352,0.43484820773739685,0.14500000000000002,n/a,n/a
-CNM scan39,heldout,CNN C=1,unaligned,13041/12880/25921,"CNN C=1, unaligned (no offset/tilt)",126.22640202432984,0.6787894770878017,0.0,n/a,n/a
-Fly001,heldout,CNN C=1,unaligned,5180/5124/10304,"CNN C=1, unaligned (no offset/tilt)",2.9532703290900537,0.5099511048004393,0.175,n/a,n/a
-ALS,heldout,CNN C=1,unaligned,722/722/1444,"CNN C=1, unaligned (no offset/tilt)",n/a,n/a,0.255,n/a,n/a
-microLFP single,heldout,CNN C=1,unaligned,2850/2775/5625,"CNN C=1, unaligned (no offset/tilt)",n/a,n/a,0.14500000000000002,n/a,n/a
-microLFP double,heldout,CNN C=1,unaligned,1900/1850/3750,"CNN C=1, unaligned (no offset/tilt)",n/a,n/a,0.125,n/a,n/a
-S200,heldout,CNN C=1,unaligned,8294/8319/16613,"CNN C=1, unaligned (no offset/tilt)",13.752499683700812,0.24065875616670068,0.0,n/a,n/a
+dataset,case,model,canvas,frames (train/heldout/whole),method,deviance,deviance_floor,phase_frc50,throughput_fps,wall_clock_s,timing_basis
+ALS,heldout,Hybrid ResNet C=1,raw,722/722/1444,Hybrid raw ablation,n/a,n/a,0.11499999999999999,1077.8973104869572,0.6698226194421295,c1-inference-stitch-offset-tilt-v1
+ALS,heldout,Hybrid ResNet C=1,polished_tilt,722/722/1444,"ours (C=1, after correction)",n/a,n/a,0.125,869.5588817380033,0.8303060496109538,c1-inference-stitch-offset-tilt-v1
+ALS,heldout,Hybrid ResNet C=1,lsqml100,722/722/1444,LSQ-ML100,n/a,n/a,0.34500000000000003,90.12817467046179,8.010813517968927,"historical host-to-host; includes preparation, transfers, gauge and scoring boundary as originally recorded"
+CNM scan39,heldout,Hybrid ResNet C=1,raw,13041/12880/25921,Hybrid raw ablation,61.72123899730654,0.7259527223295946,0.14500000000000002,1411.9310754835437,9.122258319577668,c1-inference-stitch-offset-tilt-v1
+CNM scan39,heldout,Hybrid ResNet C=1,polished_tilt,13041/12880/25921,"ours (C=1, after correction)",54.91692543271857,0.7255634031140406,0.155,1057.7722639450576,12.176534060330596,c1-inference-stitch-offset-tilt-v1
+CNM scan39,heldout,Hybrid ResNet C=1,lsqml100,13041/12880/25921,LSQ-ML100,52.86216475052143,0.7959169444740096,0.14500000000000002,91.28759881853924,141.09254889706062,"historical host-to-host; includes preparation, transfers, gauge and scoring boundary as originally recorded"
+Fly001,heldout,Hybrid ResNet C=1,raw,5180/5124/10304,Hybrid raw ablation,2.6499510065690215,0.5119325774780055,0.235,1488.1251726495452,3.4432587353367126,c1-inference-stitch-offset-tilt-v1
+Fly001,heldout,Hybrid ResNet C=1,polished_tilt,5180/5124/10304,"ours (C=1, after correction)",2.211340134759843,0.5192711892674758,0.225,1393.8012061264126,3.676277490274515,c1-inference-stitch-offset-tilt-v1
+Fly001,heldout,Hybrid ResNet C=1,lsqml100,5180/5124/10304,LSQ-ML100,1.9431647418747953,0.5494220482279253,0.28500000000000003,84.60911308200097,60.5608522929906,"historical host-to-host; includes preparation, transfers, gauge and scoring boundary as originally recorded"
+microLFP double,heldout,Hybrid ResNet C=1,raw,1900/1850/3750,Hybrid raw ablation,n/a,n/a,0.175,1344.683891684919,1.375788028279203,c1-inference-stitch-offset-tilt-v1
+microLFP double,heldout,Hybrid ResNet C=1,polished_tilt,1900/1850/3750,"ours (C=1, after correction)",n/a,n/a,0.14500000000000002,1048.707346318699,1.764076514285989,c1-inference-stitch-offset-tilt-v1
+microLFP double,heldout,Hybrid ResNet C=1,lsqml100,1900/1850/3750,LSQ-ML100,n/a,n/a,0.185,92.3033347581064,20.042612814024324,"historical host-to-host; includes preparation, transfers, gauge and scoring boundary as originally recorded"
+microLFP single,heldout,Hybrid ResNet C=1,raw,2850/2775/5625,Hybrid raw ablation,n/a,n/a,0.20500000000000002,1277.0302610139058,2.173010370010161,c1-inference-stitch-offset-tilt-v1
+microLFP single,heldout,Hybrid ResNet C=1,polished_tilt,2850/2775/5625,"ours (C=1, after correction)",n/a,n/a,0.20500000000000002,1000.8467733089913,2.7726521921285894,c1-inference-stitch-offset-tilt-v1
+microLFP single,heldout,Hybrid ResNet C=1,lsqml100,2850/2775/5625,LSQ-ML100,n/a,n/a,0.20500000000000002,89.66223210364207,30.94948603100056,"historical host-to-host; includes preparation, transfers, gauge and scoring boundary as originally recorded"
+IC2,heldout,Hybrid ResNet C=1,raw,4742/4694/9436,Hybrid raw ablation,3.8366788711221247,0.5410941324669261,0.245,1463.3569832514202,3.207693033022224,c1-inference-stitch-offset-tilt-v1
+IC2,heldout,Hybrid ResNet C=1,polished_tilt,4742/4694/9436,"ours (C=1, after correction)",3.6185034938520264,0.5411520690618443,0.245,1261.5681911795775,3.7207659742998658,c1-inference-stitch-offset-tilt-v1
+IC2,heldout,Hybrid ResNet C=1,lsqml100,4742/4694/9436,LSQ-ML100,2.926482487362427,0.6111605671350823,0.275,84.91804171980655,55.276828162008314,"historical host-to-host; includes preparation, transfers, gauge and scoring boundary as originally recorded"
+NCM1,heldout,Hybrid ResNet C=1,raw,1207/1259/2466,Hybrid raw ablation,15.00021045945959,0.434139278264185,0.065,1268.8104083978199,0.9922680265444797,c1-inference-stitch-offset-tilt-v1
+NCM1,heldout,Hybrid ResNet C=1,polished_tilt,1207/1259/2466,"ours (C=1, after correction)",7.546032299986461,0.4504548698448156,0.125,1035.108541390865,1.2162975665414706,c1-inference-stitch-offset-tilt-v1
+NCM1,heldout,Hybrid ResNet C=1,lsqml100,1207/1259/2466,LSQ-ML100,6.593482431298068,0.5557057531545501,0.255,70.2412077249055,17.92395149199001,"historical host-to-host; includes preparation, transfers, gauge and scoring boundary as originally recorded"
+S200,heldout,Hybrid ResNet C=1,raw,8294/8319/16613,Hybrid raw ablation,6.691682959881444,0.2624481240195206,0.0,1358.3055117642216,6.124542621633736,c1-inference-stitch-offset-tilt-v1
+S200,heldout,Hybrid ResNet C=1,polished_tilt,8294/8319/16613,"ours (C=1, after correction)",5.115450736811223,0.2750308883045294,0.08499999999999999,857.5728591667161,9.700633492626366,c1-inference-stitch-offset-tilt-v1
+S200,heldout,Hybrid ResNet C=1,lsqml100,8294/8319/16613,LSQ-ML100,8.854260575140039,0.30599603560470034,0.0,34.814079945465124,238.95504385097593,"historical host-to-host; includes preparation, transfers, gauge and scoring boundary as originally recorded"
+IC2,heldout,CNN C=1,unaligned,4742/4694/9436,"CNN C=1, unaligned (no offset/tilt)",3.7354093617920237,0.543684504649071,0.175,n/a,n/a,n/a
+NCM1,heldout,CNN C=1,unaligned,1207/1259/2466,"CNN C=1, unaligned (no offset/tilt)",13.791165346881352,0.43484820773739685,0.14500000000000002,n/a,n/a,n/a
+CNM scan39,heldout,CNN C=1,unaligned,13041/12880/25921,"CNN C=1, unaligned (no offset/tilt)",126.22640202432984,0.6787894770878017,0.0,n/a,n/a,n/a
+Fly001,heldout,CNN C=1,unaligned,5180/5124/10304,"CNN C=1, unaligned (no offset/tilt)",2.9532703290900537,0.5099511048004393,0.175,n/a,n/a,n/a
+ALS,heldout,CNN C=1,unaligned,722/722/1444,"CNN C=1, unaligned (no offset/tilt)",n/a,n/a,0.255,n/a,n/a,n/a
+microLFP single,heldout,CNN C=1,unaligned,2850/2775/5625,"CNN C=1, unaligned (no offset/tilt)",n/a,n/a,0.14500000000000002,n/a,n/a,n/a
+microLFP double,heldout,CNN C=1,unaligned,1900/1850/3750,"CNN C=1, unaligned (no offset/tilt)",n/a,n/a,0.125,n/a,n/a,n/a
+S200,heldout,CNN C=1,unaligned,8294/8319/16613,"CNN C=1, unaligned (no offset/tilt)",13.752499683700812,0.24065875616670068,0.0,n/a,n/a,n/a

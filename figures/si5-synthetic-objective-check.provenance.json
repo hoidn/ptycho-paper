@@ -1,14 +1,13 @@
 {
-  "commit": "7d5104505f0893e1d0d512b37197b6ccddad3b1a",
+  "commit": "850375abfe3784e344307d2e861254e2094ebb62",
   "inputs": [
     {
-      "filename": "6af49c1b5a4019580ab2cb8e76a8674b3196a1f97afba79d1047774f4b190520-quality_vs_time.py",
-      "mtime_ns": 1792534965901729462,
-      "mtime_utc": "2026-10-20T22:22:45.901729+00:00",
-      "original_path": "/home/ollie/Documents/PtychoPINN/scripts/studies/paper_figures/quality_vs_time.py",
-      "path": "/var/tmp/paper-figure-readability-20261020/before-sources/6af49c1b5a4019580ab2cb8e76a8674b3196a1f97afba79d1047774f4b190520-quality_vs_time.py",
-      "sha256": "6af49c1b5a4019580ab2cb8e76a8674b3196a1f97afba79d1047774f4b190520",
-      "size_bytes": 127145
+      "filename": "quality_vs_time.py",
+      "mtime_ns": 1792551142207482077,
+      "mtime_utc": "2026-10-21T02:52:22.207482+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/timing-implementation/scripts/studies/paper_figures/quality_vs_time.py",
+      "sha256": "64ad3ca9ee85b8d7b77def4c1f945c9155f9ea3355c0fec1a943b5a3ce105956",
+      "size_bytes": 169171
     },
     {
       "filename": "run.json",
@@ -18,5 +17,17 @@
       "sha256": "399a7e14f913ef0f5d49207f6fe78816f6ef0fb97727003a223d12984c7ce97a",
       "size_bytes": 307629
     }
-  ]
+  ],
+  "outputs": [
+    "figures/si5-synthetic-objective-check.png",
+    "figures/si5-synthetic-objective-check.pdf"
+  ],
+  "source_export_identity": {
+    "filename": "s5-synthetic-objective.provenance.json",
+    "mtime_ns": 1792551213829620175,
+    "mtime_utc": "2026-10-21T02:53:33.829620+00:00",
+    "path": "/var/tmp/paper-c4-figures-20261020/timing-preview/s5-synthetic-objective.provenance.json",
+    "sha256": "406fe225ef7b9c7e5e568dde4e8e23a482ec633548f11347256e4d00624bf3bf",
+    "size_bytes": 879
+  }
 }
