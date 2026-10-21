@@ -1,10 +1,13 @@
 {
   "alias_of": "fig2-experimental-gallery-A-c4",
+  "alias_reason": "A/B use the same local uncorrected CNN comparison",
   "c4_groups_per_training_center": 10,
   "c4_training_compute_matched": false,
   "caption_note": "TP2 is shown full field only; FRC is excluded because of scan-grid artefacts. ",
+  "cnn_canvas": "unaligned",
   "cnn_offset_tilt_correction": false,
-  "commit": "42146a9dc5ff2ab834e18313f6a6115a2220614a",
+  "cnn_source": "local measured-half CNN C=1",
+  "commit": "d7a45d46ee4ca9f9ba04a0d37c7e6f894eb0fb53",
   "conventional_notes": {},
   "dataset_roots": [
     "nxs-gold_tp_2",
@@ -12,8 +15,38 @@
     "nxs-ic_2",
     "nxs-ncm_1"
   ],
-  "display": "Main text; selected C4",
-  "display_crops": {},
+  "display_crops": {
+    "nxs-ic_2": {
+      "cols_px": [
+        437,
+        629
+      ],
+      "rows_px": [
+        431,
+        623
+      ],
+      "selection": "centered within the supported field; half-open source-canvas indices",
+      "shared_phase_scale": {
+        "applies_to": [
+          "full field",
+          "192px detail"
+        ],
+        "cmap": "viridis",
+        "gauge": "global; prepared before cropping",
+        "methods": [
+          "Hybrid C=4 + refinement",
+          "PtychoPINN-CI (CNN, C=1)",
+          "LSQ-ML100"
+        ],
+        "vmax": 1.2498622417449952,
+        "vmin": 0.05194166079163552
+      },
+      "size_px": [
+        192,
+        192
+      ]
+    }
+  },
   "inputs": [
     {
       "filename": "rows.json",
@@ -376,6 +409,38 @@
       "size_bytes": 1176995
     },
     {
+      "filename": "mapped.npz",
+      "mtime_ns": 1792529580937653383,
+      "mtime_utc": "2026-10-20T20:53:00.937653+00:00",
+      "path": "/var/tmp/als-c4-repeated-positions-20261020/c1/diagnostic-whole/mapped.npz",
+      "sha256": "3522702fdc8e69234e1183ca0516aaf0792178a28ded082a415bafb6ae6f95da",
+      "size_bytes": 2461812
+    },
+    {
+      "filename": "verified.json",
+      "mtime_ns": 1792529581036788110,
+      "mtime_utc": "2026-10-20T20:53:01.036788+00:00",
+      "path": "/var/tmp/als-c4-repeated-positions-20261020/c1/diagnostic-whole/verified.json",
+      "sha256": "3cd7807c3229e1fdf54bfbe1ed33fc6bf5c04addade0e039d712962f31b92bc4",
+      "size_bytes": 16769
+    },
+    {
+      "filename": "mapped.npz",
+      "mtime_ns": 1792529617272540854,
+      "mtime_utc": "2026-10-20T20:53:37.272541+00:00",
+      "path": "/var/tmp/als-c4-repeated-positions-20261020/c4/diagnostic-whole/mapped.npz",
+      "sha256": "3c9d28a0f2bbbbc92ac28c5d12404a60f6ad55ce9b5c7ad92343260ca33bc862",
+      "size_bytes": 4152881
+    },
+    {
+      "filename": "verified.json",
+      "mtime_ns": 1792529617369697432,
+      "mtime_utc": "2026-10-20T20:53:37.369697+00:00",
+      "path": "/var/tmp/als-c4-repeated-positions-20261020/c4/diagnostic-whole/verified.json",
+      "sha256": "59bb4378a3a011d45d0a0b6a7ae7caf094282c20b40bfb722e3eaa23138e5771",
+      "size_bytes": 16714
+    },
+    {
       "filename": "rows.json",
       "mtime_ns": 1792470968310635725,
       "mtime_utc": "2026-10-20T04:36:08.310636+00:00",
@@ -672,65 +737,66 @@
       "size_bytes": 4401728
     },
     {
+      "filename": "whole.npz",
+      "mtime_ns": 1792220247324130230,
+      "mtime_utc": "2026-10-17T06:57:27.324130+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half/als-128/scan/whole.npz",
+      "sha256": "16f04cb42763b0331a0ba7aac66dbd06c8ded752cc8b7b4fe0ccf79652928788",
+      "size_bytes": 87540696
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792523929057510321,
+      "mtime_utc": "2026-10-20T19:18:49.057510+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/als-128/diagnostic-whole/rows.json",
+      "sha256": "3a7afc807fca989f076c5a21f9b40f3c4eeefc4c4a03062b486c14a08c6e1baa",
+      "size_bytes": 28533
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792523929056742357,
+      "mtime_utc": "2026-10-20T19:18:49.056742+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/als-128/diagnostic-whole/manifest.json",
+      "sha256": "5872473beba9ace3115b78ef97c83b0f9a1f0d5a8858560209bcc8ff41505b91",
+      "size_bytes": 25999
+    },
+    {
+      "filename": "als-128-scan_trained-cnn-diagnostic-whole.npz",
+      "mtime_ns": 1792523928967740766,
+      "mtime_utc": "2026-10-20T19:18:48.967741+00:00",
+      "path": "/var/tmp/paper-cnn-baseline-2026-10-20/als-128/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/als-128-scan_trained-cnn-diagnostic-whole.npz",
+      "sha256": "09073b9ac47eb3e12320edfae81057f3a9f27bb770fb524112173afee64c6be1",
+      "size_bytes": 1047927
+    },
+    {
       "filename": "experimental_gallery.py",
-      "mtime_ns": 1792552060363634903,
-      "mtime_utc": "2026-10-21T03:07:40.363635+00:00",
-      "path": "/var/tmp/paper-c4-figures-20261020/gallery-method-order/scripts/studies/paper_figures/experimental_gallery.py",
-      "sha256": "11b0c3d042034f54a2bc0aa949ef745e184a99b6935b8f950b6056f2c2f9f7fa",
-      "size_bytes": 35508
+      "mtime_ns": 1792555626315843851,
+      "mtime_utc": "2026-10-21T04:07:06.315844+00:00",
+      "path": "/var/tmp/paper-local-cnn-20261020/implementation/scripts/studies/paper_figures/experimental_gallery.py",
+      "sha256": "cf73c25b9da9f40ed19935d4e03166e5539c81d1a49d1bdbf9b7d529a3895ce9",
+      "size_bytes": 31785
     },
     {
-      "filename": "render_galleries_method_order.py",
-      "mtime_ns": 1792552150484544308,
-      "mtime_utc": "2026-10-21T03:09:10.484544+00:00",
-      "path": "/var/tmp/paper-c4-figures-20261020/control/render_galleries_method_order.py",
-      "sha256": "8aa22617c72232a656c87ead1fb4daf46b7150e0e9621cf211513f5b0cf28251",
-      "size_bytes": 7004
+      "filename": "render_galleries.py",
+      "mtime_ns": 1792555355294480698,
+      "mtime_utc": "2026-10-21T04:02:35.294481+00:00",
+      "path": "/var/tmp/paper-local-cnn-20261020/control/render_galleries.py",
+      "sha256": "27b5761b8f1fc24a942732d5e5eb6da4c118879272fc97c4eccf52675126f93f",
+      "size_bytes": 6093
     },
     {
-      "filename": "prior-fragments.json",
-      "mtime_ns": 1792544049669441912,
-      "mtime_utc": "2026-10-21T00:54:09.669442+00:00",
-      "path": "/var/tmp/paper-c4-figures-20261020/prior-fragments.json",
-      "sha256": "e7eb69b1d448cd091693d007bf33869e39c8abccc6e47ba87b20219484568381",
-      "size_bytes": 6880
-    },
-    {
-      "filename": "SI_syn_model_results-112.png",
-      "mtime_ns": 1792450098411432833,
-      "mtime_utc": "2026-10-19T22:48:18.411433+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-112.png",
-      "sha256": "5b30b09353d0d8fbf7d3fb19f5e047a23b5005f3e17662a0d80c0c43df26c985",
-      "size_bytes": 307859
-    },
-    {
-      "filename": "SI_syn_model_results-028.png",
-      "mtime_ns": 1792450097796442444,
-      "mtime_utc": "2026-10-19T22:48:17.796443+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-028.png",
-      "sha256": "3cfec6e6fd888947d34a9567423f98d765576eacd58c3b9a394fb6a85bdba453",
-      "size_bytes": 35904
-    },
-    {
-      "filename": "SI_syn_model_results-064.png",
-      "mtime_ns": 1792450098082437974,
-      "mtime_utc": "2026-10-19T22:48:18.082438+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-064.png",
-      "sha256": "96c79136877c3d10e1ec39503abb1f5a930bf311b0f78ab3364629a2bcb15cbd",
-      "size_bytes": 191086
-    },
-    {
-      "filename": "Figure2-280.png",
-      "mtime_ns": 1792450092914518746,
-      "mtime_utc": "2026-10-19T22:48:12.914519+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-280.png",
-      "sha256": "f48e1d42add86b6f307570a0051f203919a5f22720ba57310ff1ad3c1007e30e",
-      "size_bytes": 56648
+      "filename": "local-cnn-audit.json",
+      "mtime_ns": 1792554915952047156,
+      "mtime_utc": "2026-10-21T03:55:15.952047+00:00",
+      "path": "/var/tmp/paper-local-cnn-20261020/local-cnn-audit.json",
+      "sha256": "a573695f1f95633a21e03787987e03be12568fa9704f2f1b6af4e3f64041ddd8",
+      "size_bytes": 85191
     }
   ],
   "model_group": "c4",
   "page_inventory": [
-    "fig2-experimental-gallery-A.png"
+    "fig2-experimental-gallery-A.png",
+    "fig2-experimental-gallery-A-page2.png"
   ],
   "pdf": "fig2-experimental-gallery-A.pdf",
   "physical_scale": "unverified; pixels retained",
@@ -2687,11 +2753,7 @@
     }
   ],
   "source_export_identity": {
-    "filename": "fig2-experimental-gallery-A-c4.provenance.json",
-    "mtime_ns": 1792552979247514047,
-    "mtime_utc": "2026-10-21T03:22:59.247514+00:00",
-    "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/fig2-experimental-gallery-A-c4.provenance.json",
-    "sha256": "62d35de0c80939d4357f926d508c9cc44c6c5392baa917c6e44472b0bc072075",
-    "size_bytes": 106781
+    "path": "/var/tmp/paper-local-cnn-20261020/preview/metrics/fig2-experimental-gallery-A-c4.provenance.json",
+    "sha256": "5e9128711b8ab76200435791105015fe9e7e20153cd1ede4f3ac3266a5f8d496"
   }
 }

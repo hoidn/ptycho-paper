@@ -11,8 +11,7 @@ C1 IC2 images are supplementary.
 
 | Figure | Outputs under `figures/` | Scope |
 |---|---|---|
-| 2, matched CNN | [C4 primary](figures/fig2-experimental-gallery-B.png), [C1](figures/fig2-experimental-gallery-B-c1.png) | C4: TP2, IC1, IC2, NCM1. C1: microLFP single, Fly001, S200. Hybrid, CNN C1, LSQ-ML; IC2 has a shared 192 px detail. TP2 is full-field only. |
-| 2, prior fragments | [C4 primary](figures/fig2-experimental-gallery-A.png), [C1](figures/fig2-experimental-gallery-A-c1.png) | Attributed published rasters are illustrative, not rescored. |
+| 2, local PtychoPINN-CI | [C4 primary](figures/fig2-experimental-gallery-B.png), [C1](figures/fig2-experimental-gallery-B-c1.png) | C4: TP2, IC1, IC2, NCM1. C1: microLFP single, Fly001, S200. Hybrid, PtychoPINN-CI C1, LSQ-ML; IC2 has a shared 192 px detail. TP2 is full-field only. |
 | 2, timing | [C1 timing](figures/fig2-timing.png) | Inference, stitching and offset/tilt correction only; component breakdown and patterns/s. C4 and CNN timings are unavailable. |
 | 3 | [Quality/time](figures/fig3-quality-vs-time.png) | Original C1 reserved-frame protocol; no corresponding C4 evidence. |
 | 4 | [Decomposition](figures/fig4-decomposition.png) | Existing Fly/synthetic C1 stages. Saved TP2 C4 stages are supplementary. |
@@ -32,8 +31,7 @@ or active FRC result: grid artifacts make its FRC interpretation misleading.
 | S1 phase | `si1-resolution-c4`, `si1-resolution-c1` |
 | S1 amplitude | `si1-resolution-amplitude-c4.png`, `si1-resolution-amplitude-c1.png` |
 | S2 | `si2-c4-crossdataset-summary`; original `si2-data-efficiency` retains C1 training/pitch sweeps |
-| S3 matched CNN | `si3-experimental-gallery-B-c4`, `si3-experimental-gallery-B-c1` |
-| S3 published fragments | `si3-experimental-gallery-A-c4`, `si3-experimental-gallery-A-c1` |
+| S3 local PtychoPINN-CI | `si3-experimental-gallery-B-c4`, `si3-experimental-gallery-B-c1` |
 | S3 amplitude | `si3-amplitude-gallery-c4`, `si3-amplitude-gallery-c1` |
 | Fig. 4 C4 stages | `fig4-c4-stages-supplementary`; missing seed-only stage is explicitly unavailable |
 | Fig. 5 | `fig5-c4-scan-trained-supplementary`; original C1 in `fig5-synthetic-generalization-supplementary` |
@@ -54,12 +52,19 @@ IC2. Original C1 IC2 images remain in SI and the paired grouping ablation.
 ## Comparison identities
 
 `raw` already includes offsets; `polished_tilt` adds tilt seeding and field
-refinement. Matched CNN B uses C1, the same measured training half, CI VarPro
-and scalar count calibration, with **no offset, tilt or field correction**.
-It is not the published synthetic-only recipe. Both gallery variants put LSQ-ML last: Hybrid, CNN comparator, LSQ-ML
-in main; Reference, Hybrid, CNN comparator, LSQ-ML in SI. The prior-paper
-method is labelled “PtychoPINN-CI (published)”; its raster provenance and
-acquisition caveats are retained.
+refinement. **PtychoPINN-CI (CNN, C=1)** is our local CNN trained on the same
+measured low half as Hybrid ResNet. It uses its own `unaligned` reconstruction,
+with **no patch-offset alignment, tilt seed or phase-field refinement**.
+Intrinsic CI VarPro and scalar count calibration remain. The shared global
+evaluation gauge is applied for scoring/display. These are local measured-half
+results, not images extracted from the prior paper or its synthetic-only recipe.
+
+Main columns are Hybrid, PtychoPINN-CI, LSQ-ML; SI prepends Reference. B is
+the canonical gallery filename. Former A filenames now alias the same local
+computed comparison, including the matched IC2 detail; A/B no longer denote
+different baselines. All eleven models and twenty-two whole/high-half records
+passed the [local CNN audit](metrics/local-cnn-audit.json). Existing runs supply
+every panel, so no training or inference rerun was needed.
 
 CNM scan39 CNN failed to recover phase structure within 40 epochs. Native and
 displayed objects match exactly on the scored mask; whole phase standard
@@ -76,11 +81,6 @@ timing comparator nor heldout evidence. See the
 panels share cyclic `twilight` colours from −π to π; amplitude and metrics
 are unchanged.
 
-ALS's prior fragment is **NS** in arXiv:2608.02869 Fig. 2, “+Synthetic Data
-only.” It shows the same specimen field, but the relationship between its
-960 patterns and the current 1,444 is unknown. The original scale is retained;
-see the [source audit](metrics/als-ns-reference-match.json). Prior fragments
-are cropped and rescaled under CC BY 4.0. Missing cells say “No verified panel.”
 
 `Patterns` counts displayed acquisition patterns; `Training` counts distinct
 training patterns. Every C4 arm uses **10× training-group oversampling**:
@@ -151,5 +151,7 @@ and `<dataset>-whole.png` exports do not supply current comparisons.
 
 Generators live in `scripts/studies/paper_figures/` in PtychoPINN. The active
 plan is `docs/plans/2026-10-20-paper-c4-figure-variants.md`; it links the original
-design, execution, CNN baseline and readability plans. Current render commands
-and audits live under `.artifacts/paper-c4-figures-20261020/` in that checkout.
+design, execution, CNN baseline and readability plans. Current gallery commands
+and audit live under `.artifacts/paper-local-cnn-20261020/` in that checkout;
+earlier figure commands and receipts remain under
+`.artifacts/paper-c4-figures-20261020/`.

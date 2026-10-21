@@ -1,9 +1,13 @@
 {
+  "alias_of": "si3-experimental-gallery-B-c4",
+  "alias_reason": "A/B use the same local uncorrected CNN comparison",
   "c4_groups_per_training_center": 10,
   "c4_training_compute_matched": false,
-  "caption_note": "TP2 is shown full field only; FRC is excluded because of scan-grid artefacts. ALS is published as NS: same specimen field, 960 published patterns versus 1,444 here; exact acquisition relationship unverified. ",
+  "caption_note": "TP2 is shown full field only; FRC is excluded because of scan-grid artefacts. ",
+  "cnn_canvas": "unaligned",
   "cnn_offset_tilt_correction": false,
-  "commit": "42146a9dc5ff2ab834e18313f6a6115a2220614a",
+  "cnn_source": "local measured-half CNN C=1",
+  "commit": "d7a45d46ee4ca9f9ba04a0d37c7e6f894eb0fb53",
   "conventional_notes": {},
   "dataset_roots": [
     "gold-tp1",
@@ -737,75 +741,27 @@
     },
     {
       "filename": "experimental_gallery.py",
-      "mtime_ns": 1792552060363634903,
-      "mtime_utc": "2026-10-21T03:07:40.363635+00:00",
-      "path": "/var/tmp/paper-c4-figures-20261020/gallery-method-order/scripts/studies/paper_figures/experimental_gallery.py",
-      "sha256": "11b0c3d042034f54a2bc0aa949ef745e184a99b6935b8f950b6056f2c2f9f7fa",
-      "size_bytes": 35508
+      "mtime_ns": 1792555626315843851,
+      "mtime_utc": "2026-10-21T04:07:06.315844+00:00",
+      "path": "/var/tmp/paper-local-cnn-20261020/implementation/scripts/studies/paper_figures/experimental_gallery.py",
+      "sha256": "cf73c25b9da9f40ed19935d4e03166e5539c81d1a49d1bdbf9b7d529a3895ce9",
+      "size_bytes": 31785
     },
     {
-      "filename": "render_galleries_order_preview.py",
-      "mtime_ns": 1792553120898280863,
-      "mtime_utc": "2026-10-21T03:25:20.898281+00:00",
-      "path": "/var/tmp/paper-c4-figures-20261020/control/render_galleries_order_preview.py",
-      "sha256": "d7068a9f8f2d6544111ddf7baf4fd2f4b203cc514160aa2c69ad9aa328495ed1",
-      "size_bytes": 7168
+      "filename": "render_galleries.py",
+      "mtime_ns": 1792555355294480698,
+      "mtime_utc": "2026-10-21T04:02:35.294481+00:00",
+      "path": "/var/tmp/paper-local-cnn-20261020/control/render_galleries.py",
+      "sha256": "27b5761b8f1fc24a942732d5e5eb6da4c118879272fc97c4eccf52675126f93f",
+      "size_bytes": 6093
     },
     {
-      "filename": "prior-fragments.json",
-      "mtime_ns": 1792544049669441912,
-      "mtime_utc": "2026-10-21T00:54:09.669442+00:00",
-      "path": "/var/tmp/paper-c4-figures-20261020/prior-fragments.json",
-      "sha256": "e7eb69b1d448cd091693d007bf33869e39c8abccc6e47ba87b20219484568381",
-      "size_bytes": 6880
-    },
-    {
-      "filename": "SI_syn_model_results-100.png",
-      "mtime_ns": 1792450098223435771,
-      "mtime_utc": "2026-10-19T22:48:18.223436+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-100.png",
-      "sha256": "19c5bf8a65cb038da303061b2e81961ba0fa22330cc30ded408947415f5f6561",
-      "size_bytes": 43124
-    },
-    {
-      "filename": "SI_syn_model_results-112.png",
-      "mtime_ns": 1792450098411432833,
-      "mtime_utc": "2026-10-19T22:48:18.411433+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-112.png",
-      "sha256": "5b30b09353d0d8fbf7d3fb19f5e047a23b5005f3e17662a0d80c0c43df26c985",
-      "size_bytes": 307859
-    },
-    {
-      "filename": "SI_syn_model_results-028.png",
-      "mtime_ns": 1792450097796442444,
-      "mtime_utc": "2026-10-19T22:48:17.796443+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-028.png",
-      "sha256": "3cfec6e6fd888947d34a9567423f98d765576eacd58c3b9a394fb6a85bdba453",
-      "size_bytes": 35904
-    },
-    {
-      "filename": "SI_syn_model_results-064.png",
-      "mtime_ns": 1792450098082437974,
-      "mtime_utc": "2026-10-19T22:48:18.082438+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-064.png",
-      "sha256": "96c79136877c3d10e1ec39503abb1f5a930bf311b0f78ab3364629a2bcb15cbd",
-      "size_bytes": 191086
-    },
-    {
-      "filename": "Figure2-280.png",
-      "mtime_ns": 1792450092914518746,
-      "mtime_utc": "2026-10-19T22:48:12.914519+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-280.png",
-      "sha256": "f48e1d42add86b6f307570a0051f203919a5f22720ba57310ff1ad3c1007e30e",
-      "size_bytes": 56648
-    },
-    {
-      "filename": "Figure2-064.png",
-      "mtime_ns": 1792450091944533908,
-      "mtime_utc": "2026-10-19T22:48:11.944534+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-064.png",
-      "sha256": "98cb53da84e218039aead1a563e6ce5e6b9f6b0606229ba7362a4a2ec90dc551",
-      "size_bytes": 20403
+      "filename": "local-cnn-audit.json",
+      "mtime_ns": 1792554915952047156,
+      "mtime_utc": "2026-10-21T03:55:15.952047+00:00",
+      "path": "/var/tmp/paper-local-cnn-20261020/local-cnn-audit.json",
+      "sha256": "a573695f1f95633a21e03787987e03be12568fa9704f2f1b6af4e3f64041ddd8",
+      "size_bytes": 85191
     }
   ],
   "model_group": "c4",
@@ -3950,5 +3906,9 @@
         "valid_pixel_count": 24820
       }
     }
-  ]
+  ],
+  "source_export_identity": {
+    "path": "/var/tmp/paper-local-cnn-20261020/preview/metrics/si3-experimental-gallery-B-c4.provenance.json",
+    "sha256": "3a3d1413f85d887719e566a615dbab5796176bab502d218cf729b3757270a063"
+  }
 }

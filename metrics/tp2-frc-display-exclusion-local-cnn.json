@@ -1,0 +1,70 @@
+{
+  "reason": "grid artefacts",
+  "scope": "Active exported FRC cells, curves, profiles, ratios and summaries",
+  "scientific_source_receipts_modified": false,
+  "other_score_cells_modified": false,
+  "renderer": {
+    "path": "/var/tmp/paper-local-cnn-20261020/control/finalize_tp2.py",
+    "filename": "finalize_tp2.py",
+    "size_bytes": 4832,
+    "mtime_ns": 1792555285083810301,
+    "mtime_utc": "2026-10-21T04:01:25.083810+00:00",
+    "sha256": "1a105ed0f30040115720a06e39d6d6c35abbcddab37127fc4be64ec7133f0dea"
+  },
+  "changes": [
+    {
+      "before": {
+        "path": "/var/tmp/paper-local-cnn-20261020/preview/metrics/fig2-experimental-gallery-B-c4.provenance.json",
+        "filename": "fig2-experimental-gallery-B-c4.provenance.json",
+        "size_bytes": 122263,
+        "mtime_ns": 1792556243409074551,
+        "mtime_utc": "2026-10-21T04:17:23.409075+00:00",
+        "sha256": "d377f8bcc0490137b84da28c5ddccbb8a33c9632093f3f1498bd751af74d7b5b"
+      },
+      "after": {
+        "path": "/var/tmp/paper-local-cnn-20261020/preview/metrics/fig2-experimental-gallery-B-c4.provenance.json",
+        "filename": "fig2-experimental-gallery-B-c4.provenance.json",
+        "size_bytes": 108788,
+        "mtime_ns": 1792556391436632119,
+        "mtime_utc": "2026-10-21T04:19:51.436632+00:00",
+        "sha256": "2dee9433fc05be96845903d9538906c4c4ae18fc7526f5c5c7696f824c5998b9"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-local-cnn-20261020/preview/metrics/si3-amplitude-gallery-c4.provenance.json",
+        "filename": "si3-amplitude-gallery-c4.provenance.json",
+        "size_bytes": 160403,
+        "mtime_ns": 1792556345779950009,
+        "mtime_utc": "2026-10-21T04:19:05.779950+00:00",
+        "sha256": "111f08ef2b0bb33f5c3d8b617ce9638a65e486391552503981af52009117b9d4"
+      },
+      "after": {
+        "path": "/var/tmp/paper-local-cnn-20261020/preview/metrics/si3-amplitude-gallery-c4.provenance.json",
+        "filename": "si3-amplitude-gallery-c4.provenance.json",
+        "size_bytes": 146928,
+        "mtime_ns": 1792556391441425910,
+        "mtime_utc": "2026-10-21T04:19:51.441426+00:00",
+        "sha256": "36ec0128d931ab8d7c039e5cffc3fb6be9fe4ce761788bd216fb64b91c548d99"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-local-cnn-20261020/preview/metrics/si3-experimental-gallery-B-c4.provenance.json",
+        "filename": "si3-experimental-gallery-B-c4.provenance.json",
+        "size_bytes": 160418,
+        "mtime_ns": 1792556300348589707,
+        "mtime_utc": "2026-10-21T04:18:20.348590+00:00",
+        "sha256": "24c1259012a58eabbdef46c492a2d2ebaf4dc3a6e03eed96d79fae6172948d9d"
+      },
+      "after": {
+        "path": "/var/tmp/paper-local-cnn-20261020/preview/metrics/si3-experimental-gallery-B-c4.provenance.json",
+        "filename": "si3-experimental-gallery-B-c4.provenance.json",
+        "size_bytes": 146943,
+        "mtime_ns": 1792556391446291302,
+        "mtime_utc": "2026-10-21T04:19:51.446291+00:00",
+        "sha256": "3a3d1413f85d887719e566a615dbab5796176bab502d218cf729b3757270a063"
+      }
+    }
+  ]
+}
