@@ -1,0 +1,4 @@
+root,dataset,arm,model_group,deviance,deviance_floor,phase_frc50,phase_wrapped_mae,phase_ssim,selection_group,selection_reason,c1_phase_wrapped_mae,c1_phase_ssim,c4_phase_wrapped_mae,c4_phase_ssim,phase_frc50_reason
+fly001-128-law4,Fly001,synthetic-trained C=1,c1,2.2764262535079345,0.5187884713340514,0.20500000000000002,,,c1,C4 polished_tilt score is unavailable for this case,0.057833767268667124,0.9731956200342669,,,
+fly001-128-law4,Fly001,LSQ-ML100 (C1),c1,1.9431647418747953,0.5494220482279253,0.28500000000000003,,,c1,C4 polished_tilt score is unavailable for this case,0.057833767268667124,0.9731956200342669,,,
+fly001-128-law4,Fly001,scan-trained C=1,c1,2.211340134759843,0.5192711892674758,0.225,0.057833767268667124,0.9731956200342669,c1,C4 polished_tilt score is unavailable for this case,0.057833767268667124,0.9731956200342669,,,

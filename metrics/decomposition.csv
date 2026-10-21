@@ -170,12 +170,12 @@ nxs-gold_tp_2-heldout,unaligned,amp_mae,0.047126057363076894
 nxs-gold_tp_2-heldout,unaligned,phase_wrapped_mae,0.2155667963622702
 nxs-gold_tp_2-heldout,unaligned,amplitude_ssim,0.5423051052756622
 nxs-gold_tp_2-heldout,unaligned,phase_ssim,0.9224420885314173
-nxs-gold_tp_2-heldout,unaligned,amplitude_frc50_frequency,0.025
-nxs-gold_tp_2-heldout,unaligned,phase_frc50_frequency,0.125
+nxs-gold_tp_2-heldout,unaligned,amplitude_frc50_frequency,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,unaligned,phase_frc50_frequency,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,unaligned,absolute_amp_mae,0.1461304752117152
 nxs-gold_tp_2-heldout,unaligned,amp_mean_ratio,0.8648275687656902
-nxs-gold_tp_2-heldout,unaligned,amplitude_frc50_pixels,40.0
-nxs-gold_tp_2-heldout,unaligned,phase_frc50_pixels,8.0
+nxs-gold_tp_2-heldout,unaligned,amplitude_frc50_pixels,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,unaligned,phase_frc50_pixels,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,unaligned,valid_pixel_count,631508
 nxs-gold_tp_2-heldout,unaligned,count_scale,0.9565079612173196
 nxs-gold_tp_2-heldout,unaligned,mse_intensity_raw,466.76403712549535
@@ -188,12 +188,12 @@ nxs-gold_tp_2-heldout,raw,amp_mae,0.047175781114421514
 nxs-gold_tp_2-heldout,raw,phase_wrapped_mae,0.1541006575269582
 nxs-gold_tp_2-heldout,raw,amplitude_ssim,0.5417001476561402
 nxs-gold_tp_2-heldout,raw,phase_ssim,0.9253057874660334
-nxs-gold_tp_2-heldout,raw,amplitude_frc50_frequency,0.025
-nxs-gold_tp_2-heldout,raw,phase_frc50_frequency,0.125
+nxs-gold_tp_2-heldout,raw,amplitude_frc50_frequency,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,raw,phase_frc50_frequency,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,raw,absolute_amp_mae,0.14568223257853224
 nxs-gold_tp_2-heldout,raw,amp_mean_ratio,0.8652830530850973
-nxs-gold_tp_2-heldout,raw,amplitude_frc50_pixels,40.0
-nxs-gold_tp_2-heldout,raw,phase_frc50_pixels,8.0
+nxs-gold_tp_2-heldout,raw,amplitude_frc50_pixels,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,raw,phase_frc50_pixels,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,raw,valid_pixel_count,631508
 nxs-gold_tp_2-heldout,raw,count_scale,0.9554063630686738
 nxs-gold_tp_2-heldout,raw,mse_intensity_raw,458.2985681440616
@@ -206,12 +206,12 @@ nxs-gold_tp_2-heldout,polished_tilt,amp_mae,0.047171316147354
 nxs-gold_tp_2-heldout,polished_tilt,phase_wrapped_mae,0.05216273071101478
 nxs-gold_tp_2-heldout,polished_tilt,amplitude_ssim,0.5418399277939567
 nxs-gold_tp_2-heldout,polished_tilt,phase_ssim,0.9487189382169774
-nxs-gold_tp_2-heldout,polished_tilt,amplitude_frc50_frequency,0.025
-nxs-gold_tp_2-heldout,polished_tilt,phase_frc50_frequency,0.135
+nxs-gold_tp_2-heldout,polished_tilt,amplitude_frc50_frequency,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,polished_tilt,phase_frc50_frequency,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,polished_tilt,absolute_amp_mae,0.1457012795695978
 nxs-gold_tp_2-heldout,polished_tilt,amp_mean_ratio,0.8652593781302494
-nxs-gold_tp_2-heldout,polished_tilt,amplitude_frc50_pixels,40.0
-nxs-gold_tp_2-heldout,polished_tilt,phase_frc50_pixels,7.4074074074074066
+nxs-gold_tp_2-heldout,polished_tilt,amplitude_frc50_pixels,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,polished_tilt,phase_frc50_pixels,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,polished_tilt,valid_pixel_count,631508
 nxs-gold_tp_2-heldout,polished_tilt,count_scale,0.9558658238111679
 nxs-gold_tp_2-heldout,polished_tilt,mse_intensity_raw,428.04741589519654
@@ -224,12 +224,12 @@ nxs-gold_tp_2-heldout,polished_none,amp_mae,0.04717123347496121
 nxs-gold_tp_2-heldout,polished_none,phase_wrapped_mae,0.057004782245788505
 nxs-gold_tp_2-heldout,polished_none,amplitude_ssim,0.5418403095331921
 nxs-gold_tp_2-heldout,polished_none,phase_ssim,0.9490901464008425
-nxs-gold_tp_2-heldout,polished_none,amplitude_frc50_frequency,0.025
-nxs-gold_tp_2-heldout,polished_none,phase_frc50_frequency,0.135
+nxs-gold_tp_2-heldout,polished_none,amplitude_frc50_frequency,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,polished_none,phase_frc50_frequency,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,polished_none,absolute_amp_mae,0.14570103874414797
 nxs-gold_tp_2-heldout,polished_none,amp_mean_ratio,0.8652596307531721
-nxs-gold_tp_2-heldout,polished_none,amplitude_frc50_pixels,40.0
-nxs-gold_tp_2-heldout,polished_none,phase_frc50_pixels,7.4074074074074066
+nxs-gold_tp_2-heldout,polished_none,amplitude_frc50_pixels,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,polished_none,phase_frc50_pixels,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,polished_none,valid_pixel_count,631508
 nxs-gold_tp_2-heldout,polished_none,count_scale,0.9558616267171605
 nxs-gold_tp_2-heldout,polished_none,mse_intensity_raw,426.572785587351
@@ -242,8 +242,8 @@ nxs-gold_tp_2-heldout,flat,amp_mae,0.06659630452144782
 nxs-gold_tp_2-heldout,flat,phase_wrapped_mae,0.5492161862283697
 nxs-gold_tp_2-heldout,flat,amplitude_ssim,0.5694014865345934
 nxs-gold_tp_2-heldout,flat,phase_ssim,0.8168705708891814
-nxs-gold_tp_2-heldout,flat,amplitude_frc50_frequency,0.0
-nxs-gold_tp_2-heldout,flat,phase_frc50_frequency,0.0
+nxs-gold_tp_2-heldout,flat,amplitude_frc50_frequency,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,flat,phase_frc50_frequency,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,flat,absolute_amp_mae,0.1756629466026348
 nxs-gold_tp_2-heldout,flat,amp_mean_ratio,0.8385814262981419
 nxs-gold_tp_2-heldout,flat,valid_pixel_count,631508
@@ -258,12 +258,12 @@ nxs-gold_tp_2-heldout,flat_polished_tilt,amp_mae,0.06655244147224812
 nxs-gold_tp_2-heldout,flat_polished_tilt,phase_wrapped_mae,0.06966978697341981
 nxs-gold_tp_2-heldout,flat_polished_tilt,amplitude_ssim,0.5697746575607847
 nxs-gold_tp_2-heldout,flat_polished_tilt,phase_ssim,0.9447840471935737
-nxs-gold_tp_2-heldout,flat_polished_tilt,amplitude_frc50_frequency,0.08499999999999999
-nxs-gold_tp_2-heldout,flat_polished_tilt,phase_frc50_frequency,0.125
+nxs-gold_tp_2-heldout,flat_polished_tilt,amplitude_frc50_frequency,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,flat_polished_tilt,phase_frc50_frequency,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,flat_polished_tilt,absolute_amp_mae,0.17568759736268402
 nxs-gold_tp_2-heldout,flat_polished_tilt,amp_mean_ratio,0.8385429547715336
-nxs-gold_tp_2-heldout,flat_polished_tilt,amplitude_frc50_pixels,11.764705882352942
-nxs-gold_tp_2-heldout,flat_polished_tilt,phase_frc50_pixels,8.0
+nxs-gold_tp_2-heldout,flat_polished_tilt,amplitude_frc50_pixels,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,flat_polished_tilt,phase_frc50_pixels,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,flat_polished_tilt,valid_pixel_count,631508
 nxs-gold_tp_2-heldout,flat_polished_tilt,count_scale,1.0200242363863818
 nxs-gold_tp_2-heldout,flat_polished_tilt,mse_intensity_raw,533.2991467487342
@@ -276,12 +276,12 @@ nxs-gold_tp_2-heldout,flat_polished_none,amp_mae,0.06655261671677604
 nxs-gold_tp_2-heldout,flat_polished_none,phase_wrapped_mae,0.07429400211087017
 nxs-gold_tp_2-heldout,flat_polished_none,amplitude_ssim,0.5697732768391333
 nxs-gold_tp_2-heldout,flat_polished_none,phase_ssim,0.945101869809064
-nxs-gold_tp_2-heldout,flat_polished_none,amplitude_frc50_frequency,0.08499999999999999
-nxs-gold_tp_2-heldout,flat_polished_none,phase_frc50_frequency,0.135
+nxs-gold_tp_2-heldout,flat_polished_none,amplitude_frc50_frequency,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,flat_polished_none,phase_frc50_frequency,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,flat_polished_none,absolute_amp_mae,0.175687365968144
 nxs-gold_tp_2-heldout,flat_polished_none,amp_mean_ratio,0.8385431738336486
-nxs-gold_tp_2-heldout,flat_polished_none,amplitude_frc50_pixels,11.764705882352942
-nxs-gold_tp_2-heldout,flat_polished_none,phase_frc50_pixels,7.4074074074074066
+nxs-gold_tp_2-heldout,flat_polished_none,amplitude_frc50_pixels,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,flat_polished_none,phase_frc50_pixels,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,flat_polished_none,valid_pixel_count,631508
 nxs-gold_tp_2-heldout,flat_polished_none,count_scale,1.0200217742852704
 nxs-gold_tp_2-heldout,flat_polished_none,mse_intensity_raw,533.2027364011636
@@ -294,12 +294,12 @@ nxs-gold_tp_2-heldout,seeded,amp_mae,0.04717579289447785
 nxs-gold_tp_2-heldout,seeded,phase_wrapped_mae,0.13601422606395375
 nxs-gold_tp_2-heldout,seeded,amplitude_ssim,0.5417008866927719
 nxs-gold_tp_2-heldout,seeded,phase_ssim,0.9255782864483412
-nxs-gold_tp_2-heldout,seeded,amplitude_frc50_frequency,0.025
-nxs-gold_tp_2-heldout,seeded,phase_frc50_frequency,0.125
+nxs-gold_tp_2-heldout,seeded,amplitude_frc50_frequency,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,seeded,phase_frc50_frequency,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,seeded,absolute_amp_mae,0.14568237979025944
 nxs-gold_tp_2-heldout,seeded,amp_mean_ratio,0.8652829133343116
-nxs-gold_tp_2-heldout,seeded,amplitude_frc50_pixels,40.0
-nxs-gold_tp_2-heldout,seeded,phase_frc50_pixels,8.0
+nxs-gold_tp_2-heldout,seeded,amplitude_frc50_pixels,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,seeded,phase_frc50_pixels,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,seeded,valid_pixel_count,631508
 nxs-gold_tp_2-heldout,seeded,count_scale,0.9554112947775129
 nxs-gold_tp_2-heldout,seeded,mse_intensity_raw,453.86139338417786
@@ -312,12 +312,12 @@ nxs-gold_tp_2-heldout,lsqml100,amp_mae,0.03243413736328483
 nxs-gold_tp_2-heldout,lsqml100,phase_wrapped_mae,0.06612953056125932
 nxs-gold_tp_2-heldout,lsqml100,amplitude_ssim,0.7750669767327492
 nxs-gold_tp_2-heldout,lsqml100,phase_ssim,0.9687246618402638
-nxs-gold_tp_2-heldout,lsqml100,amplitude_frc50_frequency,0.195
-nxs-gold_tp_2-heldout,lsqml100,phase_frc50_frequency,0.225
+nxs-gold_tp_2-heldout,lsqml100,amplitude_frc50_frequency,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,lsqml100,phase_frc50_frequency,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,lsqml100,absolute_amp_mae,0.16958455387061608
 nxs-gold_tp_2-heldout,lsqml100,amp_mean_ratio,0.841161705608586
-nxs-gold_tp_2-heldout,lsqml100,amplitude_frc50_pixels,5.128205128205128
-nxs-gold_tp_2-heldout,lsqml100,phase_frc50_pixels,4.444444444444445
+nxs-gold_tp_2-heldout,lsqml100,amplitude_frc50_pixels,n/a (grid artefacts)
+nxs-gold_tp_2-heldout,lsqml100,phase_frc50_pixels,n/a (grid artefacts)
 nxs-gold_tp_2-heldout,lsqml100,valid_pixel_count,631508
 nxs-gold_tp_2-heldout,lsqml100,count_scale,1.0101692152327904
 nxs-gold_tp_2-heldout,lsqml100,mse_intensity_raw,277.91834409785156

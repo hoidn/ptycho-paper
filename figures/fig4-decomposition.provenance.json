@@ -1,15 +1,15 @@
 {
-  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "commit": "2981c2a57fb9596d3d2136c3049089adface60d2",
   "display": "Main text",
   "display_crop": "full support bounding box; not the scored interior",
   "inputs": [
     {
       "filename": "decomposition_figure.py",
-      "mtime_ns": 1792534765148357568,
-      "mtime_utc": "2026-10-20T22:19:25.148358+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/scripts/studies/paper_figures/decomposition_figure.py",
-      "sha256": "018bc6f7a6fb64558209288003aea9c77e5bbb996d4201b4e290afe7ec7d7265",
-      "size_bytes": 11805
+      "mtime_ns": 1792548480525110943,
+      "mtime_utc": "2026-10-21T02:08:00.525111+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/comparisons/scripts/studies/paper_figures/decomposition_figure.py",
+      "sha256": "0587faee448b0e8f770fc00ba2e1a63cee4dd240eb06a825242bb3b6eda97a3e",
+      "size_bytes": 20738
     },
     {
       "filename": "test-0000.npz",
@@ -43,7 +43,5 @@
       "sha256": "857cdfc7d77f912fe1b4a342690eb5c11a9186a908fcee8bd2de9902ad427c92",
       "size_bytes": 44901
     }
-  ],
-  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
-  "original_generation_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319"
+  ]
 }

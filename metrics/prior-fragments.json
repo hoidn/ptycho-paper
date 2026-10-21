@@ -1,0 +1,258 @@
+{
+  "nxs-ncm_1": {
+    "original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-280.png",
+    "html_box": [
+      648,
+      1005,
+      832,
+      1189
+    ],
+    "label": "NCM, Fig. 2 +Synthetic Data only; synthetic-only training; whole-field; cropped and rescaled; CC BY 4.0",
+    "phase_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-280.png",
+    "phase_html_box": [
+      648,
+      1005,
+      832,
+      1189
+    ],
+    "phase_limits": [
+      1.32,
+      1.85
+    ],
+    "amplitude_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-277.png",
+    "amplitude_html_box": [
+      462,
+      1005,
+      646,
+      1189
+    ],
+    "amplitude_limits": [
+      0.92,
+      1.02
+    ]
+  },
+  "cnm-scan39": {
+    "original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-208.png",
+    "html_box": [
+      1040,
+      1005,
+      1224,
+      1189
+    ],
+    "label": "W/CNM, Fig. 2 +Synthetic Data only; synthetic-only training; whole-field; cropped and rescaled; CC BY 4.0",
+    "phase_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-208.png",
+    "phase_html_box": [
+      1040,
+      1005,
+      1224,
+      1189
+    ],
+    "phase_limits": [
+      -0.17,
+      1.04
+    ],
+    "amplitude_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-205.png",
+    "amplitude_html_box": [
+      854,
+      1005,
+      1037,
+      1189
+    ],
+    "amplitude_limits": [
+      0.86,
+      1.32
+    ]
+  },
+  "microlfp-single-128": {
+    "original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-136.png",
+    "html_box": [
+      1431,
+      1005,
+      1615,
+      1189
+    ],
+    "label": "LFP/microLFP single, Fig. 2 +Synthetic Data only; synthetic-only training; whole-field; cropped and rescaled; CC BY 4.0",
+    "phase_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-136.png",
+    "phase_html_box": [
+      1431,
+      1005,
+      1615,
+      1189
+    ],
+    "phase_limits": [
+      -1.68,
+      -1.09
+    ],
+    "amplitude_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-133.png",
+    "amplitude_html_box": [
+      1245,
+      1005,
+      1429,
+      1189
+    ],
+    "amplitude_limits": [
+      0.58,
+      1.17
+    ]
+  },
+  "nxs-ic_1": {
+    "original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-028.png",
+    "html_box": [
+      350,
+      394,
+      602,
+      646
+    ],
+    "label": "IC1, Fig. S2 synthetic-only prediction; whole-field; cropped and rescaled; CC BY 4.0",
+    "phase_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-028.png",
+    "phase_html_box": [
+      350,
+      394,
+      602,
+      646
+    ],
+    "phase_limits": [
+      1.35,
+      1.68
+    ],
+    "amplitude_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-025.png",
+    "amplitude_html_box": [
+      94,
+      394,
+      346,
+      646
+    ],
+    "amplitude_limits": [
+      0.82,
+      1.03
+    ]
+  },
+  "nxs-ic_2": {
+    "original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-064.png",
+    "html_box": [
+      922,
+      394,
+      1170,
+      642
+    ],
+    "label": "IC2, Fig. S2 synthetic-only prediction; whole-field; cropped and rescaled; CC BY 4.0",
+    "phase_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-064.png",
+    "phase_html_box": [
+      922,
+      394,
+      1170,
+      642
+    ],
+    "phase_limits": [
+      1.39,
+      1.65
+    ],
+    "amplitude_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-061.png",
+    "amplitude_html_box": [
+      669,
+      394,
+      918,
+      642
+    ],
+    "amplitude_limits": [
+      0.81,
+      1.13
+    ]
+  },
+  "gold-tp1": {
+    "original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-100.png",
+    "html_box": [
+      349,
+      1096,
+      600,
+      1347
+    ],
+    "label": "TP1, Fig. S2 synthetic-only prediction; whole-field; cropped and rescaled; CC BY 4.0",
+    "phase_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-100.png",
+    "phase_html_box": [
+      349,
+      1096,
+      600,
+      1347
+    ],
+    "phase_limits": [
+      1.29,
+      1.7
+    ],
+    "amplitude_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-097.png",
+    "amplitude_html_box": [
+      94,
+      1096,
+      345,
+      1347
+    ],
+    "amplitude_limits": [
+      0.82,
+      1.21
+    ]
+  },
+  "nxs-gold_tp_2": {
+    "original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-112.png",
+    "html_box": [
+      921,
+      1096,
+      1170,
+      1345
+    ],
+    "label": "TP2, Fig. S2 synthetic-only prediction; whole-field; cropped and rescaled; CC BY 4.0",
+    "phase_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-112.png",
+    "phase_html_box": [
+      921,
+      1096,
+      1170,
+      1345
+    ],
+    "phase_limits": [
+      1.08,
+      1.81
+    ],
+    "amplitude_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/SI_syn_model_results-109.png",
+    "amplitude_html_box": [
+      668,
+      1096,
+      917,
+      1345
+    ],
+    "amplitude_limits": [
+      0.81,
+      1.14
+    ]
+  },
+  "als-128": {
+    "original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-064.png",
+    "html_box": [
+      1820,
+      1005,
+      2003,
+      1189
+    ],
+    "phase_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-064.png",
+    "phase_html_box": [
+      1820,
+      1005,
+      2003,
+      1189
+    ],
+    "phase_limits": [
+      -1.0,
+      -0.83
+    ],
+    "amplitude_original": ".artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-061.png",
+    "amplitude_html_box": [
+      1633,
+      1005,
+      1817,
+      1189
+    ],
+    "amplitude_limits": [
+      0.36,
+      1.22
+    ],
+    "label": "NS/ALS, Fig. 2 +Synthetic Data only; synthetic-only training; same specimen field; published 960 patterns vs current 1,444, exact acquisition relationship unverified; raster-only comparison; cropped and rescaled; CC BY 4.0"
+  }
+}

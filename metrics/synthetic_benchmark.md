@@ -1,6 +1,6 @@
 # Synthetic benchmark
 
-Ten dense objects under the Fly128 probe: N is raw network output, D is flat plus tilt polish, C is network plus tilt polish, and L is LSQ-ML at 200 sweeps. Neural cells average three seeds per object; intervals are 95% object-bootstrap confidence intervals (10,000 resamples).
+Ten dense objects under the Fly001 probe: N is network output with patch offsets, D is refinement from a uniform object, C is network plus tilt polish, and L is LSQ-ML at 200 sweeps. Neural cells average three seeds per object; intervals are 95% object-bootstrap confidence intervals (10,000 resamples).
 
 | Arm | Phase MAE, mean [95% CI] | Median | Phase FRC50, mean [95% CI] | Amplitude MAE, mean [95% CI] | C wins | Vortex canvases |
 |---|---:|---:|---:|---:|---:|---:|

@@ -1,0 +1,546 @@
+{
+  "root": "cnm-scan39",
+  "task": "Read-only diagnosis of poor matched measured-half CNN C1 output",
+  "inputs": [
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-cnn-baseline-2026-10-20/cnm-scan39/training.json",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-cnn-baseline-2026-10-20/cnm-scan39/training/checkpoint_selection.json",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-cnn-baseline-2026-10-20/cnm-scan39/training/effective_runtime.json",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-cnn-baseline-2026-10-20/cnm-scan39/training/configs/model_config.json",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-cnn-baseline-2026-10-20/cnm-scan39/training/configs/training_config.json",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-cnn-baseline-2026-10-20/cnm-scan39/training/configs/data_config.json",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-cnn-baseline-2026-10-20/cnm-scan39/training/lightning_logs/version_0/metrics.csv",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-cnn-baseline-2026-10-20/control/train-cnm-scan39.log",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-cnn-baseline-2026-10-20/cnm-scan39/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/cnm-scan39-128-scan_trained-cnn-diagnostic-whole.npz",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-cnn-baseline-2026-10-20/cnm-scan39/diagnostic-whole/native.npz",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-cnn-baseline-2026-10-20/cnm-scan39/diagnostic-whole/rows.json",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/cnm-scan39/diagnostic-whole/rows.json",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-cnn-baseline-2026-10-20/cnm-scan39/heldout/mapped/reconstructions/measured/cnn/scan_trained/cnm-scan39-128-scan_trained-cnn-heldout.npz",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-cnn-baseline-2026-10-20/cnm-scan39/heldout/native.npz",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-cnn-baseline-2026-10-20/cnm-scan39/heldout/rows.json",
+    "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/cnm-scan39/heldout/rows.json"
+  ],
+  "training": {
+    "epochs_executed": 40,
+    "train_frames": 13041,
+    "validation_frames": 12880,
+    "whole_frames": 25921,
+    "settings": {
+      "N": 128,
+      "architecture": "cnn",
+      "batch_size": 16,
+      "cbam_bottleneck": false,
+      "cbam_decoder": false,
+      "cbam_encoder": false,
+      "epochs": 40,
+      "fno_blocks": 4,
+      "fno_modes": 12,
+      "fno_width": 32,
+      "gradient_clip_algorithm": "norm",
+      "gradient_clip_val": 1.0,
+      "gridsize": 1,
+      "hybrid_downsample_op": "stride_conv",
+      "hybrid_downsample_steps": 2,
+      "hybrid_encoder_conv_hidden_scale": 2.0,
+      "hybrid_encoder_spectral_hidden_scale": 1.0,
+      "hybrid_resnet_blocks": 6,
+      "hybrid_skip_connections": false,
+      "hybrid_skip_style": "add",
+      "learning_rate": 0.0002,
+      "measurement_domain": "count_intensity",
+      "middle_trim": 128,
+      "neighbor_count": 4,
+      "nphotons": 9739332.059256973,
+      "patch_weighting": "probe",
+      "plateau_factor": 0.5,
+      "plateau_min_lr": 0.0001,
+      "plateau_patience": 2,
+      "plateau_threshold": 0.0,
+      "rect_s1s2_init": "dose_closure",
+      "scale_contract_version": "ci_intensity_v2",
+      "scheduler": "ReduceLROnPlateau",
+      "subsample_seed": 3,
+      "test_data_file": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half/cnm-scan39/scan/split_validation-blind.npz",
+      "torch_loss_mode": "poisson",
+      "training_groups": 13041,
+      "training_patch_weighting": "probe",
+      "x_bounds": [
+        0.0,
+        1.0
+      ],
+      "y_bounds": [
+        0.0,
+        1.0
+      ]
+    },
+    "selected_epoch_zero_based": 37,
+    "selected_poisson_val_loss": 2183.9375,
+    "first_epoch_poisson_val_loss": 2237.228271484375,
+    "final_epoch_poisson_val_loss": 2215.395751953125,
+    "first_to_best_relative_improvement": 0.023819997343863884,
+    "stop": "Trainer.fit stopped because max_epochs=40 was reached; control/train-cnm-scan39.log:64",
+    "early_stop_patience": 100,
+    "validation_history": [
+      {
+        "epoch_zero_based": 0,
+        "poisson_val_loss": 2237.228271484375,
+        "learning_rate": 0.00019999999494757503
+      },
+      {
+        "epoch_zero_based": 1,
+        "poisson_val_loss": 2227.310302734375,
+        "learning_rate": 0.00019999999494757503
+      },
+      {
+        "epoch_zero_based": 2,
+        "poisson_val_loss": 2251.622314453125,
+        "learning_rate": 0.00019999999494757503
+      },
+      {
+        "epoch_zero_based": 3,
+        "poisson_val_loss": 2278.061767578125,
+        "learning_rate": 0.00019999999494757503
+      },
+      {
+        "epoch_zero_based": 4,
+        "poisson_val_loss": 2224.61376953125,
+        "learning_rate": 0.00019999999494757503
+      },
+      {
+        "epoch_zero_based": 5,
+        "poisson_val_loss": 2236.344482421875,
+        "learning_rate": 0.00019999999494757503
+      },
+      {
+        "epoch_zero_based": 6,
+        "poisson_val_loss": 2306.9794921875,
+        "learning_rate": 0.00019999999494757503
+      },
+      {
+        "epoch_zero_based": 7,
+        "poisson_val_loss": 2221.25390625,
+        "learning_rate": 0.00019999999494757503
+      },
+      {
+        "epoch_zero_based": 8,
+        "poisson_val_loss": 2205.858642578125,
+        "learning_rate": 0.00019999999494757503
+      },
+      {
+        "epoch_zero_based": 9,
+        "poisson_val_loss": 2208.350341796875,
+        "learning_rate": 0.00019999999494757503
+      },
+      {
+        "epoch_zero_based": 10,
+        "poisson_val_loss": 2243.71728515625,
+        "learning_rate": 0.00019999999494757503
+      },
+      {
+        "epoch_zero_based": 11,
+        "poisson_val_loss": 2209.7919921875,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 12,
+        "poisson_val_loss": 2208.46435546875,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 13,
+        "poisson_val_loss": 2213.239013671875,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 14,
+        "poisson_val_loss": 2229.351318359375,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 15,
+        "poisson_val_loss": 2207.672607421875,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 16,
+        "poisson_val_loss": 2201.122802734375,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 17,
+        "poisson_val_loss": 2201.044189453125,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 18,
+        "poisson_val_loss": 2209.84326171875,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 19,
+        "poisson_val_loss": 2197.492431640625,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 20,
+        "poisson_val_loss": 2225.213134765625,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 21,
+        "poisson_val_loss": 2192.006591796875,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 22,
+        "poisson_val_loss": 2200.861328125,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 23,
+        "poisson_val_loss": 2202.385986328125,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 24,
+        "poisson_val_loss": 2193.488037109375,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 25,
+        "poisson_val_loss": 2191.089599609375,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 26,
+        "poisson_val_loss": 2192.226806640625,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 27,
+        "poisson_val_loss": 2185.9462890625,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 28,
+        "poisson_val_loss": 2216.588134765625,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 29,
+        "poisson_val_loss": 2200.5048828125,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 30,
+        "poisson_val_loss": 2201.35693359375,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 31,
+        "poisson_val_loss": 2232.866943359375,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 32,
+        "poisson_val_loss": 2187.9306640625,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 33,
+        "poisson_val_loss": 2190.667724609375,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 34,
+        "poisson_val_loss": 2190.263916015625,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 35,
+        "poisson_val_loss": 2216.564208984375,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 36,
+        "poisson_val_loss": 2185.604248046875,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 37,
+        "poisson_val_loss": 2183.9375,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 38,
+        "poisson_val_loss": 2194.985107421875,
+        "learning_rate": 9.999999747378752e-05
+      },
+      {
+        "epoch_zero_based": 39,
+        "poisson_val_loss": 2215.395751953125,
+        "learning_rate": 9.999999747378752e-05
+      }
+    ],
+    "training_epoch_history": [
+      {
+        "epoch_zero_based": 0,
+        "poisson_train_loss": 3178.1259765625
+      },
+      {
+        "epoch_zero_based": 1,
+        "poisson_train_loss": 2163.684326171875
+      },
+      {
+        "epoch_zero_based": 2,
+        "poisson_train_loss": 2166.308837890625
+      },
+      {
+        "epoch_zero_based": 3,
+        "poisson_train_loss": 2163.9619140625
+      },
+      {
+        "epoch_zero_based": 4,
+        "poisson_train_loss": 2160.998046875
+      },
+      {
+        "epoch_zero_based": 5,
+        "poisson_train_loss": 2157.715087890625
+      },
+      {
+        "epoch_zero_based": 6,
+        "poisson_train_loss": 2157.136474609375
+      },
+      {
+        "epoch_zero_based": 7,
+        "poisson_train_loss": 2156.194091796875
+      },
+      {
+        "epoch_zero_based": 8,
+        "poisson_train_loss": 2152.852294921875
+      },
+      {
+        "epoch_zero_based": 9,
+        "poisson_train_loss": 2152.4111328125
+      },
+      {
+        "epoch_zero_based": 10,
+        "poisson_train_loss": 2148.345458984375
+      },
+      {
+        "epoch_zero_based": 11,
+        "poisson_train_loss": 2146.99267578125
+      },
+      {
+        "epoch_zero_based": 12,
+        "poisson_train_loss": 2138.847412109375
+      },
+      {
+        "epoch_zero_based": 13,
+        "poisson_train_loss": 2137.972900390625
+      },
+      {
+        "epoch_zero_based": 14,
+        "poisson_train_loss": 2136.766845703125
+      },
+      {
+        "epoch_zero_based": 15,
+        "poisson_train_loss": 2136.31494140625
+      },
+      {
+        "epoch_zero_based": 16,
+        "poisson_train_loss": 2133.472412109375
+      },
+      {
+        "epoch_zero_based": 17,
+        "poisson_train_loss": 2132.733154296875
+      },
+      {
+        "epoch_zero_based": 18,
+        "poisson_train_loss": 2132.429931640625
+      },
+      {
+        "epoch_zero_based": 19,
+        "poisson_train_loss": 2132.0888671875
+      },
+      {
+        "epoch_zero_based": 20,
+        "poisson_train_loss": 2131.12353515625
+      },
+      {
+        "epoch_zero_based": 21,
+        "poisson_train_loss": 2130.705078125
+      },
+      {
+        "epoch_zero_based": 22,
+        "poisson_train_loss": 2127.9208984375
+      },
+      {
+        "epoch_zero_based": 23,
+        "poisson_train_loss": 2128.391357421875
+      },
+      {
+        "epoch_zero_based": 24,
+        "poisson_train_loss": 2127.837158203125
+      },
+      {
+        "epoch_zero_based": 25,
+        "poisson_train_loss": 2127.51220703125
+      },
+      {
+        "epoch_zero_based": 26,
+        "poisson_train_loss": 2127.38916015625
+      },
+      {
+        "epoch_zero_based": 27,
+        "poisson_train_loss": 2127.24951171875
+      },
+      {
+        "epoch_zero_based": 28,
+        "poisson_train_loss": 2127.398193359375
+      },
+      {
+        "epoch_zero_based": 29,
+        "poisson_train_loss": 2127.198974609375
+      },
+      {
+        "epoch_zero_based": 30,
+        "poisson_train_loss": 2125.150390625
+      },
+      {
+        "epoch_zero_based": 31,
+        "poisson_train_loss": 2124.109619140625
+      },
+      {
+        "epoch_zero_based": 32,
+        "poisson_train_loss": 2124.411376953125
+      },
+      {
+        "epoch_zero_based": 33,
+        "poisson_train_loss": 2123.407470703125
+      },
+      {
+        "epoch_zero_based": 34,
+        "poisson_train_loss": 2121.61474609375
+      },
+      {
+        "epoch_zero_based": 35,
+        "poisson_train_loss": 2120.914306640625
+      },
+      {
+        "epoch_zero_based": 36,
+        "poisson_train_loss": 2120.419677734375
+      },
+      {
+        "epoch_zero_based": 37,
+        "poisson_train_loss": 2119.215576171875
+      },
+      {
+        "epoch_zero_based": 38,
+        "poisson_train_loss": 2117.3076171875
+      },
+      {
+        "epoch_zero_based": 39,
+        "poisson_train_loss": 2118.1103515625
+      }
+    ]
+  },
+  "cases": {
+    "diagnostic-whole": {
+      "metric_pixels": 108900,
+      "native_phase_std_rad": 0.00019352695380803198,
+      "mapped_phase_std_rad": 0.00019352675303870704,
+      "native_mapped_max_abs_diff": 0.0,
+      "anchors_equal": true,
+      "native_amp_mean": 141.05055236816406,
+      "native_amp_std": 0.4879175126552582,
+      "count_gauge": 1.1356140371326413,
+      "varpro_scaling": true,
+      "patch_phase_alignment": "none",
+      "accepted_patches": 25921,
+      "total_patches": 25921,
+      "cnn_metrics": {
+        "phase_wrapped_mae": 0.5161142624875685,
+        "phase_ssim": 0.5783953643016674,
+        "phase_frc50_frequency": 0.0,
+        "amp_mae": 0.06735387774555386,
+        "amplitude_ssim": 0.2830546559140876,
+        "deviance": 125.78842418631116
+      },
+      "hybrid_metrics": [
+        {
+          "model": "Hybrid ResNet C=1",
+          "canvas": "unaligned",
+          "phase_wrapped_mae": 0.26083506872564444,
+          "phase_ssim": 0.8983665349193556,
+          "phase_frc50_frequency": 0.135,
+          "amp_mae": 0.031469969613417345,
+          "amplitude_ssim": 0.5562240131332713,
+          "deviance": 66.13572067216872
+        },
+        {
+          "model": "Hybrid ResNet C=1",
+          "canvas": "polished_tilt",
+          "phase_wrapped_mae": 0.06572836508333754,
+          "phase_ssim": 0.9757441265899364,
+          "phase_frc50_frequency": 0.14500000000000002,
+          "amp_mae": 0.031771454972844226,
+          "amplitude_ssim": 0.5590951599546132,
+          "deviance": 51.956310493958384
+        }
+      ]
+    },
+    "heldout": {
+      "metric_pixels": 51480,
+      "native_phase_std_rad": 0.0002949556219391525,
+      "mapped_phase_std_rad": 0.0002949552931134302,
+      "native_mapped_max_abs_diff": 0.0,
+      "anchors_equal": true,
+      "native_amp_mean": 140.46051025390625,
+      "native_amp_std": 0.4890722930431366,
+      "count_gauge": 1.142680740724523,
+      "varpro_scaling": true,
+      "patch_phase_alignment": "none",
+      "accepted_patches": 12880,
+      "total_patches": 12880,
+      "cnn_metrics": {
+        "phase_wrapped_mae": 0.5193194969197225,
+        "phase_ssim": 0.5796490140531231,
+        "phase_frc50_frequency": 0.0,
+        "amp_mae": 0.06751164378938082,
+        "amplitude_ssim": 0.27611628805746746,
+        "deviance": 126.22640202432984
+      },
+      "hybrid_metrics": [
+        {
+          "model": "Hybrid ResNet C=1",
+          "canvas": "unaligned",
+          "phase_wrapped_mae": 0.2606743380287375,
+          "phase_ssim": 0.9009149652607524,
+          "phase_frc50_frequency": 0.135,
+          "amp_mae": 0.027385329173614605,
+          "amplitude_ssim": 0.599321622771943,
+          "deviance": 69.07854431191672
+        },
+        {
+          "model": "Hybrid ResNet C=1",
+          "canvas": "polished_tilt",
+          "phase_wrapped_mae": 0.06192656819969144,
+          "phase_ssim": 0.9808194954573988,
+          "phase_frc50_frequency": 0.155,
+          "amp_mae": 0.027623888293489312,
+          "amplitude_ssim": 0.6020357069171648,
+          "deviance": 54.91692543271857
+        }
+      ]
+    }
+  },
+  "conclusion": "Saved native and mapped canvases are exactly equal on frozen metric pixels. Nearly constant native phase and zero phase FRC50 show failure to recover the object structure. This is not caused by gallery remapping.",
+  "limits": [
+    "Forty finite epochs/checkpoint selection establish execution completion, not good convergence.",
+    "No additional model forwards, training, hyperparameter changes, or reconstruction runs performed.",
+    "Saved assembled canvases alone do not distinguish degenerate individual patch predictions from cancellation during unaligned patch assembly.",
+    "Known CNN/N128/count-Poisson collapse is relevant context, not an independently established cause for this CNM39 run.",
+    "No claim that longer training, lower learning rate, a different seed, or corrections would repair this run.",
+    "The positive scalar count gauge changes amplitude only and cannot itself create a constant phase."
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "reason": "grid artefacts",
+  "scope": "Active exported FRC cells, curves, profiles, ratios and summaries",
+  "scientific_source_receipts_modified": false,
+  "other_score_cells_modified": false,
+  "renderer": {
+    "path": "/var/tmp/paper-c4-figures-20261020/control/finalize_tp2_tables.py",
+    "filename": "finalize_tp2_tables.py",
+    "size_bytes": 4831,
+    "mtime_ns": 1792548039405447903,
+    "mtime_utc": "2026-10-21T02:00:39.405448+00:00",
+    "sha256": "ec0df68524660966c50e34b717e2bdd5ce6a10a34eaca94691c6e67b7846d15e"
+  },
+  "changes": [
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/decomposition.csv",
+        "filename": "decomposition.csv",
+        "size_bytes": 92678,
+        "mtime_ns": 1792548594794574978,
+        "mtime_utc": "2026-10-21T02:09:54.794575+00:00",
+        "sha256": "b75a27542e5915cb1e08f976fe726514a7ede71454137a4572a088143e21a79e"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/decomposition.csv",
+        "filename": "decomposition.csv",
+        "size_bytes": 93088,
+        "mtime_ns": 1792548777653873757,
+        "mtime_utc": "2026-10-21T02:12:57.653874+00:00",
+        "sha256": "b2fcba631fc41798f65101ba89a5565219be4fa34d3a78f86e8602755753b796"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/heldout.csv",
+        "filename": "heldout.csv",
+        "size_bytes": 19493,
+        "mtime_ns": 1792486324949111055,
+        "mtime_utc": "2026-10-20T08:52:04.949111+00:00",
+        "sha256": "dce56cea33200dc80c09463ce40892062a3f9ba43070b24827a44c75e6212e73"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/heldout.csv",
+        "filename": "heldout.csv",
+        "size_bytes": 19773,
+        "mtime_ns": 1792548777660873834,
+        "mtime_utc": "2026-10-21T02:12:57.660874+00:00",
+        "sha256": "aa4aa3f6cd9400d40196ae1f2bb7390605529316cc707d15b6206549725026f5"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/model-selection.csv",
+        "filename": "model-selection.csv",
+        "size_bytes": 14237,
+        "mtime_ns": 1792548117329276544,
+        "mtime_utc": "2026-10-21T02:01:57.329277+00:00",
+        "sha256": "4f48b7b7104aef637285b917d7b5b6f3950baac8c8f9893d088a59ef459e3dbe"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/model-selection.csv",
+        "filename": "model-selection.csv",
+        "size_bytes": 14403,
+        "mtime_ns": 1792548777661873846,
+        "mtime_utc": "2026-10-21T02:12:57.661874+00:00",
+        "sha256": "e7ad230bbd868fe2307b02b95ed4a96a0f715bb3c4c41820bcb9bd27c2d0de96"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/si_table.csv",
+        "filename": "si_table.csv",
+        "size_bytes": 27150,
+        "mtime_ns": 1792534375691602994,
+        "mtime_utc": "2026-10-20T22:12:55.691603+00:00",
+        "sha256": "518f57d42ddfc7fff5602068caeaf9abd58384465bd60a09bd2fb38ca1a35060"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/si_table.csv",
+        "filename": "si_table.csv",
+        "size_bytes": 27274,
+        "mtime_ns": 1792548777671416111,
+        "mtime_utc": "2026-10-21T02:12:57.671416+00:00",
+        "sha256": "7859e6aa9117d4a1baabd8d4c8ec1b11809965e06406b96b065a63f5c3d2c570"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/whole.csv",
+        "filename": "whole.csv",
+        "size_bytes": 19717,
+        "mtime_ns": 1792486324949891550,
+        "mtime_utc": "2026-10-20T08:52:04.949892+00:00",
+        "sha256": "175deaf71aeb135200903dd22e043c0655194cd35ce3e168ad050fda9140b5c1"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/whole.csv",
+        "filename": "whole.csv",
+        "size_bytes": 19997,
+        "mtime_ns": 1792548777674687957,
+        "mtime_utc": "2026-10-21T02:12:57.674688+00:00",
+        "sha256": "bf32ad678079af4a82053bff2f52c25fbd945271afa274299ef5d59f1ad24ba7"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/heldout.md",
+        "filename": "heldout.md",
+        "size_bytes": 13831,
+        "mtime_ns": 1792486324949596126,
+        "mtime_utc": "2026-10-20T08:52:04.949596+00:00",
+        "sha256": "49da55604313a5200e995777b3b994f665e55de85c870c8a8632c1a5c3c6bbed"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/heldout.md",
+        "filename": "heldout.md",
+        "size_bytes": 14111,
+        "mtime_ns": 1792548777675756029,
+        "mtime_utc": "2026-10-21T02:12:57.675756+00:00",
+        "sha256": "3260c49be6315aac670584347113229e42bc37e58b5ef0f534cdcbfbc230a0b3"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/si_table.md",
+        "filename": "si_table.md",
+        "size_bytes": 21254,
+        "mtime_ns": 1792534375695332561,
+        "mtime_utc": "2026-10-20T22:12:55.695333+00:00",
+        "sha256": "ba39354286fc40aa549ae04f92973089638b3a038fe3ffc2a79cd92e287f8d9a"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/si_table.md",
+        "filename": "si_table.md",
+        "size_bytes": 21434,
+        "mtime_ns": 1792548777676239734,
+        "mtime_utc": "2026-10-21T02:12:57.676240+00:00",
+        "sha256": "2bb5f94f93e3ec5ff3d6be81761eada0e3a86126db7efebda5db3ccc887659e4"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/whole.md",
+        "filename": "whole.md",
+        "size_bytes": 13927,
+        "mtime_ns": 1792486324950293653,
+        "mtime_utc": "2026-10-20T08:52:04.950294+00:00",
+        "sha256": "916d69cf63a05dd67f4a4334f7db4241c9d0e01aa8e8e1f0bdfab3adedd4873f"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/whole.md",
+        "filename": "whole.md",
+        "size_bytes": 14207,
+        "mtime_ns": 1792548777676845871,
+        "mtime_utc": "2026-10-21T02:12:57.676846+00:00",
+        "sha256": "02daa0a138e47669d0904c09de709551fbb7e10b279c0574d2a2782855aded03"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/si_table.tex",
+        "filename": "si_table.tex",
+        "size_bytes": 20773,
+        "mtime_ns": 1792534375695332561,
+        "mtime_utc": "2026-10-20T22:12:55.695333+00:00",
+        "sha256": "a0fe6d3e297f9a13c2145f40d88f3b6b9236d1809dffc86842e8095227a6bb1b"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/si_table.tex",
+        "filename": "si_table.tex",
+        "size_bytes": 20977,
+        "mtime_ns": 1792548777677913413,
+        "mtime_utc": "2026-10-21T02:12:57.677913+00:00",
+        "sha256": "cec22c666ed102245718c3e188610a748c36fae820f915395c67bbdbf6a803bb"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/fig2-experimental-gallery-A-c4.provenance.json",
+        "filename": "fig2-experimental-gallery-A-c4.provenance.json",
+        "size_bytes": 123116,
+        "mtime_ns": 1792548115508491519,
+        "mtime_utc": "2026-10-21T02:01:55.508492+00:00",
+        "sha256": "9020f3cd2c9684b8fc0ac555b8c9fa97607d8f052112189007a59e0d99704332"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/fig2-experimental-gallery-A-c4.provenance.json",
+        "filename": "fig2-experimental-gallery-A-c4.provenance.json",
+        "size_bytes": 109641,
+        "mtime_ns": 1792548777681435731,
+        "mtime_utc": "2026-10-21T02:12:57.681436+00:00",
+        "sha256": "0ab7abe74ea5bc64c84b1b9e447d8e4419c514ab8607d8cec60c26bab903a309"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/fig2-experimental-gallery-A.provenance.json",
+        "filename": "fig2-experimental-gallery-A.provenance.json",
+        "size_bytes": 123616,
+        "mtime_ns": 1792548425303482464,
+        "mtime_utc": "2026-10-21T02:07:05.303483+00:00",
+        "sha256": "2ac5a7436d46e95f1db23aadff8599b579e25d8eb5a1f0a64a7ef19089aafeb9"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/fig2-experimental-gallery-A.provenance.json",
+        "filename": "fig2-experimental-gallery-A.provenance.json",
+        "size_bytes": 110141,
+        "mtime_ns": 1792548777684200182,
+        "mtime_utc": "2026-10-21T02:12:57.684200+00:00",
+        "sha256": "9dd9f3b921b65a5d05d54c37710daa4aa80053cea623b3108f68e078feb72bf2"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/fig2-experimental-gallery-B-c4.provenance.json",
+        "filename": "fig2-experimental-gallery-B-c4.provenance.json",
+        "size_bytes": 122155,
+        "mtime_ns": 1792547518953243986,
+        "mtime_utc": "2026-10-21T01:51:58.953244+00:00",
+        "sha256": "6314739b47b109626cdf8320516153e49dfa5f5bf6f68f45154a7a3eb0f845e2"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/fig2-experimental-gallery-B-c4.provenance.json",
+        "filename": "fig2-experimental-gallery-B-c4.provenance.json",
+        "size_bytes": 108680,
+        "mtime_ns": 1792548777687786862,
+        "mtime_utc": "2026-10-21T02:12:57.687787+00:00",
+        "sha256": "5212ff8c435e4ffb1dc9ecb08b911d000bdbf9bd5245996516738e46db8d19c3"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/fig2-experimental-gallery-B.provenance.json",
+        "filename": "fig2-experimental-gallery-B.provenance.json",
+        "size_bytes": 122652,
+        "mtime_ns": 1792548425322358736,
+        "mtime_utc": "2026-10-21T02:07:05.322359+00:00",
+        "sha256": "9f473725624a69450092d9be5da30e82a853a954304e3b629029bcdb6e90fb0f"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/fig2-experimental-gallery-B.provenance.json",
+        "filename": "fig2-experimental-gallery-B.provenance.json",
+        "size_bytes": 109177,
+        "mtime_ns": 1792548777690496561,
+        "mtime_utc": "2026-10-21T02:12:57.690496+00:00",
+        "sha256": "8c820dd37082013408a42d65fca181e6517eb6b799e437ba1ef52e4af3dd77b0"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/model-selection.json",
+        "filename": "model-selection.json",
+        "size_bytes": 373606,
+        "mtime_ns": 1792548117328529635,
+        "mtime_utc": "2026-10-21T02:01:57.328530+00:00",
+        "sha256": "d36aa6620e47df84614ddc43fb4c35d2132fc98953e909d4b66c13c57d567d87"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/model-selection.json",
+        "filename": "model-selection.json",
+        "size_bytes": 348489,
+        "mtime_ns": 1792548777700589523,
+        "mtime_utc": "2026-10-21T02:12:57.700589+00:00",
+        "sha256": "9495d77f574841d42d8974d8be9cd731d62642f60ea08076e69695ded680e82c"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/si3-amplitude-gallery-c4.provenance.json",
+        "filename": "si3-amplitude-gallery-c4.provenance.json",
+        "size_bytes": 160312,
+        "mtime_ns": 1792547676713567069,
+        "mtime_utc": "2026-10-21T01:54:36.713567+00:00",
+        "sha256": "eec510fefb1d4201dd5292799f475b89ee60e4b8da775e8156c2700aa202d488"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/si3-amplitude-gallery-c4.provenance.json",
+        "filename": "si3-amplitude-gallery-c4.provenance.json",
+        "size_bytes": 146837,
+        "mtime_ns": 1792548777705577948,
+        "mtime_utc": "2026-10-21T02:12:57.705578+00:00",
+        "sha256": "a8a503bf5799db1a611af772b8f092aacfb778354dde411e68651ff4f9a73fe0"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/si3-experimental-gallery-A-c4.provenance.json",
+        "filename": "si3-experimental-gallery-A-c4.provenance.json",
+        "size_bytes": 162951,
+        "mtime_ns": 1792548166853792424,
+        "mtime_utc": "2026-10-21T02:02:46.853792+00:00",
+        "sha256": "cf18c07528f990f23c019a2a7d36b1e82836a46df95b5896bafc3c9a7fb16646"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/si3-experimental-gallery-A-c4.provenance.json",
+        "filename": "si3-experimental-gallery-A-c4.provenance.json",
+        "size_bytes": 149476,
+        "mtime_ns": 1792548777710711995,
+        "mtime_utc": "2026-10-21T02:12:57.710712+00:00",
+        "sha256": "9c5ea61daf47e8d95b1c8c444cf166bdf21d5c49144a2ece35460ee96dbe2786"
+      }
+    },
+    {
+      "before": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/si3-experimental-gallery-B-c4.provenance.json",
+        "filename": "si3-experimental-gallery-B-c4.provenance.json",
+        "size_bytes": 160327,
+        "mtime_ns": 1792547626247963241,
+        "mtime_utc": "2026-10-21T01:53:46.247963+00:00",
+        "sha256": "e8f316ec6ac60aca0418258a5cef97fd8631d6f204d5241576a960d5356c40da"
+      },
+      "after": {
+        "path": "/var/tmp/paper-c4-figures-20261020/package-preview/metrics/si3-experimental-gallery-B-c4.provenance.json",
+        "filename": "si3-experimental-gallery-B-c4.provenance.json",
+        "size_bytes": 146852,
+        "mtime_ns": 1792548777715712910,
+        "mtime_utc": "2026-10-21T02:12:57.715713+00:00",
+        "sha256": "09c178e88a2cac6639fc9d72cb5e7c2ec7266bc8abd79eaf0df1dd843eff1a24"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+root,dataset,arm,model_group,deviance,deviance_floor,phase_frc50,phase_wrapped_mae,phase_ssim,selection_group,selection_reason,c1_phase_wrapped_mae,c1_phase_ssim,c4_phase_wrapped_mae,c4_phase_ssim,phase_frc50_reason
+gold-tp1,Gold TP1,synthetic-trained C=1,c1,21.237357863544368,0.5151444660544864,0.155,,,c4,C4 polished phase improves both selection metrics,0.12244688167380385,0.8949273895080305,0.10633893759620701,0.9118204366255614,
+gold-tp1,Gold TP1,LSQ-ML100 (C1),c1,12.359680407827458,0.6825234471582322,0.335,,,c4,C4 polished phase improves both selection metrics,0.12244688167380385,0.8949273895080305,0.10633893759620701,0.9118204366255614,
+gold-tp1,Gold TP1,scan-trained C=4,c4,18.9322639309226,0.5367942835265415,0.185,0.10633893759620701,0.9118204366255614,c4,C4 polished phase improves both selection metrics,0.12244688167380385,0.8949273895080305,0.10633893759620701,0.9118204366255614,

@@ -1,7 +1,26 @@
 {
-  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "c4_groups_per_training_center": null,
+  "c4_training_compute_matched": null,
+  "caption_note": "TP2 is shown full field only; FRC is excluded because of scan-grid artefacts. S200 LSQ-ML2000: historical 8,308-pattern subset versus 16,613 neural patterns; iteration-budget limited, not a matched timing result. CNM CNN: the fixed 40-epoch run produced a nearly constant phase; convergence was not established. ",
+  "cnn_offset_tilt_correction": false,
+  "commit": "14ef8f1848573826bebe31c72b31a2a8e8e9b2ab",
+  "conventional_notes": {
+    "s200-128": "LSQ-ML: 8,308 patterns"
+  },
+  "dataset_roots": [
+    "gold-tp1",
+    "nxs-gold_tp_2",
+    "nxs-ic_1",
+    "nxs-ic_2",
+    "nxs-ncm_1",
+    "cnm-scan39",
+    "fly001-128-law4",
+    "als-128",
+    "microlfp-single-128",
+    "microlfp-double-128",
+    "s200-128"
+  ],
   "display_crops": {},
-  "fragment_scale_scope": {},
   "inputs": [
     {
       "filename": "nxs-gold-tp1-128-scan_trained-hybrid_resnet-diagnostic-whole.npz",
@@ -706,14 +725,57 @@
       "path": "/var/tmp/paper-cnn-baseline-2026-10-20/s200-128/diagnostic-whole/mapped/reconstructions/measured/cnn/scan_trained/s200-128-scan_trained-cnn-diagnostic-whole.npz",
       "sha256": "90c7095bb5d26a2a7c2798a17126922084d9f3943dbb94fe4ed1aeb715203465",
       "size_bytes": 30890199
+    },
+    {
+      "filename": "mapped.npz",
+      "mtime_ns": 1792543480553185950,
+      "mtime_utc": "2026-10-21T00:44:40.553186+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/s200-reference/mapped.npz",
+      "sha256": "f9548667ff0887239711b363525ed6aa058c2217f6c7646c6aa277cf76503f03",
+      "size_bytes": 19012579
+    },
+    {
+      "filename": "receipt.json",
+      "mtime_ns": 1792543481747320079,
+      "mtime_utc": "2026-10-21T00:44:41.747320+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/s200-reference/receipt.json",
+      "sha256": "93111b99952da12a51938eb9fffa020ae14a2ce29075aa56f7600fa44a8b0bed",
+      "size_bytes": 10117
+    },
+    {
+      "filename": "experimental_gallery.py",
+      "mtime_ns": 1792547584044564087,
+      "mtime_utc": "2026-10-21T01:53:04.044564+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/scripts/studies/paper_figures/experimental_gallery.py",
+      "sha256": "eb9c80e4118d99674d8629aa29990c1316680c6d66266dde831100663102ee7d",
+      "size_bytes": 35455
+    },
+    {
+      "filename": "render_galleries.py",
+      "mtime_ns": 1792546720877048869,
+      "mtime_utc": "2026-10-21T01:38:40.877049+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/control/render_galleries.py",
+      "sha256": "9b4c0b702de1ab2f92ada68b03796519365cfd2d93a7063566434b19639b029d",
+      "size_bytes": 6991
+    },
+    {
+      "filename": "prior-fragments.json",
+      "mtime_ns": 1792544049669441912,
+      "mtime_utc": "2026-10-21T00:54:09.669442+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/prior-fragments.json",
+      "sha256": "e7eb69b1d448cd091693d007bf33869e39c8abccc6e47ba87b20219484568381",
+      "size_bytes": 6880
     }
   ],
-  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
-  "original_generation_commit": "cffe57890339fbaffae16016af611d83d05db9d8",
+  "model_group": "c1",
   "page_inventory": [
     "si3-amplitude-gallery.png",
     "si3-amplitude-gallery-page2.png",
     "si3-amplitude-gallery-page3.png"
   ],
-  "pdf": "si3-amplitude-gallery.pdf"
+  "pdf": "si3-amplitude-gallery.pdf",
+  "physical_scale": "unverified; pixels retained",
+  "reference_display": "supplement only",
+  "scientific_reference_changed": false,
+  "selection": []
 }

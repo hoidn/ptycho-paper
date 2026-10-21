@@ -7,9 +7,9 @@ Heldout means the high-half spatial-validation acquisition. The scan-trained che
 | Gold TP1 | synthetic-trained | 21.24 | 0.5151 | 0.155 |
 | Gold TP1 | scan-trained | 20.83 | 0.528 | 0.155 |
 | Gold TP1 | LSQ-ML100 | 12.36 | 0.6825 | 0.335 |
-| Gold TP2 | synthetic-trained | 3.863 | 0.4071 | 0.135 |
-| Gold TP2 | scan-trained | 3.629 | 0.4217 | 0.135 |
-| Gold TP2 | LSQ-ML100 | 2.674 | 0.4917 | 0.225 |
+| Gold TP2 | synthetic-trained | 3.863 | 0.4071 | n/a (grid artefacts) |
+| Gold TP2 | scan-trained | 3.629 | 0.4217 | n/a (grid artefacts) |
+| Gold TP2 | LSQ-ML100 | 2.674 | 0.4917 | n/a (grid artefacts) |
 | IC1 | synthetic-trained | 3.291 | 0.5487 | 0.235 |
 | IC1 | scan-trained | 3.221 | 0.5506 | 0.185 |
 | IC1 | LSQ-ML100 | 2.583 | 0.6017 | 0.285 |

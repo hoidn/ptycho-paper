@@ -1,0 +1,13 @@
+dataset,case,model,row,frc_square_px,phase_frc50_frequency,amplitude_frc50_frequency,crop_row,crop_col,profile_axis
+gold-tp1,heldout,Hybrid ResNet C=4,polished_tilt,143,0.185,0.10500000000000001,132,206,row
+gold-tp1,heldout,Hybrid ResNet C=4,raw,143,0.175,0.10500000000000001,132,206,row
+gold-tp1,heldout,Hybrid ResNet C=1,lsqml100,143,0.335,0.245,132,206,row
+nxs-ic_1,heldout,Hybrid ResNet C=4,polished_tilt,137,0.20500000000000002,0.11499999999999999,154,209,row
+nxs-ic_1,heldout,Hybrid ResNet C=4,raw,137,0.20500000000000002,0.11499999999999999,154,209,row
+nxs-ic_1,heldout,Hybrid ResNet C=1,lsqml100,137,0.28500000000000003,0.315,154,209,row
+nxs-ic_2,heldout,Hybrid ResNet C=4,polished_tilt,403,0.245,0.10500000000000001,333,444,col
+nxs-ic_2,heldout,Hybrid ResNet C=4,raw,403,0.245,0.10500000000000001,333,444,col
+nxs-ic_2,heldout,Hybrid ResNet C=1,lsqml100,403,0.275,0.20500000000000002,333,444,col
+nxs-ncm_1,heldout,Hybrid ResNet C=4,polished_tilt,213,0.185,0.185,122,316,col
+nxs-ncm_1,heldout,Hybrid ResNet C=4,raw,213,0.065,0.185,122,316,col
+nxs-ncm_1,heldout,Hybrid ResNet C=1,lsqml100,213,0.255,0.235,122,316,col

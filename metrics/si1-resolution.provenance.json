@@ -1,5 +1,5 @@
 {
-  "commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
+  "commit": "1d7a4e5efdba2f84cebbb3c07317f08582e070aa",
   "inputs": [
     {
       "filename": "nxs-gold-tp1-128-scan_trained-hybrid_resnet-heldout.npz",
@@ -40,46 +40,6 @@
       "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/gold-tp1/heldout/geometry.npz",
       "sha256": "5bc6af9a827263224dd225e8e0c1ca755c40054ae4126b7fcffb264d748f1e17",
       "size_bytes": 2032
-    },
-    {
-      "filename": "nxs-gold_tp_2-128-scan_trained-hybrid_resnet-heldout.npz",
-      "mtime_ns": 1792474102414531171,
-      "mtime_utc": "2026-10-20T05:28:22.414531+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-gold_tp_2-128-scan_trained-hybrid_resnet-heldout.npz",
-      "sha256": "41ff4e5f6a06173bba16401670e13368abc7579be775dd800171515824dd97a6",
-      "size_bytes": 74208586
-    },
-    {
-      "filename": "heldout.npz",
-      "mtime_ns": 1792211368277542026,
-      "mtime_utc": "2026-10-17T04:29:28.277542+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/128res-v4-transfer-20261016/experimental-half/nxs-gold_tp_2/scan/heldout.npz",
-      "sha256": "0ae19ee8c70fdc50035b05b43a78a0672b812b61a0954e9c7c327fafb2c0aea2",
-      "size_bytes": 52328021
-    },
-    {
-      "filename": "nxs-gold_tp_2-128-scan_trained-heldout.npz",
-      "mtime_ns": 1792474103948503446,
-      "mtime_utc": "2026-10-20T05:28:23.948503+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/c1/reconstructions/lsqml/nxs-gold_tp_2-128-scan_trained-heldout.npz",
-      "sha256": "698017089a25106cddbe7f5e2b84f58b31927e6673fc7e951e4eb038fd6646df",
-      "size_bytes": 15895299
-    },
-    {
-      "filename": "manifest.json",
-      "mtime_ns": 1792474134905588048,
-      "mtime_utc": "2026-10-20T05:28:54.905588+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/manifest.json",
-      "sha256": "140e3f7e4bcc0be09741ecab0c40d38d478a3fac584964ecfe7b014c4b29579d",
-      "size_bytes": 3466
-    },
-    {
-      "filename": "geometry.npz",
-      "mtime_ns": 1792474081974907589,
-      "mtime_utc": "2026-10-20T05:28:01.974908+00:00",
-      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/geometry.npz",
-      "sha256": "5fa5130ab3cad085eeeb9ead8d2d104927b1b49f3e39f3edc036cf1dfcb8ab07",
-      "size_bytes": 10632
     },
     {
       "filename": "nxs-ic_1-128-scan_trained-hybrid_resnet-heldout.npz",
@@ -442,6 +402,7 @@
       "size_bytes": 7964
     }
   ],
-  "layout_commit": "e5d7ea88ef2371433febef7ab10d8ac897223319",
-  "original_generation_commit": "35f1d101b4d5947a9952d3ce49f3dda041e3f53c"
+  "unavailable_evidence": {
+    "nxs-gold_tp_2_phase_frc50": "TP2 FRC excluded because of scan-grid artefacts; historical source values preserved."
+  }
 }

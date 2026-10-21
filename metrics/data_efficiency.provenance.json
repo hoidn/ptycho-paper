@@ -1,8 +1,8 @@
 {
   "baseline": "LSQ-ML100 for all datasets and sweep arms",
-  "commit": "5f5480d13470460a06eb73efc106faa585c57c27",
+  "commit": "555977636398fc63f03543d8bfafc8c69fa2f764",
   "excluded_comparisons": "historical spatial-quarter starts are not part of this random-subset sweep",
-  "figure": "/home/ollie/Documents/ptychopinn-paper-package/figures/si2-data-efficiency.png",
+  "figure": "/var/tmp/paper-c4-figures-20261020/comparison-preview/s2/figures/si2-data-efficiency.png",
   "inputs": [
     {
       "filename": "datasets.csv",
@@ -245,6 +245,10 @@
       "size_bytes": 50864
     }
   ],
-  "metrics": "/home/ollie/Documents/ptychopinn-paper-package/metrics/data_efficiency.csv",
-  "protocol": "random low-half subsets (seed 0), model seed 3; fixed parent heldout; current 16-iteration/1.5-px coverage-budget refinement; fixed declared score region; common anchor/mask/source IDs per acquisition; fit diagnostic"
+  "metrics": "/var/tmp/paper-c4-figures-20261020/comparison-preview/s2/metrics/data_efficiency.csv",
+  "protocol": "random low-half subsets (seed 0), model seed 3; fixed parent heldout; current 16-iteration/1.5-px coverage-budget refinement; fixed declared score region; common anchor/mask/source IDs per acquisition; fit diagnostic",
+  "sweep_model": "Hybrid ResNet C=1; no C4 training-frame or reconstruction-pitch sweep evidence",
+  "unavailable_evidence": {
+    "nxs-gold_tp_2_phase_frc50": "TP2 FRC excluded because of scan-grid artefacts; historical source values preserved."
+  }
 }

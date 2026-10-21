@@ -2,9 +2,6 @@ dataset,case,model,row,frc_square_px,phase_frc50_frequency,amplitude_frc50_frequ
 gold-tp1,heldout,Hybrid ResNet C=1,polished_tilt,143,0.155,0.10500000000000001,132,206,row
 gold-tp1,heldout,Hybrid ResNet C=1,raw,143,0.135,0.10500000000000001,132,206,row
 gold-tp1,heldout,Hybrid ResNet C=1,lsqml100,143,0.335,0.245,132,206,row
-nxs-gold_tp_2,heldout,Hybrid ResNet C=1,polished_tilt,519,0.135,0.025,473,154,row
-nxs-gold_tp_2,heldout,Hybrid ResNet C=1,raw,519,0.125,0.025,473,154,row
-nxs-gold_tp_2,heldout,Hybrid ResNet C=1,lsqml100,519,0.225,0.195,473,154,row
 nxs-ic_1,heldout,Hybrid ResNet C=1,polished_tilt,137,0.185,0.11499999999999999,154,209,row
 nxs-ic_1,heldout,Hybrid ResNet C=1,raw,137,0.185,0.11499999999999999,154,209,row
 nxs-ic_1,heldout,Hybrid ResNet C=1,lsqml100,137,0.28500000000000003,0.315,154,209,row

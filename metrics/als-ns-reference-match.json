@@ -1,0 +1,74 @@
+{
+  "source_npz": "/home/ollie/Documents/128_res/als_128_train.npz",
+  "object_key": "objectGuess",
+  "object_shape": [
+    280,
+    286
+  ],
+  "current_frame_count": 1444,
+  "published_name": "NS",
+  "published_frame_count": 960,
+  "claim": "Strong raster evidence of the same specimen/reference field; exact acquisition/subset identity is not established by this comparison.",
+  "method": "Decode published viridis amplitude or grayscale phase; reduce raster to80x80; search square source crops82..278px in2px steps and8orientations with cv2TM_CCOEFF_NORMED. This is specimen identification, not reconstruction scoring or physical-scale calibration.",
+  "matches": [
+    {
+      "channel": "amplitude",
+      "reference_raster": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-001.png",
+      "normalized_correlation": 0.9946466088294983,
+      "match_template_size_px": 80,
+      "source_crop_length_px": 168,
+      "source_scaled_crop_origin_xy": [
+        27,
+        26
+      ],
+      "orientation": 0,
+      "approx_source_crop_origin_xy": [
+        56.7,
+        54.6
+      ]
+    },
+    {
+      "channel": "phase",
+      "reference_raster": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-004.png",
+      "normalized_correlation": 0.9654272198677063,
+      "match_template_size_px": 80,
+      "source_crop_length_px": 172,
+      "source_scaled_crop_origin_xy": [
+        26,
+        24
+      ],
+      "orientation": 0,
+      "approx_source_crop_origin_xy": [
+        55.9,
+        51.6
+      ]
+    }
+  ],
+  "proposed_fragment": {
+    "root": "als-128",
+    "phase_original": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-064.png",
+    "phase_limits": [
+      -1.0,
+      -0.83
+    ],
+    "phase_html_box": [
+      1820,
+      1005,
+      2003,
+      1189
+    ],
+    "amplitude_original": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/prior-best-arxiv-2608.02869/eprint_panels/Figure2-061.png",
+    "amplitude_limits": [
+      0.36,
+      1.22
+    ],
+    "amplitude_html_box": [
+      1633,
+      1005,
+      1817,
+      1189
+    ],
+    "training": "Fig2+SyntheticDataonly, configuration5; probe-specific synthetic training; not measured-data training",
+    "label_caveat": "Published NS960patterns; currentALS1444patterns; sameobjectfield; exactsubsetrelationshipunknown"
+  }
+}

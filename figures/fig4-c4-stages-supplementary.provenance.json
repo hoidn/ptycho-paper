@@ -1,0 +1,85 @@
+{
+  "commit": "2981c2a57fb9596d3d2136c3049089adface60d2",
+  "display": "Supplementary",
+  "inputs": [
+    {
+      "filename": "decomposition_figure.py",
+      "mtime_ns": 1792548480525110943,
+      "mtime_utc": "2026-10-21T02:08:00.525111+00:00",
+      "path": "/var/tmp/paper-c4-figures-20261020/comparisons/scripts/studies/paper_figures/decomposition_figure.py",
+      "sha256": "0587faee448b0e8f770fc00ba2e1a63cee4dd240eb06a825242bb3b6eda97a3e",
+      "size_bytes": 20738
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792474134740526196,
+      "mtime_utc": "2026-10-20T05:28:54.740526+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/rows.json",
+      "sha256": "cf23a031750b88a8f1523692a506d0b90639d849238cbdbe89e9b026a09ef6e0",
+      "size_bytes": 120899
+    },
+    {
+      "filename": "manifest.json",
+      "mtime_ns": 1792474134905588048,
+      "mtime_utc": "2026-10-20T05:28:54.905588+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/manifest.json",
+      "sha256": "140e3f7e4bcc0be09741ecab0c40d38d478a3fac584964ecfe7b014c4b29579d",
+      "size_bytes": 3466
+    },
+    {
+      "filename": "geometry.npz",
+      "mtime_ns": 1792474081974907589,
+      "mtime_utc": "2026-10-20T05:28:01.974908+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/geometry.npz",
+      "sha256": "5fa5130ab3cad085eeeb9ead8d2d104927b1b49f3e39f3edc036cf1dfcb8ab07",
+      "size_bytes": 10632
+    },
+    {
+      "filename": "nxs-gold_tp_2-128-scan_trained-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792474102414531171,
+      "mtime_utc": "2026-10-20T05:28:22.414531+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/c1/reconstructions/measured/hybrid_resnet/scan_trained/nxs-gold_tp_2-128-scan_trained-hybrid_resnet-heldout.npz",
+      "sha256": "41ff4e5f6a06173bba16401670e13368abc7579be775dd800171515824dd97a6",
+      "size_bytes": 74208586
+    },
+    {
+      "filename": "nxs-gold_tp_2-128-scan_trained-heldout.npz",
+      "mtime_ns": 1792474103948503446,
+      "mtime_utc": "2026-10-20T05:28:23.948503+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/c1/reconstructions/lsqml/nxs-gold_tp_2-128-scan_trained-heldout.npz",
+      "sha256": "698017089a25106cddbe7f5e2b84f58b31927e6673fc7e951e4eb038fd6646df",
+      "size_bytes": 15895299
+    },
+    {
+      "filename": "nxs-gold_tp_2-128-scan_trained-hybrid_resnet-heldout.npz",
+      "mtime_ns": 1792474119348229122,
+      "mtime_utc": "2026-10-20T05:28:39.348229+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/c4/reconstructions/measured/hybrid_resnet/scan_trained/nxs-gold_tp_2-128-scan_trained-hybrid_resnet-heldout.npz",
+      "sha256": "ce0f5e3331e04c0c3e80d4ea464761e7cdb192531490fe99f28971f66861a6f3",
+      "size_bytes": 70093940
+    },
+    {
+      "filename": "rows.json",
+      "mtime_ns": 1792474134740526196,
+      "mtime_utc": "2026-10-20T05:28:54.740526+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/rows.json",
+      "sha256": "cf23a031750b88a8f1523692a506d0b90639d849238cbdbe89e9b026a09ef6e0",
+      "size_bytes": 120899
+    },
+    {
+      "filename": "nxs-gold_tp_2-128-scan_trained-heldout.npz",
+      "mtime_ns": 1792474103948503446,
+      "mtime_utc": "2026-10-20T05:28:23.948503+00:00",
+      "path": "/home/ollie/Documents/PtychoPINN/.artifacts/paper-figures-2026-10-19/common-geometry/nxs-gold_tp_2/heldout/c1/reconstructions/lsqml/nxs-gold_tp_2-128-scan_trained-heldout.npz",
+      "sha256": "698017089a25106cddbe7f5e2b84f58b31927e6673fc7e951e4eb038fd6646df",
+      "size_bytes": 15895299
+    }
+  ],
+  "lsqml100_comparator": "matched C1 result on the same frozen heldout geometry",
+  "model_selection": "C4 polished phase improves both selection metrics",
+  "unavailable_evidence": {
+    "reserved_frame": "no C4 reserved-frame evaluation",
+    "seed_only_stage": "not saved for TP2 C4",
+    "timing": "no matched C4 timing result"
+  }
+}

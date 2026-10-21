@@ -1,0 +1,778 @@
+[
+  {
+    "root": "als-128",
+    "source_chain": [
+      "/home/ollie/Documents/128_res/als_128_train.npz"
+    ],
+    "object_pixel_nm": null,
+    "physical_field_source": null,
+    "source_entries": [
+      {
+        "key": "xcoords.npy",
+        "shape": [
+          1444
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords.npy",
+        "shape": [
+          1444
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xcoords_start.npy",
+        "shape": [
+          1444
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords_start.npy",
+        "shape": [
+          1444
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "diff3d.npy",
+        "shape": [
+          1444,
+          128,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "probeGuess.npy",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "objectGuess.npy",
+        "shape": [
+          280,
+          286
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "scan_index.npy",
+        "shape": [
+          1444
+        ],
+        "dtype": "int64"
+      }
+    ],
+    "reason": "No physical acquisition fields; pre-N128 resampling/cropping chain unavailable."
+  },
+  {
+    "root": "cnm-scan39",
+    "source_chain": [
+      "/home/ollie/Documents/128_res/cnm_xnp_scan39_128_train.npz"
+    ],
+    "object_pixel_nm": null,
+    "physical_field_source": null,
+    "source_entries": [
+      {
+        "key": "xcoords.npy",
+        "shape": [
+          25921
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords.npy",
+        "shape": [
+          25921
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xcoords_start.npy",
+        "shape": [
+          25921
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords_start.npy",
+        "shape": [
+          25921
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "diff3d.npy",
+        "shape": [
+          25921,
+          128,
+          128
+        ],
+        "dtype": "int32"
+      },
+      {
+        "key": "probeGuess.npy",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "objectGuess.npy",
+        "shape": [
+          472,
+          472
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "scan_index.npy",
+        "shape": [
+          25921
+        ],
+        "dtype": "int64"
+      }
+    ],
+    "reason": "No physical acquisition fields; pre-N128 resampling/cropping chain unavailable."
+  },
+  {
+    "root": "fly001-128-law4",
+    "source_chain": [
+      "/var/tmp/probe-matched-transfer/fly001-128/scan/whole.npz",
+      "/home/ollie/Documents/128_res/fly001_128_train.npz"
+    ],
+    "object_pixel_nm": null,
+    "physical_field_source": null,
+    "source_entries": [
+      {
+        "key": "xcoords.npy",
+        "shape": [
+          10304
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords.npy",
+        "shape": [
+          10304
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xcoords_start.npy",
+        "shape": [
+          10304
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords_start.npy",
+        "shape": [
+          10304
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "diff3d.npy",
+        "shape": [
+          10304,
+          128,
+          128
+        ],
+        "dtype": "uint16"
+      },
+      {
+        "key": "probeGuess.npy",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "objectGuess.npy",
+        "shape": [
+          462,
+          461
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "scan_index.npy",
+        "shape": [
+          10304
+        ],
+        "dtype": "int64"
+      }
+    ],
+    "reason": "No physical acquisition fields; pre-N128 resampling/cropping chain unavailable."
+  },
+  {
+    "root": "gold-tp1",
+    "source_chain": [
+      "/home/ollie/Documents/128_res/nxs_data_gold_tp_1_128_train.npz"
+    ],
+    "object_pixel_nm": null,
+    "physical_field_source": null,
+    "source_entries": [
+      {
+        "key": "xcoords.npy",
+        "shape": [
+          1143
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords.npy",
+        "shape": [
+          1143
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xcoords_start.npy",
+        "shape": [
+          1143
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords_start.npy",
+        "shape": [
+          1143
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "diff3d.npy",
+        "shape": [
+          1143,
+          128,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "probeGuess.npy",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "objectGuess.npy",
+        "shape": [
+          396,
+          401
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "scan_index.npy",
+        "shape": [
+          1143
+        ],
+        "dtype": "int64"
+      }
+    ],
+    "reason": "No physical acquisition fields; pre-N128 resampling/cropping chain unavailable."
+  },
+  {
+    "root": "microlfp-double-128",
+    "source_chain": [
+      "/home/ollie/Documents/128_res/microLFPstack_double_exposure_128_train.npz"
+    ],
+    "object_pixel_nm": null,
+    "physical_field_source": null,
+    "source_entries": [
+      {
+        "key": "xcoords.npy",
+        "shape": [
+          3750
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords.npy",
+        "shape": [
+          3750
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xcoords_start.npy",
+        "shape": [
+          3750
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords_start.npy",
+        "shape": [
+          3750
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "diff3d.npy",
+        "shape": [
+          3750,
+          128,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "probeGuess.npy",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "objectGuess.npy",
+        "shape": [
+          353,
+          278
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "scan_index.npy",
+        "shape": [
+          3750
+        ],
+        "dtype": "int64"
+      }
+    ],
+    "reason": "No physical acquisition fields; pre-N128 resampling/cropping chain unavailable."
+  },
+  {
+    "root": "microlfp-single-128",
+    "source_chain": [
+      "/home/ollie/Documents/128_res/microLFPstack_single_exposure_128_train.npz"
+    ],
+    "object_pixel_nm": null,
+    "physical_field_source": null,
+    "source_entries": [
+      {
+        "key": "xcoords.npy",
+        "shape": [
+          5625
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords.npy",
+        "shape": [
+          5625
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xcoords_start.npy",
+        "shape": [
+          5625
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords_start.npy",
+        "shape": [
+          5625
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "diff3d.npy",
+        "shape": [
+          5625,
+          128,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "probeGuess.npy",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "objectGuess.npy",
+        "shape": [
+          353,
+          353
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "scan_index.npy",
+        "shape": [
+          5625
+        ],
+        "dtype": "int64"
+      }
+    ],
+    "reason": "No physical acquisition fields; pre-N128 resampling/cropping chain unavailable."
+  },
+  {
+    "root": "nxs-gold_tp_2",
+    "source_chain": [
+      "/home/ollie/Documents/128_res/nxs_data_gold_tp_2_128_train.npz"
+    ],
+    "object_pixel_nm": null,
+    "physical_field_source": null,
+    "source_entries": [
+      {
+        "key": "xcoords.npy",
+        "shape": [
+          7709
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords.npy",
+        "shape": [
+          7709
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xcoords_start.npy",
+        "shape": [
+          7709
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords_start.npy",
+        "shape": [
+          7709
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "diff3d.npy",
+        "shape": [
+          7709,
+          128,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "probeGuess.npy",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "objectGuess.npy",
+        "shape": [
+          1325,
+          1197
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "scan_index.npy",
+        "shape": [
+          7709
+        ],
+        "dtype": "int64"
+      }
+    ],
+    "reason": "No physical acquisition fields; pre-N128 resampling/cropping chain unavailable."
+  },
+  {
+    "root": "nxs-ic_1",
+    "source_chain": [
+      "/home/ollie/Documents/128_res/nxs_data_ic_1_128_train.npz"
+    ],
+    "object_pixel_nm": null,
+    "physical_field_source": null,
+    "source_entries": [
+      {
+        "key": "xcoords.npy",
+        "shape": [
+          1143
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords.npy",
+        "shape": [
+          1143
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xcoords_start.npy",
+        "shape": [
+          1143
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords_start.npy",
+        "shape": [
+          1143
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "diff3d.npy",
+        "shape": [
+          1143,
+          128,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "probeGuess.npy",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "objectGuess.npy",
+        "shape": [
+          396,
+          406
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "scan_index.npy",
+        "shape": [
+          1143
+        ],
+        "dtype": "int64"
+      }
+    ],
+    "reason": "No physical acquisition fields; pre-N128 resampling/cropping chain unavailable."
+  },
+  {
+    "root": "nxs-ic_2",
+    "source_chain": [
+      "/home/ollie/Documents/128_res/nxs_data_ic_2_128_train.npz"
+    ],
+    "object_pixel_nm": null,
+    "physical_field_source": null,
+    "source_entries": [
+      {
+        "key": "xcoords.npy",
+        "shape": [
+          9436
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords.npy",
+        "shape": [
+          9436
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xcoords_start.npy",
+        "shape": [
+          9436
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords_start.npy",
+        "shape": [
+          9436
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "diff3d.npy",
+        "shape": [
+          9436,
+          128,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "probeGuess.npy",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "objectGuess.npy",
+        "shape": [
+          927,
+          934
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "scan_index.npy",
+        "shape": [
+          9436
+        ],
+        "dtype": "int64"
+      }
+    ],
+    "reason": "No physical acquisition fields; pre-N128 resampling/cropping chain unavailable."
+  },
+  {
+    "root": "nxs-ncm_1",
+    "source_chain": [
+      "/home/ollie/Documents/128_res/nxs_data_ncm_1_128_train.npz"
+    ],
+    "object_pixel_nm": null,
+    "physical_field_source": null,
+    "source_entries": [
+      {
+        "key": "xcoords.npy",
+        "shape": [
+          2466
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords.npy",
+        "shape": [
+          2466
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xcoords_start.npy",
+        "shape": [
+          2466
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords_start.npy",
+        "shape": [
+          2466
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "diff3d.npy",
+        "shape": [
+          2466,
+          128,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "key": "probeGuess.npy",
+        "shape": [
+          128,
+          128
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "objectGuess.npy",
+        "shape": [
+          529,
+          546
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "scan_index.npy",
+        "shape": [
+          2466
+        ],
+        "dtype": "int64"
+      }
+    ],
+    "reason": "No physical acquisition fields; pre-N128 resampling/cropping chain unavailable."
+  },
+  {
+    "root": "s200-128",
+    "source_chain": [
+      "/var/tmp/probe-matched-transfer-v4/origin-audit/junjing_data/2id_2025_S200_multiprobe_128/2id_S200_multiprobe_128.npz"
+    ],
+    "object_pixel_nm": null,
+    "physical_field_source": null,
+    "source_entries": [
+      {
+        "key": "diff3d.npy",
+        "shape": [
+          16613,
+          128,
+          128
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "probeGuess.npy",
+        "shape": [
+          10,
+          128,
+          128
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "objectGuess.npy",
+        "shape": [
+          1090,
+          2562
+        ],
+        "dtype": "complex64"
+      },
+      {
+        "key": "xcoords.npy",
+        "shape": [
+          16822
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords.npy",
+        "shape": [
+          16822
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "xcoords_start.npy",
+        "shape": [
+          16822
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "ycoords_start.npy",
+        "shape": [
+          16822
+        ],
+        "dtype": "float64"
+      }
+    ],
+    "reason": "No physical acquisition fields; pre-N128 resampling/cropping chain unavailable."
+  }
+]

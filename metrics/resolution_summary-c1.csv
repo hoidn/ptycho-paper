@@ -1,0 +1,19 @@
+dataset,case,model,row,frc_square_px,phase_frc50_frequency,amplitude_frc50_frequency,crop_row,crop_col,profile_axis
+cnm-scan39,heldout,Hybrid ResNet C=1,polished_tilt,156,0.155,0.11499999999999999,114,238,row
+cnm-scan39,heldout,Hybrid ResNet C=1,raw,156,0.14500000000000002,0.11499999999999999,114,238,row
+cnm-scan39,heldout,Hybrid ResNet C=1,lsqml100,156,0.14500000000000002,0.10500000000000001,114,238,row
+fly001-128-law4,heldout,Hybrid ResNet C=1,polished_tilt,197,0.225,0.185,145,195,row
+fly001-128-law4,heldout,Hybrid ResNet C=1,raw,197,0.235,0.185,145,195,row
+fly001-128-law4,heldout,Hybrid ResNet C=1,lsqml100,197,0.28500000000000003,0.185,145,195,row
+als-128,heldout,Hybrid ResNet C=1,polished_tilt,79,0.125,0.175,,,
+als-128,heldout,Hybrid ResNet C=1,raw,79,0.11499999999999999,0.175,,,
+als-128,heldout,Hybrid ResNet C=1,lsqml100,79,0.34500000000000003,0.335,,,
+microlfp-single-128,heldout,Hybrid ResNet C=1,polished_tilt,96,0.20500000000000002,0.11499999999999999,136,193,row
+microlfp-single-128,heldout,Hybrid ResNet C=1,raw,96,0.20500000000000002,0.11499999999999999,136,193,row
+microlfp-single-128,heldout,Hybrid ResNet C=1,lsqml100,96,0.20500000000000002,0.11499999999999999,136,193,row
+microlfp-double-128,heldout,Hybrid ResNet C=1,polished_tilt,105,0.14500000000000002,0.195,131,151,row
+microlfp-double-128,heldout,Hybrid ResNet C=1,raw,105,0.175,0.195,131,151,row
+microlfp-double-128,heldout,Hybrid ResNet C=1,lsqml100,105,0.185,0.175,131,151,row
+s200-128,heldout,Hybrid ResNet C=1,polished_tilt,448,0.08499999999999999,0.035,484,1328,col
+s200-128,heldout,Hybrid ResNet C=1,raw,448,0.0,0.035,484,1328,col
+s200-128,heldout,Hybrid ResNet C=1,lsqml100,448,0.0,0.005,484,1328,col
